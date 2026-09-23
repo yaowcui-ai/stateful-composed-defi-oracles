@@ -1,0 +1,15 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 242,
+    "method": "hardhat_impersonateAccount",
+    "params": [
+      "0xf2B7e347Ca4eC2a0F139B1D3073d679911295a2a"
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 242,
+    "result": true
+  }
+}

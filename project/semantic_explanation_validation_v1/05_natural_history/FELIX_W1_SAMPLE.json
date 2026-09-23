@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "FELIX",
+    "window_id": "W1",
+    "id": "W1",
+    "startTimestamp": 1788159116,
+    "endTimestamp": 1788763915,
+    "fromBlock": 44634598,
+    "toBlock": 45249414,
+    "root": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+    "retrieval_endpoint": "https://rpc.hypurrscan.io",
+    "transport_override": true,
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [
+      "0xbc6a72aabe3f2b93b4e83572c36881d8379588e52b1b3c66610a8595ce2c734d",
+      "0xfc1b56fc12ab7492f5ab7cd660ca9975437183eaeaf0c49716ef6a83b8dfdeab"
+    ],
+    "topic_counts": {},
+    "retrieval_errors": [],
+    "complete": true,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

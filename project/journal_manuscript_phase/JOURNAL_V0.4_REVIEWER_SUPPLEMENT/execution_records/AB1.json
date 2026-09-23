@@ -1,0 +1,90 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "AB1",
+  "implementation": "AURIGAMI_REPORTER_AGGREGATION_FALLBACK",
+  "episode": "A_B",
+  "ordinal": 1,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "history_integrity": true,
+  "reference_file": "reference/AB1.json",
+  "pre": {
+    "raw1": [
+      "120000000",
+      "1789368672"
+    ],
+    "raw2": [
+      "120000000",
+      "1789368673"
+    ],
+    "raw3": [
+      "99996246",
+      "1696646447"
+    ],
+    "main": [
+      "120000000",
+      "6",
+      "1789368672"
+    ],
+    "backup": [
+      "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+    ],
+    "validPeriod": [
+      "7200"
+    ],
+    "futureTolerance": [
+      "3"
+    ],
+    "rawUnderlying": [
+      "100000000",
+      "1789375873",
+      false
+    ]
+  },
+  "O1": {
+    "raw_return": "0x0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000",
+    "decoded": {
+      "decode_error": "TypeError: invalid BytesLike value (argument=\"value\", value=\"0x0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000\", code=INVALID_ARGUMENT, version=6.15.0)",
+      "raw": "0x0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000"
+    },
+    "reverted": false
+  },
+  "post": {
+    "raw1": [
+      "120000000",
+      "1789368672"
+    ],
+    "raw2": [
+      "120000000",
+      "1789368673"
+    ],
+    "raw3": [
+      "99996246",
+      "1696646447"
+    ],
+    "main": [
+      "120000000",
+      "6",
+      "1789368672"
+    ],
+    "backup": [
+      "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+    ],
+    "validPeriod": [
+      "7200"
+    ],
+    "futureTolerance": [
+      "3"
+    ],
+    "rawUnderlying": [
+      "100000000",
+      "1789375873",
+      false
+    ]
+  },
+  "events": [],
+  "trace": "traces/AB1.json",
+  "tx_hash": "NA",
+  "block_number": 215607041
+}

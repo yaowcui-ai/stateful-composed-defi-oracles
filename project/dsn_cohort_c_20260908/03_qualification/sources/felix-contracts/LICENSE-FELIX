@@ -1,0 +1,100 @@
+FELIX SOURCE-VIEW LICENCE 1.0
+License text copyright (c) 2025 Felix Foundation
+Licensor: Felix, an Exempted Limited-Guarantee Foundation Company
+          incorporated in the Cayman Islands with limited liability
+          (registration number CR-413471)
+-------------------------------------------------------------------------------------------
+Parameters
+
+Licensed Work: https://www.github/felixprotocol/felix-contracts
+Additional Use Grant:   None
+Change License:     None (perpetual terms apply)
+-------------------------------------------------------------------------------------------
+
+Terms
+The Licensor hereby grants You a worldwide, royalty-free, non-exclusive
+right to do the following with the Licensed Work in its unmodified form
+only:
+1. Run and study the Licensed Work for any purpose, including internal
+   evaluation, testing or security research.
+2. Copy and redistribute the Licensed Work, provided that You:
+   a.   reproduce this licence text in full, and  
+   b.   do not charge a fee other than reasonable media or hosting costs.
+
+You MAY NOT modify, translate, adapt, reverse-engineer, decompile,
+disassemble, or create derivative works of the Licensed Work, nor may You
+merge it into any other software, whether open- or closed-source.
+
+If the Licensor owns patents that are necessarily infringed by normal use
+of the unmodified Licensed Work, it grants You a matching royalty-free
+patent licence limited to that unmodified use.
+
+-------------------------------------------------------------------------------------------
+
+Conditions & Compliance
+
+(a)  Retain all copyright, trademark and licence notices when You copy
+     or redistribute the Licensed Work.
+(b)  You alone are responsible for complying with laws and regulations
+     (including financial-services, securities, data-protection and
+     export-control rules) that govern Your activities.
+
+(c)  You must not knowingly use or redistribute the Licensed Work to
+     facilitate fraud, money-laundering, ransomware or other illicit
+     conduct.
+
+(d)  If You publish audit reports, benchmarks or similar data about the
+     Licensed Work, do not mislead by omission or misstatement.
+
+-------------------------------------------------------------------------------------------
+
+Trademarks
+
+This licence does not grant rights in any Felix trade name, trademark
+or logo. Fair, truthful reference (for example, “built on Felix
+software”) is permitted so long as it does not imply endorsement by the
+Licensor.
+
+-------------------------------------------------------------------------------------------
+
+Indemnity
+
+You will defend, indemnify and hold harmless the Licensor and all
+contributors against any third-party claim arising from Your use or
+redistribution of the Licensed Work, provided the Licensor gives You
+prompt notice, allows You to control the defence, and co-operates at
+Your expense.
+-------------------------------------------------------------------------------------------
+
+Disclaimer & Liability Cap
+
+THE LICENSED WORK IS PROVIDED “AS IS” AND WITHOUT WARRANTY OF ANY KIND,
+WHETHER EXPRESS, IMPLIED OR STATUTORY.
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, NEITHER THE LICENSOR NOR ANY
+CONTRIBUTOR WILL BE LIABLE FOR INDIRECT, SPECIAL, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES (INCLUDING LOST PROFITS OR DATA).
+
+-------------------------------------------------------------------------------------------
+Termination
+
+If You materially breach this licence, all rights granted to You end
+automatically. If the breach can be cured, Your rights resume once You
+remedy it within ten (10) days of discovery and after explicit written confirmation by the Licensor is provided. Sections headed “Indemnity”, “Disclaimer & Liability Cap”, “Termination” and “Governing Law” survive termination.
+
+-------------------------------------------------------------------------------------------
+Governing Law & Dispute Resolution
+
+This licence is governed by Cayman Islands law. Any dispute will be
+finally resolved by a single arbitrator under the Swiss Rules of
+International Arbitration, seated in Geneva and conducted in English.
+Either party may seek interim relief from a competent court without
+waiving arbitration.
+
+-------------------------------------------------------------------------------------------
+
+Miscellaneous
+
+No waiver is effective unless in writing. If any part of this licence
+is held unenforceable, the remainder stays in force. Headings are for
+convenience only and do not affect interpretation.

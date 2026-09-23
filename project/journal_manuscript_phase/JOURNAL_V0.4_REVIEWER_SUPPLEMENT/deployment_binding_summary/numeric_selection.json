@@ -1,0 +1,79 @@
+{
+  "numeric_roots": [
+    {
+      "family_id": "COMPOUND_MULTIPLICATIVE_PRICE_FEED",
+      "protocol": "compound-finance",
+      "chain_id": 8453,
+      "root": "0x4687670f5f01716faa382e2356c103bad776752c",
+      "prediction": "PROPAGATE_SINGLE_PRICE_FEED_B",
+      "inputs": [
+        "0x806b4ac04501c29769051e42783cf04dce41440b",
+        "0x71041dddad3595f9ced3dccfbe3d1f4b0a16bb70"
+      ],
+      "formula": "feedA * feedB with deployed decimal scaling"
+    },
+    {
+      "family_id": "SILO_CHAINLINKV3_MULTI_LOCAL_RESET",
+      "protocol": "silo-finance",
+      "chain_id": 146,
+      "root": "0x47EcdD1986D4D729cb2018C47b62B8f007d795d9",
+      "prediction": "LOCAL_RESET",
+      "inputs": [
+        "0xb81131B6368b3F0a83af09dB4E39Ac23DA96C2Db",
+        "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9"
+      ],
+      "formula": "primary * secondary with deployed decimal/inversion config"
+    },
+    {
+      "family_id": "SILO_CHAINLINKV3_MULTI_LOCAL_RESET",
+      "protocol": "silo-finance",
+      "chain_id": 42161,
+      "root": "0xCEc3383AB6633672943117952B9D7C901C725E15",
+      "prediction": "LOCAL_RESET",
+      "inputs": [
+        "0x0017abAc5b6f291F9164e35B1234CA1D697f9CF4",
+        "0xc5a90A6d7e4Af242dA238FFe279e9f2BA0c64B2e"
+      ],
+      "formula": "primary * secondary with deployed decimal/inversion config"
+    },
+    {
+      "family_id": "SILO_CHAINLINKV3_MULTI_LOCAL_RESET",
+      "protocol": "silo-finance",
+      "chain_id": 43114,
+      "root": "0x512935aAf49F89d000AaB0D8102c334876942d2C",
+      "prediction": "LOCAL_RESET",
+      "inputs": [
+        "0x27A6F18166691DE3CEc90bb76f80c353dB423a53",
+        "0xF096872672F44d6EBA71458D74fe67F9a77a23B9"
+      ],
+      "formula": "primary * secondary with deployed decimal/inversion config"
+    },
+    {
+      "family_id": "VETRO_DERIVED_CROSS_RATE",
+      "protocol": "vetro",
+      "chain_id": 1,
+      "root": "0x33F1E44DB47400C9BD6221962712D882Adb8fFA6",
+      "prediction": "PROPAGATE_OLDEST_REQUIRED_CONSTITUENT",
+      "inputs": [
+        "0x2665701293fCbEB223D11A08D826563EDcCE423A",
+        "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c"
+      ],
+      "formula": "baseFeed / quoteFeed with deployed decimal scaling",
+      "input_resolution": "CONFIG_ONLY_GETTERS_RESOLVED_2026_09_11"
+    },
+    {
+      "family_id": "ASYMMETRY_WBTC",
+      "protocol": "asymmetry",
+      "chain_id": 1,
+      "root": "0x1919de21635276a80aa3384a852df8189e1b7205",
+      "prediction": "PROPAGATE_OLDEST_REQUIRED_CONSTITUENT",
+      "inputs": [
+        "0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23",
+        "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c"
+      ],
+      "formula": "WBTC/BTC * BTC/USD / 1e8"
+    }
+  ],
+  "selection_status": "FIXED_FROM_MEASUREMENT_BLIND_DISCOVERY",
+  "root_replacement": "PROHIBITED"
+}

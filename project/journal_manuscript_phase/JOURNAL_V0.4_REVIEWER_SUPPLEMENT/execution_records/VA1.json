@@ -1,0 +1,71 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "VA1",
+  "implementation": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+  "episode": "V_A",
+  "ordinal": 1,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "history_integrity": true,
+  "reference_file": "reference/VA1.json",
+  "pre": {
+    "status": [
+      "0"
+    ],
+    "lastGoodPrice": [
+      "1000000000000000000"
+    ],
+    "lastGoodIndex": [
+      "1000000000000000000"
+    ]
+  },
+  "O1": {
+    "raw_return": "0x0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+    "reverted": false
+  },
+  "post": {
+    "status": [
+      "0"
+    ],
+    "lastGoodPrice": [
+      "1000000000000000000"
+    ],
+    "lastGoodIndex": [
+      "1000000000000000000"
+    ]
+  },
+  "events": [
+    {
+      "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+      "topics": [
+        "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963",
+        "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "transactionHash": "0x5764a4a65b387f3ec4ed2eaa86079718154ee8ae9b962d358abd4df1af3a8fe6",
+      "blockHash": "0x5134a86b11ea63887b4c2b4eb702bf3243dbeab1d83b68839888da8284da1f5a",
+      "blockNumber": "0x1e108e8a",
+      "logIndex": "0x0",
+      "transactionIndex": "0x0",
+      "removed": false
+    },
+    {
+      "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+      "topics": [
+        "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+        "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "transactionHash": "0x5764a4a65b387f3ec4ed2eaa86079718154ee8ae9b962d358abd4df1af3a8fe6",
+      "blockHash": "0x5134a86b11ea63887b4c2b4eb702bf3243dbeab1d83b68839888da8284da1f5a",
+      "blockNumber": "0x1e108e8a",
+      "logIndex": "0x1",
+      "transactionIndex": "0x0",
+      "removed": false
+    }
+  ],
+  "trace": "traces/VA1.json",
+  "tx_hash": "0x5764a4a65b387f3ec4ed2eaa86079718154ee8ae9b962d358abd4df1af3a8fe6",
+  "block_number": 504401546
+}

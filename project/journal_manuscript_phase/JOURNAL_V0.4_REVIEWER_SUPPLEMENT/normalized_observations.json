@@ -1,0 +1,1538 @@
+[
+  {
+    "case_id": "VA0",
+    "O1": [
+      "1000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "32100000000000000000"
+        ],
+        "lastGoodIndex": [
+          "104109630429000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        },
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    "O3_trace_sha256": "5dc35693095c7dd8b4b60fd4fdae8c53c67cad4aad63cfc393fabe8e8abc9d52",
+    "Y": {
+      "input_acceptance": "BOTH_LEGS_ACCEPTED",
+      "return_source": "CURRENT_PRICE_X_CURRENT_INDEX",
+      "transition": "WORKING_REFRESH"
+    }
+  },
+  {
+    "case_id": "VA1",
+    "O1": [
+      "1000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        },
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    "O3_trace_sha256": "7dcdb394bddf81b1b787e107b59cafa71459cbe8435be4f3cb8b9602f7adf51c",
+    "Y": {
+      "input_acceptance": "BOTH_LEGS_ACCEPTED",
+      "return_source": "CURRENT_PRICE_X_CURRENT_INDEX",
+      "transition": "WORKING_REFRESH"
+    }
+  },
+  {
+    "case_id": "VA2",
+    "O1": [
+      "1000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        },
+        {
+          "topics": [
+            "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        }
+      ]
+    },
+    "O3_trace_sha256": "b30f5c9e6585e7e727162239c7dfa21b7182c0e063dd6ad53deacb4726fe0a27",
+    "Y": {
+      "input_acceptance": "PRICE_REJECTED_INDEX_ACCEPTED",
+      "return_source": "CACHED_PRICE_X_CURRENT_INDEX",
+      "transition": "WORKING_TO_UNTRUSTED"
+    }
+  },
+  {
+    "case_id": "VA3",
+    "O1": [
+      "1000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    "O3_trace_sha256": "aeb9234ec6373bd7a453008148d7a4f71866c6b4682f4bd7f9031271edfeac0b",
+    "Y": {
+      "input_acceptance": "PRICE_CALL_FAILED_INDEX_ACCEPTED",
+      "return_source": "CACHED_PRICE_X_CURRENT_INDEX",
+      "transition": "UNTRUSTED_UNCHANGED"
+    }
+  },
+  {
+    "case_id": "VA4",
+    "O1": [
+      "1000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "topics": [
+            "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        },
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    "O3_trace_sha256": "ab358e0b26744c3f242a75ede68b3f958bb9f2eee6822e51fcd69d0d44bbc958",
+    "Y": {
+      "input_acceptance": "BOTH_LEGS_ACCEPTED",
+      "return_source": "CURRENT_PRICE_X_CURRENT_INDEX",
+      "transition": "UNTRUSTED_TO_WORKING"
+    }
+  },
+  {
+    "case_id": "VB0",
+    "O1": [
+      "1200000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1200000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "32100000000000000000"
+        ],
+        "lastGoodIndex": [
+          "104109630429000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1200000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000010a741a462780000"
+        },
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    "O3_trace_sha256": "dd94c95e9535d09fc8732d6c9124ee6c939814aca1753f95893c9c0b499bc1d2",
+    "Y": {
+      "input_acceptance": "BOTH_LEGS_ACCEPTED",
+      "return_source": "CURRENT_PRICE_X_CURRENT_INDEX",
+      "transition": "WORKING_REFRESH"
+    }
+  },
+  {
+    "case_id": "VB1",
+    "O1": [
+      "1200000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1200000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1200000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1200000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        },
+        {
+          "topics": [
+            "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        }
+      ]
+    },
+    "O3_trace_sha256": "065e8206fcaab5f733743889ee4dea6589103bc7d483527c6d19412c2883f2e3",
+    "Y": {
+      "input_acceptance": "PRICE_REJECTED_INDEX_ACCEPTED",
+      "return_source": "CACHED_PRICE_X_CURRENT_INDEX",
+      "transition": "WORKING_TO_UNTRUSTED"
+    }
+  },
+  {
+    "case_id": "VB2",
+    "O1": [
+      "1000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000"
+      ],
+      "pre": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1200000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "post": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1000000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "topics": [
+            "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        },
+        {
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    "O3_trace_sha256": "9d5249b21b39b5ebeeb83dc9ab4b2f44045ddc0462418623b21c74fb574a8de1",
+    "Y": {
+      "input_acceptance": "BOTH_LEGS_ACCEPTED",
+      "return_source": "CURRENT_PRICE_X_CURRENT_INDEX",
+      "transition": "UNTRUSTED_TO_WORKING"
+    }
+  },
+  {
+    "case_id": "AA0",
+    "O1": [
+      "1000000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "100000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789368672",
+          true
+        ]
+      },
+      "post": {
+        "raw1": [
+          "100000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789368672",
+          true
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x08715290864ad7454226834e42c0a556570b46d883d377ff1489ff3d52b3176c",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x000000000000000000000000f2b7e347ca4ec2a0f139b1d3073d679911295a2a"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2d452398cb8bb9e5cdadeaabfe0a5d66bf83abdf317ed5633a64528f5bee7458",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x0000000000000000000000000000000000000000000000000000000005f5e100",
+            "0x000000000000000000000000b3072378821cdafac340bf18a0fbf15c72feb83b"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    "O3_trace_sha256": "31fe95b7571235537f16afd9f6b2696ccdb5c076ce6aabc1810636aefe29aa2d",
+    "Y": {
+      "input_acceptance": "TWO_REPORTS_ACCEPTED_AGGREGATE_REFRESHED",
+      "return_source": "MAIN_AGGREGATE",
+      "transition": "MAIN_REFRESHED"
+    }
+  },
+  {
+    "case_id": "AA1",
+    "O1": [
+      "1000000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "100000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789368672",
+          true
+        ]
+      },
+      "post": {
+        "raw1": [
+          "100000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789368672",
+          true
+        ]
+      },
+      "events": []
+    },
+    "O3_trace_sha256": "31fe95b7571235537f16afd9f6b2696ccdb5c076ce6aabc1810636aefe29aa2d",
+    "Y": {
+      "input_acceptance": "NO_REPORT_INPUT_AT_READ",
+      "return_source": "MAIN_AGGREGATE",
+      "transition": "PERSISTED_STATE_UNCHANGED"
+    }
+  },
+  {
+    "case_id": "AA2",
+    "O1": [
+      "1000000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "100000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375873",
+          false
+        ]
+      },
+      "post": {
+        "raw1": [
+          "100000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375873",
+          false
+        ]
+      },
+      "events": []
+    },
+    "O3_trace_sha256": "b5188d24bfa5aaa9695a77dd596ba3b3c307a248d2a6571f9a648c0824f89dce",
+    "Y": {
+      "input_acceptance": "NO_REPORT_INPUT_AT_READ",
+      "return_source": "BACKUP_FEED",
+      "transition": "PERSISTED_STATE_UNCHANGED"
+    }
+  },
+  {
+    "case_id": "AA3",
+    "O1": [
+      "1000000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "100000000",
+          "1789375874"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375874",
+          false
+        ]
+      },
+      "post": {
+        "raw1": [
+          "100000000",
+          "1789375874"
+        ],
+        "raw2": [
+          "100000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375874",
+          false
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x08715290864ad7454226834e42c0a556570b46d883d377ff1489ff3d52b3176c",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x000000000000000000000000f2b7e347ca4ec2a0f139b1d3073d679911295a2a"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    "O3_trace_sha256": "b5188d24bfa5aaa9695a77dd596ba3b3c307a248d2a6571f9a648c0824f89dce",
+    "Y": {
+      "input_acceptance": "ONE_REPORT_ACCEPTED_AGGREGATE_NOT_REFRESHED",
+      "return_source": "BACKUP_FEED",
+      "transition": "RAW_ONLY_UPDATED"
+    }
+  },
+  {
+    "case_id": "AA4",
+    "O1": [
+      "1000000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "100000000",
+          "1789375874"
+        ],
+        "raw2": [
+          "100000000",
+          "1789375875"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789375874"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375874",
+          true
+        ]
+      },
+      "post": {
+        "raw1": [
+          "100000000",
+          "1789375874"
+        ],
+        "raw2": [
+          "100000000",
+          "1789375875"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789375874"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375874",
+          true
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x2d452398cb8bb9e5cdadeaabfe0a5d66bf83abdf317ed5633a64528f5bee7458",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x0000000000000000000000000000000000000000000000000000000005f5e100",
+            "0x000000000000000000000000b3072378821cdafac340bf18a0fbf15c72feb83b"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    "O3_trace_sha256": "31fe95b7571235537f16afd9f6b2696ccdb5c076ce6aabc1810636aefe29aa2d",
+    "Y": {
+      "input_acceptance": "TWO_REPORTS_ACCEPTED_AGGREGATE_REFRESHED",
+      "return_source": "MAIN_AGGREGATE",
+      "transition": "MAIN_REFRESHED"
+    }
+  },
+  {
+    "case_id": "AB0",
+    "O1": [
+      "1200000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1200000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "120000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "120000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "120000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "120000000",
+          "1789368672",
+          true
+        ]
+      },
+      "post": {
+        "raw1": [
+          "120000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "120000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "120000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "120000000",
+          "1789368672",
+          true
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x08715290864ad7454226834e42c0a556570b46d883d377ff1489ff3d52b3176c",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x000000000000000000000000f2b7e347ca4ec2a0f139b1d3073d679911295a2a"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2d452398cb8bb9e5cdadeaabfe0a5d66bf83abdf317ed5633a64528f5bee7458",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x0000000000000000000000000000000000000000000000000000000007270e00",
+            "0x000000000000000000000000b3072378821cdafac340bf18a0fbf15c72feb83b"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    "O3_trace_sha256": "ab89a0cb44340b16f07eac96ad302226697ac4ebb05668ee6392389584c32e5d",
+    "Y": {
+      "input_acceptance": "TWO_REPORTS_ACCEPTED_AGGREGATE_REFRESHED",
+      "return_source": "MAIN_AGGREGATE",
+      "transition": "MAIN_REFRESHED"
+    }
+  },
+  {
+    "case_id": "AB1",
+    "O1": [
+      "1000000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "120000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "120000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "120000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375873",
+          false
+        ]
+      },
+      "post": {
+        "raw1": [
+          "120000000",
+          "1789368672"
+        ],
+        "raw2": [
+          "120000000",
+          "1789368673"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "120000000",
+          "6",
+          "1789368672"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375873",
+          false
+        ]
+      },
+      "events": []
+    },
+    "O3_trace_sha256": "b5188d24bfa5aaa9695a77dd596ba3b3c307a248d2a6571f9a648c0824f89dce",
+    "Y": {
+      "input_acceptance": "NO_REPORT_INPUT_AT_READ",
+      "return_source": "BACKUP_FEED",
+      "transition": "PERSISTED_STATE_UNCHANGED"
+    }
+  },
+  {
+    "case_id": "AB2",
+    "O1": [
+      "1000000000000000000000000000000"
+    ],
+    "O2": {
+      "O1": [
+        "1000000000000000000000000000000"
+      ],
+      "pre": {
+        "raw1": [
+          "100000000",
+          "1789375874"
+        ],
+        "raw2": [
+          "100000000",
+          "1789375875"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789375874"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375874",
+          true
+        ]
+      },
+      "post": {
+        "raw1": [
+          "100000000",
+          "1789375874"
+        ],
+        "raw2": [
+          "100000000",
+          "1789375875"
+        ],
+        "raw3": [
+          "99996246",
+          "1696646447"
+        ],
+        "main": [
+          "100000000",
+          "6",
+          "1789375874"
+        ],
+        "backup": [
+          "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+        ],
+        "validPeriod": [
+          "7200"
+        ],
+        "futureTolerance": [
+          "3"
+        ],
+        "rawUnderlying": [
+          "100000000",
+          "1789375874",
+          true
+        ]
+      },
+      "events": [
+        {
+          "topics": [
+            "0x08715290864ad7454226834e42c0a556570b46d883d377ff1489ff3d52b3176c",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x000000000000000000000000f2b7e347ca4ec2a0f139b1d3073d679911295a2a"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2d452398cb8bb9e5cdadeaabfe0a5d66bf83abdf317ed5633a64528f5bee7458",
+            "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+            "0x0000000000000000000000000000000000000000000000000000000005f5e100",
+            "0x000000000000000000000000b3072378821cdafac340bf18a0fbf15c72feb83b"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    "O3_trace_sha256": "31fe95b7571235537f16afd9f6b2696ccdb5c076ce6aabc1810636aefe29aa2d",
+    "Y": {
+      "input_acceptance": "TWO_REPORTS_ACCEPTED_AGGREGATE_REFRESHED",
+      "return_source": "MAIN_AGGREGATE",
+      "transition": "MAIN_REFRESHED"
+    }
+  },
+  {
+    "case_id": "FC0",
+    "O1": [
+      "27936237197953895",
+      true
+    ],
+    "O2": {
+      "O1": [
+        "27936237197953895",
+        true
+      ],
+      "pre": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "post": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "events": []
+    },
+    "O3_trace_sha256": "9d0458a2d753d5c34b051586e916bf638c63d973165c4f451a2cdad302d37fd8",
+    "Y": {
+      "input_acceptance": "REFRESH_NOT_ELIGIBLE",
+      "return_source": "DELAYED_RECORD",
+      "transition": "UNCHANGED_NOT_ELIGIBLE"
+    }
+  },
+  {
+    "case_id": "FC1",
+    "O1": [
+      "27936237197953895",
+      true
+    ],
+    "O2": {
+      "O1": [
+        "27936237197953895",
+        true
+      ],
+      "pre": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "post": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789373340"
+        ],
+        "lastUpdateTS": [
+          "1789373340"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "events": []
+    },
+    "O3_trace_sha256": "44d3e54cc080e287868dfc0e2321dd720d1beb8bbabd993b5cc72057abcef549",
+    "Y": {
+      "input_acceptance": "SOURCE_RETRIEVAL_ACCEPTED",
+      "return_source": "DELAYED_RECORD",
+      "transition": "PROMOTE_EQUAL_VALUE"
+    }
+  },
+  {
+    "case_id": "FC2",
+    "O1": [
+      "27936237197953895"
+    ],
+    "O2": {
+      "O1": [
+        "27936237197953895"
+      ],
+      "pre": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789373340"
+        ],
+        "lastUpdateTS": [
+          "1789373340"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "post": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789373340"
+        ],
+        "lastUpdateTS": [
+          "1789373340"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "events": []
+    },
+    "O3_trace_sha256": "e6622caa60af5f7e74dc704d4a53f049af8696073cb28c8f0b415752cc149431",
+    "Y": {
+      "input_acceptance": "SOURCE_NOT_EVALUATED_RETAINED_VALID",
+      "return_source": "DELAYED_RECORD",
+      "transition": "PURE_READ_UNCHANGED"
+    }
+  },
+  {
+    "case_id": "FC3",
+    "O1": [
+      "27936237197953895"
+    ],
+    "O2": {
+      "O1": [
+        "27936237197953895"
+      ],
+      "pre": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789373340"
+        ],
+        "lastUpdateTS": [
+          "1789373340"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          false
+        ],
+        "isPriceFresh": [
+          false
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "post": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789373340"
+        ],
+        "lastUpdateTS": [
+          "1789373340"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "paused": [
+          false
+        ],
+        "isPriceOk": [
+          false
+        ],
+        "isPriceFresh": [
+          false
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ],
+        "nextPrice": [
+          "27936237197953895"
+        ]
+      },
+      "events": []
+    },
+    "O3_trace_sha256": "e6622caa60af5f7e74dc704d4a53f049af8696073cb28c8f0b415752cc149431",
+    "Y": {
+      "input_acceptance": "SOURCE_NOT_EVALUATED_RETAINED_STALE",
+      "return_source": "DELAYED_RECORD",
+      "transition": "PURE_READ_UNCHANGED"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "VESTA",
+    "window_id": "W1",
+    "id": "W1",
+    "startTimestamp": 1788008400,
+    "endTimestamp": 1788613199,
+    "fromBlock": 499611512,
+    "toBlock": 502008172,
+    "root": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+    "retrieval_endpoint": "https://arb1.arbitrum.io/rpc",
+    "transport_override": true,
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [
+      "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e",
+      "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+      "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963"
+    ],
+    "topic_counts": {},
+    "retrieval_errors": [],
+    "complete": true,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

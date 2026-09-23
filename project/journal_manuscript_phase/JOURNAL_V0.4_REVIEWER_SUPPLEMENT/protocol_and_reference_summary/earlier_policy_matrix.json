@@ -1,0 +1,338 @@
+{
+  "schema": "policy-differential-formal-matrix-v1",
+  "frozen_for_future_execution": true,
+  "executed": false,
+  "count": 28,
+  "allocations": {
+    "secured_finance": 8,
+    "nerite": 8,
+    "vesta": 12
+  },
+  "cases": [
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF00",
+      "input_state": {
+        "feed_a": "fresh",
+        "feed_b": "fresh"
+      },
+      "expected_reference_domain": "RETURN_CURRENT",
+      "notes": "all required inputs valid"
+    },
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF01",
+      "input_state": {
+        "tested_input": "feed_a",
+        "age_seconds": 86699,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive heartbeat+buffer boundary"
+    },
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF02",
+      "input_state": {
+        "tested_input": "feed_a",
+        "age_seconds": 86700,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive heartbeat+buffer boundary"
+    },
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF03",
+      "input_state": {
+        "tested_input": "feed_a",
+        "age_seconds": 86701,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive heartbeat+buffer boundary"
+    },
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF04",
+      "input_state": {
+        "tested_input": "feed_b",
+        "age_seconds": 3899,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive heartbeat+buffer boundary"
+    },
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF05",
+      "input_state": {
+        "tested_input": "feed_b",
+        "age_seconds": 3900,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive heartbeat+buffer boundary"
+    },
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF06",
+      "input_state": {
+        "tested_input": "feed_b",
+        "age_seconds": 3901,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive heartbeat+buffer boundary"
+    },
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "case_id": "SF07",
+      "input_state": {
+        "feed_a_age_seconds": 86701,
+        "feed_b_age_seconds": 3901
+      },
+      "expected_reference_domain": "REVERT",
+      "notes": "both obligations exceeded"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE00",
+      "input_state": {
+        "eth_usd": "fresh",
+        "weeth_eth": "fresh"
+      },
+      "expected_reference_domain": "RETURN_CURRENT_FLAG_FALSE",
+      "notes": "all required inputs valid"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE01",
+      "input_state": {
+        "tested_input": "eth_usd",
+        "age_seconds": 89999,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "strict staleness threshold boundary"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE02",
+      "input_state": {
+        "tested_input": "eth_usd",
+        "age_seconds": 90000,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "strict staleness threshold boundary"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE03",
+      "input_state": {
+        "tested_input": "eth_usd",
+        "age_seconds": 90001,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "strict staleness threshold boundary"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE04",
+      "input_state": {
+        "tested_input": "weeth_eth",
+        "age_seconds": 89999,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "strict staleness threshold boundary"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE05",
+      "input_state": {
+        "tested_input": "weeth_eth",
+        "age_seconds": 90000,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "strict staleness threshold boundary"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE06",
+      "input_state": {
+        "tested_input": "weeth_eth",
+        "age_seconds": 90001,
+        "other_input": "fresh"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "strict staleness threshold boundary"
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "case_id": "NE07",
+      "input_state": {
+        "eth_usd_age_seconds": 90001,
+        "weeth_eth_age_seconds": 90001
+      },
+      "expected_reference_domain": "RETURN_LAST_GOOD_FLAG_TRUE",
+      "notes": "both inputs invalid"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE00",
+      "input_state": {
+        "price": "fresh",
+        "index": "fresh",
+        "previous_rounds": "valid",
+        "answer_change": "below_50_percent",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "RETURN_CURRENT",
+      "notes": "normal path"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE01",
+      "input_state": {
+        "tested_input": "price",
+        "age_seconds": 14399,
+        "other_input": "fresh",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive TIMEOUT boundary"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE02",
+      "input_state": {
+        "tested_input": "price",
+        "age_seconds": 14400,
+        "other_input": "fresh",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive TIMEOUT boundary"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE03",
+      "input_state": {
+        "tested_input": "price",
+        "age_seconds": 14401,
+        "other_input": "fresh",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive TIMEOUT boundary"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE04",
+      "input_state": {
+        "tested_input": "index",
+        "age_seconds": 14399,
+        "other_input": "fresh",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive TIMEOUT boundary"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE05",
+      "input_state": {
+        "tested_input": "index",
+        "age_seconds": 14400,
+        "other_input": "fresh",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive TIMEOUT boundary"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE06",
+      "input_state": {
+        "tested_input": "index",
+        "age_seconds": 14401,
+        "other_input": "fresh",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "SOURCE_DERIVED",
+      "notes": "inclusive TIMEOUT boundary"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE07",
+      "input_state": {
+        "price_age_seconds": 14401,
+        "index_age_seconds": 14401,
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "RETURN_CACHED",
+      "notes": "both legs frozen"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE08",
+      "input_state": {
+        "price": "call_failure",
+        "index": "fresh",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "RETURN_MIXED_CURRENT_CACHED",
+      "notes": "price feed failure"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE09",
+      "input_state": {
+        "price": "fresh",
+        "index": "call_failure",
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "RETURN_MIXED_CURRENT_CACHED",
+      "notes": "index feed failure"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE10",
+      "input_state": {
+        "sequence": [
+          "both fresh",
+          "price failure/index fresh"
+        ],
+        "pre_state": "frozen deployed"
+      },
+      "expected_reference_domain": "NORMAL_TO_DEGRADED_TRANSITION",
+      "notes": "sequential original calls; no direct storage writes"
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "case_id": "VE11",
+      "input_state": {
+        "sequence": [
+          "continuation of VE10",
+          "both fresh"
+        ],
+        "pre_state": "VE10 produced state"
+      },
+      "expected_reference_domain": "DEGRADED_TO_RECOVERY_TRANSITION",
+      "notes": "state continuity required; no snapshot reset between sequence steps"
+    }
+  ],
+  "invariants": [
+    "fixed three deployed paths only",
+    "D/F/R recorded independently",
+    "F/R do not call target policy functions",
+    "no target bytecode modification",
+    "no direct Vesta cache/status storage fabrication",
+    "no case replacement",
+    "artificial comparator traces excluded from formal denominator"
+  ]
+}

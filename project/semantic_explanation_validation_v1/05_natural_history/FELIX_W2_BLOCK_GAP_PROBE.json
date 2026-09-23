@@ -1,0 +1,8 @@
+{
+  "schema": "hyperevm-block-gap-probe-v1",
+  "endpoint": "<RPC_ENDPOINT_OMITTED>",
+  "last_existing_before_gap": {"number": 45740414, "hash": "0xb9f2bf3a9c4a9dc1f4683628204c01766cb1ad8824903130d6871f17f96b2afa"},
+  "invalid_height_probes": [45740415, 45740914, 45740915],
+  "first_existing_after_gap": {"number": 45741414, "hash": "0xc399b28b1f3a59ceb6356e6158dca998458dc36984441f3cdb91a4cd36bc894a", "root_log_count": 0},
+  "interpretation": "The failed eth_getLogs segment spans no produced block heights between two existing HyperEVM blocks; it is a chain-height gap, not an unqueried valid range."
+}

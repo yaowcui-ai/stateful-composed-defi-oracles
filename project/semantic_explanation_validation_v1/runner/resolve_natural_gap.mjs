@@ -1,0 +1,15 @@
+import fs from "node:fs";
+import path from "node:path";
+import {fileURLToPath} from "node:url";
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
+const dir=path.join(root,"05_natural_history");
+const probe=JSON.parse(fs.readFileSync(path.join(dir,"FELIX_W2_BLOCK_GAP_PROBE.json"),"utf8"));
+const file=path.join(dir,"FELIX_W2_SAMPLE.json"),sample=JSON.parse(fs.readFileSync(file,"utf8"));
+const gapStart=probe.last_existing_before_gap.number+1,gapEnd=probe.first_existing_after_gap.number-1;
+const unresolved=sample.metadata.retrieval_errors;
+if(unresolved.length!==1||unresolved[0].fromBlock!==gapStart||unresolved[0].toBlock!==probe.first_existing_after_gap.number)throw new Error("retained error does not match probed gap boundary");
+sample.metadata.retrieval_errors=[];sample.metadata.complete=true;sample.metadata.nonexistent_block_ranges=[{fromBlock:gapStart,toBlock:gapEnd,reason:"HyperEVM returned invalid block height; bounded by adjacent existing block hashes in FELIX_W2_BLOCK_GAP_PROBE.json"}];
+fs.writeFileSync(file,JSON.stringify(sample,null,2)+"\n");
+const files=fs.readdirSync(dir).filter(x=>/^[A-Z]+_W[12]_SAMPLE\.json$/.test(x)),results=files.map(x=>JSON.parse(fs.readFileSync(path.join(dir,x),"utf8")).metadata).sort((a,b)=>`${a.implementation}${a.window_id}`.localeCompare(`${b.implementation}${b.window_id}`));
+const summary={schema:"natural-history-summary-v1",status:results.length===10&&results.every(x=>x.complete)?"COMPLETE":"COMPLETE_WITH_RETAINED_MISSINGNESS",window_count:results.length,complete_windows:results.filter(x=>x.complete).length,total_root_logs:results.reduce((n,x)=>n+x.log_count,0),controlled_topic_matches:results.reduce((n,x)=>n+x.controlled_event_topic_count,0),results,limitations:["Address-filtered logs do not reveal pure eth_call invocations.","Transactions with internal target calls but no root-emitted log are not enumerated.","Counterfactual reads were not counted as production calls.","Empty windows were not moved or replaced.","One HyperEVM numeric block-height gap is recorded separately and contains no produced blocks."]};
+fs.writeFileSync(path.join(dir,"NATURAL_HISTORY_SUMMARY.json"),JSON.stringify(summary,null,2)+"\n");console.log(JSON.stringify({status:summary.status,complete_windows:summary.complete_windows,total_root_logs:summary.total_root_logs},null,2));

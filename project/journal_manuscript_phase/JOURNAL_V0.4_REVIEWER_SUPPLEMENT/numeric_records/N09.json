@@ -1,0 +1,187 @@
+{
+  "eligibility": {
+    "snapshot": "T1",
+    "family_id": "SILO_CHAINLINKV3_MULTI_LOCAL_RESET",
+    "protocol": "silo-finance",
+    "chain_id": 42161,
+    "root": "0xCEc3383AB6633672943117952B9D7C901C725E15",
+    "original_status": "MISSING_OR_REVERT",
+    "eligibility_reason": "MISSING_TRIE_NODE_HISTORICAL_STATE_UNAVAILABLE",
+    "block_number": 504229645,
+    "block_hash": "0xa2e0c2622e7e27442348e8bae61bbeddcebdcc3839ed54e9ac17ed54e6c7f2b7",
+    "block_time": 1789174800,
+    "original_evidence_locator": "01_numeric_confirmation/raw/T1_42161_0xcec3383ab6633672943117952b9d7c901c725e15.json"
+  },
+  "transport": {
+    "schema": "journal-minimal-confirmation-recovery-transport-v1",
+    "status": "FROZEN_BEFORE_RECOVERY_OUTPUT",
+    "retry_count_per_endpoint": "[infrastructure endpoint withheld]",
+    "backoff_seconds": [
+      1,
+      2
+    ],
+    "timeout_seconds": 30,
+    "exact_block_hash_required_before_output": true,
+    "endpoint_order": "[infrastructure endpoint withheld]",
+    "recovery_archive_capability": {
+      "ethereum": {
+        "tested_blocks": [
+          25954320,
+          25957904
+        ],
+        "exact_hash_and_historical_code_pass": [
+          "[infrastructure endpoint withheld]",
+          "[infrastructure endpoint withheld]"
+        ],
+        "original_provider_header_pass_but_historical_code_403": "[infrastructure endpoint withheld]"
+      },
+      "arbitrum": {
+        "tested_blocks": [
+          504229645
+        ],
+        "exact_hash_and_historical_code_pass": [
+          "[transport URL withheld]"
+        ],
+        "original_provider_header_pass_but_state_missing_trie": "[transport URL withheld]"
+      }
+    },
+    "t2_fallback_preflight": {
+      "8453": "primary and fallback finalized-header access passed",
+      "146": "primary and fallback returned the same finalized header during preflight",
+      "43114": "primary and both fallbacks provided finalized headers; exact T2 hash equality remains mandatory"
+    },
+    "no_endpoint_addition_after_freeze": "[infrastructure endpoint withheld]"
+  },
+  "headers": {
+    "https://arb1.arbitrum.io/rpc": {
+      "url": "[transport URL withheld]",
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x1e0def0d",
+        false
+      ],
+      "result": {
+        "baseFeePerGas": "0x134e620",
+        "difficulty": "0x1",
+        "extraData": "0xffca9bd326f9916ff4baf447886b986ff1f94a31709b92716e4bfe48df502c6a",
+        "gasLimit": "0x4000000000000",
+        "gasUsed": "0x8abd3",
+        "hash": "0xa2e0c2622e7e27442348e8bae61bbeddcebdcc3839ed54e9ac17ed54e6c7f2b7",
+        "l1BlockNumber": "0x18c160f",
+        "logsBloom": "0x00010000000100800000000040000081000004000000000000000000000000000000000000000010000002000800000000000003040000000001008000080000000000000000001001002008010000040020000000400120000000000000000000000100020000000001020000000800000004080000000000000010000000000000000000000000000800000000000102000000000000000000000000020040000001000400200011000000000000000000000005000000000000000100000000002002000002001400000000402100000004800000000000400000400020000004080400000000104000000000200040000080140000000040000000000008",
+        "miner": "0xa4b000000000000000000073657175656e636572",
+        "mixHash": "0x00000000000287f300000000018c160f000000000000003d0000000000000000",
+        "nonce": "0x0000000000271470",
+        "number": "0x1e0def0d",
+        "parentHash": "0x35e3a3c33388cfe153c9d098872b92140f071223f2b3bac366f4332456493768",
+        "receiptsRoot": "0x4541a97ca65870b2d35d8af9c62e330757323e110bbae89414d5a9c357285963",
+        "sendCount": "0x287f3",
+        "sendRoot": "0xffca9bd326f9916ff4baf447886b986ff1f94a31709b92716e4bfe48df502c6a",
+        "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "size": "0x1343",
+        "stateRoot": "0xbb0ae713312ad373615711a275b05857f7feb53c64fc9d4d8b067391d5235cd1",
+        "timestamp": "0x6aa4a410",
+        "transactions": [
+          "0x07637bd40f3170ab8a3f3b0ed1c08e9215f03ce02e0fec60b4f353c800556d21",
+          "0xc6d814aaf42746387d2d34a5069fc979632b5d1c91b54b88e7e9a255000183f0",
+          "0x951ae4adcd87e02d09f28d551a157faa5cc50a8e7c538d30d4e7da082b72771e",
+          "0x81261dc650f90e237ff95a6e132cee73cdd618229cc96faab54c6ee132c2fb89",
+          "0x7c29d2b282b1b1d501441912f368e9a278717367061bdb370be16a812ef42e53",
+          "0x8fac4f12bf3d6e26261ceff5386e6e2c7f421f913a6b4e93376dead85cc05565",
+          "0x66701255df05a51e3520f7ad4878cef2773f1965c24068abe6a106eb4e0d6ba7",
+          "0xf9e23645a9c14de2010908dd043712c7edad853c26042306ed13e8f9dcde0dbd"
+        ],
+        "transactionsRoot": "0x68e3d08f30209cc5d075c517676ea8f4b7a92a27bb1beb9f9e8f2b9bc719f22c",
+        "uncles": []
+      }
+    },
+    "https://arbitrum-one-public.nodies.app": {
+      "url": "[transport URL withheld]",
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x1e0def0d",
+        false
+      ],
+      "result": {
+        "baseFeePerGas": "0x134e620",
+        "difficulty": "0x1",
+        "extraData": "0xffca9bd326f9916ff4baf447886b986ff1f94a31709b92716e4bfe48df502c6a",
+        "gasLimit": "0x4000000000000",
+        "gasUsed": "0x8abd3",
+        "hash": "0xa2e0c2622e7e27442348e8bae61bbeddcebdcc3839ed54e9ac17ed54e6c7f2b7",
+        "l1BlockNumber": "0x18c160f",
+        "logsBloom": "0x00010000000100800000000040000081000004000000000000000000000000000000000000000010000002000800000000000003040000000001008000080000000000000000001001002008010000040020000000400120000000000000000000000100020000000001020000000800000004080000000000000010000000000000000000000000000800000000000102000000000000000000000000020040000001000400200011000000000000000000000005000000000000000100000000002002000002001400000000402100000004800000000000400000400020000004080400000000104000000000200040000080140000000040000000000008",
+        "miner": "0xa4b000000000000000000073657175656e636572",
+        "mixHash": "0x00000000000287f300000000018c160f000000000000003d0000000000000000",
+        "nonce": "0x0000000000271470",
+        "number": "0x1e0def0d",
+        "parentHash": "0x35e3a3c33388cfe153c9d098872b92140f071223f2b3bac366f4332456493768",
+        "receiptsRoot": "0x4541a97ca65870b2d35d8af9c62e330757323e110bbae89414d5a9c357285963",
+        "sendCount": "0x287f3",
+        "sendRoot": "0xffca9bd326f9916ff4baf447886b986ff1f94a31709b92716e4bfe48df502c6a",
+        "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "size": "0x1343",
+        "stateRoot": "0xbb0ae713312ad373615711a275b05857f7feb53c64fc9d4d8b067391d5235cd1",
+        "timestamp": "0x6aa4a410",
+        "transactions": [
+          "0x07637bd40f3170ab8a3f3b0ed1c08e9215f03ce02e0fec60b4f353c800556d21",
+          "0xc6d814aaf42746387d2d34a5069fc979632b5d1c91b54b88e7e9a255000183f0",
+          "0x951ae4adcd87e02d09f28d551a157faa5cc50a8e7c538d30d4e7da082b72771e",
+          "0x81261dc650f90e237ff95a6e132cee73cdd618229cc96faab54c6ee132c2fb89",
+          "0x7c29d2b282b1b1d501441912f368e9a278717367061bdb370be16a812ef42e53",
+          "0x8fac4f12bf3d6e26261ceff5386e6e2c7f421f913a6b4e93376dead85cc05565",
+          "0x66701255df05a51e3520f7ad4878cef2773f1965c24068abe6a106eb4e0d6ba7",
+          "0xf9e23645a9c14de2010908dd043712c7edad853c26042306ed13e8f9dcde0dbd"
+        ],
+        "transactionsRoot": "0x68e3d08f30209cc5d075c517676ea8f4b7a92a27bb1beb9f9e8f2b9bc719f22c",
+        "uncles": []
+      }
+    }
+  },
+  "output_raw_calls": {
+    "https://arb1.arbitrum.io/rpc": [],
+    "https://arbitrum-one-public.nodies.app": [
+      {
+        "url": "[transport URL withheld]",
+        "method": "eth_getCode",
+        "params": [
+          "0xCEc3383AB6633672943117952B9D7C901C725E15",
+          "0x1e0def0d"
+        ],
+        "result": "0x363d3d373d3d3d363d738c1b5aad7552cb41936cf570fa1e465aa58932a65af43d82803e903d91602b57fd5bf3"
+      }
+    ]
+  },
+  "endpoint_attempts": "[infrastructure endpoint withheld]",
+  "corrected_row": {
+    "reporting_layer": "INFRASTRUCTURE_RECOVERED_SECONDARY_CORRECTION_001",
+    "snapshot": "T1",
+    "family_id": "SILO_CHAINLINKV3_MULTI_LOCAL_RESET",
+    "protocol": "silo-finance",
+    "chain_id": 42161,
+    "root": "0xCEc3383AB6633672943117952B9D7C901C725E15",
+    "original_primary_status": "MISSING_OR_REVERT",
+    "initial_recovery_status": "MISSING",
+    "implementation_issue": "HISTORICAL_STATE_ERROR_TOKEN_MISCLASSIFIED_AS_OTHER_FAILURE",
+    "recovery_eligibility_reason": "MISSING_TRIE_NODE_HISTORICAL_STATE_UNAVAILABLE",
+    "original_block_number": 504229645,
+    "original_block_hash": "0xa2e0c2622e7e27442348e8bae61bbeddcebdcc3839ed54e9ac17ed54e6c7f2b7",
+    "original_block_time": 1789174800,
+    "alternate_provider_identity": "[transport URL withheld]",
+    "block_hash_verification": true,
+    "recovered_classification": "REVERT",
+    "prediction_agreement": null,
+    "formula_replay_agreement": null,
+    "reported_age": null,
+    "effective_age": null,
+    "signed_temporal_age_gap": null,
+    "root_answer": null,
+    "root_updated_at": null,
+    "input_addresses": null,
+    "input_answers": null,
+    "input_updated_at": null,
+    "source_prediction": "LOCAL_RESET",
+    "formula_replay_answer": null,
+    "error": "MISSING_RPC: {\"code\": 3, \"data\": \"0x\", \"message\": \"execution reverted\"}"
+  }
+}

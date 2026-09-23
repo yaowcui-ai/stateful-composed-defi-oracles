@@ -1,0 +1,46 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1291,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "latest",
+      false
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1291,
+    "result": {
+      "hash": "0x6d8dfd517dbb82a36b85b2c8c318f847b7ab3594cd0ed5d9076b3094f24ea3a1",
+      "parentHash": "0xa4c6c4e72f33bd6c27bd8a3bd3e7bf40fbb440fa4982acecfb6013ef7a957130",
+      "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+      "stateRoot": "0x66a80b61b29ec044d14c4c8c613e762ba1fb8eeb0c454d1ee00ed6dedaa5b5c5",
+      "transactionsRoot": "0xbbf65b9a498e17defea0861c53da7b0b24ee46b6a4c7f8f3ea0739397760115e",
+      "receiptsRoot": "0x62be9381f9944a6442d038898c0f8617ac1b9889e9ed03102b76ab9caaba9f29",
+      "number": "0x6640b1e",
+      "gasUsed": "0x1f386",
+      "gasLimit": "0x1c9c380",
+      "extraData": "0x",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "timestamp": "0x6aa7a818",
+      "difficulty": "0x0",
+      "totalDifficulty": "0x1bc1ad06a",
+      "uncles": [],
+      "transactions": [
+        "0x7242cb9939c3a4cd717d13cf28ab20bdced6a2e5f1e01bfe718c75e5562e5ac8"
+      ],
+      "size": "0x2a8",
+      "mixHash": "0x5bd7444a56bb7c9b6ce92c0fbb4faa8f3d6817f1614c8bb53b4e9618b9cde73f",
+      "nonce": "0x0000000000000000",
+      "baseFeePerGas": "0xa9e1b01",
+      "miner": "0xc014ba5ec014ba5ec014ba5ec014ba5ec014ba5e",
+      "withdrawals": [],
+      "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+      "blobGasUsed": "0x0",
+      "excessBlobGas": "0x0",
+      "parentBeaconBlockRoot": "0x148103ba10a54a2358bde0ffda387b17ce18ed89dfbbbc8d33d856e3c4ffd748",
+      "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

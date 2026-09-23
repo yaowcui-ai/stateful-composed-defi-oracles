@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "AURIGAMI",
+    "window_id": "W2",
+    "id": "W2",
+    "startTimestamp": 1788763862,
+    "endTimestamp": 1789368661,
+    "fromBlock": 214629682,
+    "toBlock": 215607037,
+    "root": "0xC6e5185438e1730959c1eF3551059A3feC744E90",
+    "retrieval_endpoint": "https://mainnet.aurora.dev",
+    "transport_override": false,
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [],
+    "topic_counts": {},
+    "retrieval_errors": [],
+    "complete": true,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "g3-fathom-source-correspondence-v1",
+  "classification": "EXECUTABLE_RUNTIME_EXACT_FULL_ARTIFACT_METADATA_DIFFERENT",
+  "bound_proxy": "0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88",
+  "bound_implementation": "0x6d19ee49ea1d811197a446f9275c5eda943f0013",
+  "historical_source_repository": "https://github.com/Fathom-Fi/fathom-stablecoin-smart-contracts.git",
+  "historical_source_commit": "4313db2aee6f5ea7d997acc6f6f67f94a7457f53",
+  "historical_source_date": "2023-11-02T16:28:11+04:00",
+  "controller_paths": [
+    "contracts/main/price-feeders/DelayFathomOraclePriceFeed.sol",
+    "contracts/main/price-feeders/DelayPriceFeedBase.sol"
+  ],
+  "compiler": {
+    "solc": "0.8.17",
+    "optimizer_enabled": true,
+    "optimizer_runs": 200,
+    "evm_version": "istanbul"
+  },
+  "deployed_runtime": {
+    "bytes": 8292,
+    "sha256": "EF603DE6D8B2A4F1FB6CB5C54A0833C69B6F6C030D057CAE4EE4C4E41A15CB38",
+    "metadata_bytes": 53
+  },
+  "historical_compiled_runtime": {
+    "bytes": 8292,
+    "sha256": "232806875D142801E1C9367998AF47A287C4871C63BAA6AB595B4B7A95F644CD",
+    "metadata_bytes": 53
+  },
+  "current_commit_compiled_runtime": {
+    "commit": "59b41c447903497c0d74985bd18f7ec77e3b5e5e",
+    "bytes": 8338,
+    "sha256": "32CA34BFD0204076FD76ABF97FFB09AF7AC92BC262CA5632A4F20701108F44B2",
+    "metadata_bytes": 53
+  },
+  "full_artifact_byte_identical": false,
+  "executable_runtime_byte_identical": true,
+  "first_full_artifact_difference_byte": 8249,
+  "deployed_metadata_hex": "a264697066735822122090f65b7c42eeb7924ced720f93265dca7ad4b97f7f6de154515c2d6437821d3664736f6c63430008110033",
+  "historical_compiled_metadata_hex": "a2646970667358221220eee4be9e7047a76b345c52ac8a0f9b64dec8120bfe254eb476898fad884250c164736f6c63430008110033",
+  "current_commit_executable_matches": false,
+  "bound_source_oracle": {
+    "proxy": "0xb2dfd3b56a909efbea6e8a49c0d17f653aa1d7ca",
+    "implementation": "0x41e2326ee5dabd031bafe64ba624592a68f57edd",
+    "controller": "SlidingWindowDexOracle",
+    "compiled_bytes": 4697,
+    "deployed_bytes": 4697,
+    "executable_runtime_byte_identical": true,
+    "full_artifact_byte_identical": false,
+    "metadata_bytes": 53,
+    "configuration": {
+      "windowSize": 1800,
+      "granularity": 15,
+      "periodSize": 120,
+      "update_entrypoint": "update(address,address) public"
+    }
+  },
+  "interpretation": "The deployment-era controller version reproduces every executable runtime byte. The only difference is the CBOR IPFS metadata hash, consistent with a different build-input/path wrapper. This closes executable source/runtime correspondence but is not reported as a full artifact byte-for-byte match."
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "VB1",
+  "implementation": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+  "episode": "V_B",
+  "ordinal": 1,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "history_integrity": true,
+  "reference_file": "reference/VB1.json",
+  "pre": {
+    "status": [
+      "0"
+    ],
+    "lastGoodPrice": [
+      "1200000000000000000"
+    ],
+    "lastGoodIndex": [
+      "1000000000000000000"
+    ]
+  },
+  "O1": {
+    "raw_return": "0x0x00000000000000000000000000000000000000000000000010a741a462780000",
+    "reverted": false
+  },
+  "post": {
+    "status": [
+      "1"
+    ],
+    "lastGoodPrice": [
+      "1200000000000000000"
+    ],
+    "lastGoodIndex": [
+      "1000000000000000000"
+    ]
+  },
+  "events": [
+    {
+      "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+      "topics": [
+        "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+        "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "transactionHash": "0x5764a4a65b387f3ec4ed2eaa86079718154ee8ae9b962d358abd4df1af3a8fe6",
+      "blockHash": "0xf6846b3b7e77b4113422d55663fc53da1c8328bd78d669cf3410a8018d52bcf0",
+      "blockNumber": "0x1e108e8a",
+      "logIndex": "0x0",
+      "transactionIndex": "0x0",
+      "removed": false
+    },
+    {
+      "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+      "topics": [
+        "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "transactionHash": "0x5764a4a65b387f3ec4ed2eaa86079718154ee8ae9b962d358abd4df1af3a8fe6",
+      "blockHash": "0xf6846b3b7e77b4113422d55663fc53da1c8328bd78d669cf3410a8018d52bcf0",
+      "blockNumber": "0x1e108e8a",
+      "logIndex": "0x1",
+      "transactionIndex": "0x0",
+      "removed": false
+    }
+  ],
+  "trace": "traces/VB1.json",
+  "tx_hash": "0x5764a4a65b387f3ec4ed2eaa86079718154ee8ae9b962d358abd4df1af3a8fe6",
+  "block_number": 504401546
+}

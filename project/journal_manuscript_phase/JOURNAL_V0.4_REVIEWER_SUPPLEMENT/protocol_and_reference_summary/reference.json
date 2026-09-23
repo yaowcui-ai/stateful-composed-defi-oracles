@@ -1,0 +1,86 @@
+{
+  "schema": "g4-independent-reference-lock-v1",
+  "status": "FROZEN",
+  "Y": "(input_acceptance, return_source, transition)",
+  "allowed_inputs": [
+    "frozen intervention schedule",
+    "exact source/config predicates",
+    "declared pre-state and history identity"
+  ],
+  "forbidden_inputs": [
+    "deployed return",
+    "public getters",
+    "events",
+    "trace",
+    "post-state",
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "implementation_enums": {
+    "VESTA": {
+      "input_acceptance": [
+        "BOTH_LEGS_ACCEPTED",
+        "PRICE_REJECTED_INDEX_ACCEPTED",
+        "PRICE_CALL_FAILED_INDEX_ACCEPTED"
+      ],
+      "return_source": [
+        "CURRENT_PRICE_X_CURRENT_INDEX",
+        "CACHED_PRICE_X_CURRENT_INDEX"
+      ],
+      "transition": [
+        "WORKING_REFRESH",
+        "WORKING_TO_UNTRUSTED",
+        "UNTRUSTED_UNCHANGED",
+        "UNTRUSTED_TO_WORKING"
+      ]
+    },
+    "AURIGAMI": {
+      "input_acceptance": [
+        "TWO_REPORTS_ACCEPTED_AGGREGATE_REFRESHED",
+        "ONE_REPORT_ACCEPTED_AGGREGATE_NOT_REFRESHED",
+        "NO_REPORT_INPUT_AT_READ"
+      ],
+      "return_source": [
+        "MAIN_AGGREGATE",
+        "BACKUP_FEED"
+      ],
+      "transition": [
+        "MAIN_REFRESHED",
+        "RAW_ONLY_UPDATED",
+        "PERSISTED_STATE_UNCHANGED"
+      ]
+    },
+    "FATHOM": {
+      "input_acceptance": [
+        "SOURCE_RETRIEVAL_ACCEPTED",
+        "SOURCE_RETRIEVAL_ERROR_CAUGHT",
+        "REFRESH_NOT_ELIGIBLE",
+        "SOURCE_NOT_EVALUATED_RETAINED_VALID",
+        "SOURCE_NOT_EVALUATED_RETAINED_STALE"
+      ],
+      "return_source": [
+        "DELAYED_RECORD"
+      ],
+      "transition": [
+        "PROMOTE_EQUAL_VALUE",
+        "PROMOTE_NEW_LATEST",
+        "PROMOTE_DELAYED_TO_NEW_VALUE",
+        "UNCHANGED_NOT_ELIGIBLE",
+        "UNCHANGED_CAUGHT_ERROR",
+        "PURE_READ_UNCHANGED"
+      ]
+    }
+  },
+  "compatibility": {
+    "COMPATIBLE": "deployed action/return provenance/post-state belongs to the frozen reference action set",
+    "INCOMPATIBLE": "a determinate deployed witness conflicts with the reference",
+    "INDETERMINATE": "required witness or precondition is insufficient"
+  },
+  "reference_implementation_requirement": "separate module; no import or call to target policy/controller code",
+  "sealed_comparison_order": [
+    "compute and seal F/R",
+    "execute and seal D",
+    "unseal comparison"
+  ]
+}

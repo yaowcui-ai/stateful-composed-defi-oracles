@@ -1,0 +1,89 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "FC0",
+  "implementation": "FATHOM_DELAYED_PRICE_FEED",
+  "episode": "F_C",
+  "ordinal": 0,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "history_integrity": true,
+  "reference_file": "reference/FC0.json",
+  "pre": {
+    "delayedPrice": [
+      "27936237197953895",
+      "1789370640"
+    ],
+    "latestPrice": [
+      "27936237197953895",
+      "1789372440"
+    ],
+    "lastUpdateTS": [
+      "1789372440"
+    ],
+    "timeDelay": [
+      "900"
+    ],
+    "priceLife": [
+      "3600"
+    ],
+    "paused": [
+      false
+    ],
+    "isPriceOk": [
+      true
+    ],
+    "isPriceFresh": [
+      true
+    ],
+    "readPrice": [
+      "27936237197953895"
+    ],
+    "nextPrice": [
+      "27936237197953895"
+    ]
+  },
+  "O1": {
+    "raw_return": "0x0x00000000000000000000000000000000000000000000000000633fdc168b8b670000000000000000000000000000000000000000000000000000000000000001",
+    "reverted": false
+  },
+  "post": {
+    "delayedPrice": [
+      "27936237197953895",
+      "1789370640"
+    ],
+    "latestPrice": [
+      "27936237197953895",
+      "1789372440"
+    ],
+    "lastUpdateTS": [
+      "1789372440"
+    ],
+    "timeDelay": [
+      "900"
+    ],
+    "priceLife": [
+      "3600"
+    ],
+    "paused": [
+      false
+    ],
+    "isPriceOk": [
+      true
+    ],
+    "isPriceFresh": [
+      true
+    ],
+    "readPrice": [
+      "27936237197953895"
+    ],
+    "nextPrice": [
+      "27936237197953895"
+    ]
+  },
+  "events": [],
+  "trace": "traces/FC0.json",
+  "tx_hash": "0x605e75cbfb5df5cc7b16c592fd718c815c7e72c70c806adab578a2f58777dde4",
+  "block_number": 107219750,
+  "swap": "NA"
+}

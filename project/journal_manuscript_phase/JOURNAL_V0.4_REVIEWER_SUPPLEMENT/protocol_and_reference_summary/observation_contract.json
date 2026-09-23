@@ -1,0 +1,85 @@
+{
+  "schema": "g4-intervention-observation-protocol-v1",
+  "status": "FROZEN",
+  "unit": "one designated primary invocation within a continuous legal episode",
+  "windows": {
+    "T_pre": "pure getters before primary invocation",
+    "T_tx": "one primary invocation",
+    "T_post": "pure getters after T_tx before mutation"
+  },
+  "layers": {
+    "O1": "raw return tuple or REVERT from T_tx",
+    "O2": "O1 + all declared public pre/post getters + public events/status/source/failure fields",
+    "O3": "O2 + predeclared trace and nonpublic pre/post storage; no public field may be withheld"
+  },
+  "collectors": {
+    "VESTA": {
+      "primary": "fetchPrice(gOHM)",
+      "O2_getters": [
+        "status",
+        "lastGoodPrice(gOHM)",
+        "lastGoodIndex(gOHM)"
+      ],
+      "O2_events": [
+        "LastGoodPriceUpdated",
+        "LastGoodIndexUpdated",
+        "PriceFeedStatusChanged"
+      ],
+      "O3": [
+        "same-transaction call trace",
+        "predeclared storage slots only"
+      ]
+    },
+    "AURIGAMI": {
+      "primary": "getUnderlyingPrice(auUSDC)",
+      "O2_getters": [
+        "mainFeedRaw(updator1,auUSDC)",
+        "mainFeedRaw(updator2,auUSDC)",
+        "mainFeedRaw(updator3,auUSDC)",
+        "mainFeed(auUSDC)",
+        "backupFeedAddr(auUSDC)",
+        "validPeriod",
+        "futureTolerance",
+        "_getRawUnderlyingPrice(auUSDC)"
+      ],
+      "O2_events": [
+        "normalized public MainFeedSync/MainFeedFail history from the frozen setup prefix since the prior designated observation"
+      ],
+      "O3": [
+        "same-call trace",
+        "predeclared storage slots only"
+      ]
+    },
+    "FATHOM": {
+      "primary": "peekPrice() except FC2/FC3 readPrice()",
+      "O2_getters": [
+        "delayedPrice",
+        "latestPrice",
+        "lastUpdateTS",
+        "timeDelay",
+        "priceLife",
+        "paused",
+        "isPriceOk",
+        "isPriceFresh",
+        "readPrice",
+        "nextPrice"
+      ],
+      "O2_events": [
+        "LogPeekPriceFailed"
+      ],
+      "O3": [
+        "same-invocation trace",
+        "predeclared storage slots only"
+      ]
+    }
+  },
+  "public_history_rule": "public setup-prefix events are included in O2 for every layer and do not require another target call; they are not treated as events of the later pure primary read",
+  "fathom_noninterference": "collector may never call peekPrice except as the single T_tx primary invocation",
+  "normalization": {
+    "absent": "NA not false",
+    "revert": "symbol plus raw selector/data, never numeric zero",
+    "integers": "exact base-10 integer",
+    "events": "ordered signature+indexed/data fields"
+  },
+  "formal_execution": "NOT_STARTED"
+}

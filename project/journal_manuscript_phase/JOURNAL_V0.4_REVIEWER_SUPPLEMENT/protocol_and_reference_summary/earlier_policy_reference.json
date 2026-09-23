@@ -1,0 +1,68 @@
+{
+  "schema": "formal-policy-independent-reference-lock-v1",
+  "frozen_at_utc": "2026-09-13T05:29:37Z",
+  "independence_invariants": {
+    "F_calls_target_policy_functions": false,
+    "R_calls_target_policy_functions": false,
+    "reference_updated_from_formal_D": false,
+    "D_supplied_to_F_or_R": false,
+    "comparator_paths": [
+      "COMPATIBLE",
+      "INCOMPATIBLE",
+      "INDETERMINATE"
+    ]
+  },
+  "F": {
+    "Secured Finance": "F_current=true iff both controlled latest-round calls succeed, both answers are positive, and ages are respectively <=86,700 s and <=3,900 s.",
+    "Nerite": "F_current=true iff both controlled calls succeed, answers are positive, timestamps are valid, and each age is strictly <90,000 s.",
+    "Vesta": "F_current=true iff current and previous responses for both required legs are call-successful, have nonzero round IDs, positive answers, valid nonfuture timestamps, and current ages <=14,400 s. Per-leg results remain available to R."
+  },
+  "R": {
+    "Secured Finance": {
+      "F_true": [
+        "RETURN_CURRENT_PRODUCT"
+      ],
+      "F_false": [
+        "REVERT_STALE_PRICE_FEED"
+      ]
+    },
+    "Nerite": {
+      "F_true": [
+        "STORE_CURRENT_PRODUCT_AS_LAST_GOOD",
+        "RETURN_CURRENT_PRODUCT_FLAG_FALSE"
+      ],
+      "F_false": [
+        "CALL_BRANCH_SHUTDOWN",
+        "SET_PRICE_SOURCE_LAST_GOOD",
+        "RETURN_LAST_GOOD_PRICE_FLAG_TRUE"
+      ],
+      "both_invalid_order": "weETH/ETH is evaluated first by the frozen deployed path"
+    },
+    "Vesta": {
+      "working_and_both_valid": [
+        "STORE_BOTH_LEGS",
+        "RETURN_CURRENT_PRODUCT"
+      ],
+      "working_and_any_invalid": [
+        "STORE_EACH_VALID_LEG",
+        "SET_STATUS_CHAINLINK_UNTRUSTED",
+        "RETURN_PRODUCT_FROM_CURRENT_OR_CACHED_PER_LEG"
+      ],
+      "working_price_deviation_above_50_percent": [
+        "RETURN_CACHED_PRODUCT_WITHOUT_CACHE_UPDATE"
+      ],
+      "untrusted": [
+        "STORE_EACH_VALID_LEG",
+        "RETURN_PRODUCT_FROM_CURRENT_OR_CACHED_PER_LEG",
+        "SET_STATUS_WORKING_IFF_BOTH_VALID"
+      ],
+      "formal_answer_lock": "controlled current/previous answers have 0% price deviation; the >50% branch is source-grounded but not activated by the frozen 28-entry matrix"
+    }
+  },
+  "comparison": {
+    "COMPATIBLE": "D action, return provenance, failure flag, and required post-state are members of R for independently evaluated F and frozen pre-state.",
+    "INCOMPATIBLE": "A determinate D record conflicts with the independently frozen allowed action/state-transition reference.",
+    "INDETERMINATE": "Required execution witness, pre-state, input validity, return provenance, or post-state is insufficient for a determinate comparison.",
+    "F_false_cache_rule": "A cached/fallback return when F_current=false is compatible whenever R permits that deployed degradation action."
+  }
+}

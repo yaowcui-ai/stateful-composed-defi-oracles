@@ -1,0 +1,14 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "FB2",
+  "implementation": "FATHOM_DELAYED_PRICE_FEED",
+  "episode": "F_B",
+  "ordinal": 2,
+  "attempted": true,
+  "valid_execution": false,
+  "comparable": false,
+  "history_integrity": false,
+  "reference_file": "reference/FB2.json",
+  "error": "Error: Error: task 3974 panicked",
+  "swap": "NA"
+}

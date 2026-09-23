@@ -1,0 +1,12 @@
+{
+  "schema":"set-valued-semantic-rules-v1",
+  "status":"FROZEN_PRE_EXECUTION",
+  "forbidden_inputs":["condition_id","episode_id","fault_injected","reference_label","deployed_output"],
+  "rules": {
+    "VESTA": {"R":{},"P":{"return_source":["status","lastGoodPrice"]},"H":{"input_acceptance":["pre_status","post_status","events","feed_rounds"],"updated_stage":["pre_cache","post_cache","events"],"state_transition":["pre_status","post_status","events"]},"X":{}},
+    "AURIGAMI": {"R":{},"P":{"return_source":["isFromMainFeed"]},"H":{"input_acceptance":["raw_pre","raw_post","aggregate_pre","aggregate_post","events"],"updated_stage":["raw_pre","raw_post","aggregate_pre","aggregate_post","events"],"state_transition":["aggregate_pre","aggregate_post"]},"X":{}},
+    "FATHOM": {"R":{"input_acceptance":["success_boolean"]},"P":{"return_source":["delayedPrice"],"timestamp_meaning":["delayedPrice.timestamp","isPriceFresh","isPriceOk"]},"H":{"updated_stage":["delayed_pre","latest_pre","delayed_post","latest_post","lastUpdateTS","events"],"state_transition":["delayed_pre","latest_pre","delayed_post","latest_post"]},"X":{}},
+    "MENTO": {"R":{},"P":{"return_source":["medianRate","medianTimestamp"],"timestamp_meaning":["medianTimestamp","reportExpirySeconds"]},"H":{"input_acceptance":["rates_pre","rates_post","timestamps_pre","timestamps_post","events"],"updated_stage":["rates_pre","rates_post","timestamps_pre","timestamps_post"],"state_transition":["validity_pre","validity_post"]},"X":{}},
+    "FELIX": {"R":{"return_source":["price","isDisabled"]},"P":{"return_source":["lastGoodPrice"]},"H":{"input_acceptance":["oracle_pre","events","lastGoodPrice_pre","lastGoodPrice_post"],"updated_stage":["lastGoodPrice_pre","lastGoodPrice_post"],"state_transition":["PriceFeedDisabled","isDisabled"]},"X":{"state_transition":["priceFeedDisabled_slot"]}}
+  }
+}

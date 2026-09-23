@@ -1,0 +1,337 @@
+{
+  "schema": "formal-policy-differential-protocol-v1",
+  "protocol_id": "FORMAL_POLICY_DIFFERENTIAL_PROTOCOL_V1",
+  "frozen_at_utc": "2026-09-13T05:29:37Z",
+  "status": "FROZEN",
+  "formal_28_executions": "NOT_STARTED",
+  "formal_policy_outputs_observed": false,
+  "hypotheses": {
+    "H1": "When current-input freshness obligations are not satisfied, bound deployed paths may take different actions, including revert, returning a value with a failure signal, or using cached state. Returning a price alone therefore does not establish that current-input obligations were satisfied.",
+    "H2": "For a stateful cache path, the same current-input state may produce different return provenance or action under different valid pre-states; a stateless current-input vector is therefore insufficient to describe complete policy semantics.",
+    "violation_presupposed": false
+  },
+  "fixed_paths": [
+    "SECURED_FINANCE_WBTC_PRODUCT",
+    "NERITE_DUAL_FEED_MULTIPLICATIVE",
+    "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE"
+  ],
+  "denominator": {
+    "Secured Finance": 8,
+    "Nerite": 8,
+    "Vesta": 12,
+    "total": 28,
+    "unit": "fixed matrix entry/path-scenario, not independent sample"
+  },
+  "unmanipulated_anchor_checks": {
+    "count": 3,
+    "included_in_28": false
+  },
+  "parent_matrix": {
+    "absolute_path": "[archival locator withheld]",
+    "sha256": "028DB5F14FF2D684F67FB0B50EFD9F7D7101C4DC472D2E72D25011847DF95A32",
+    "content_must_not_change": true
+  },
+  "dfr": {
+    "D": "deployed bytecode execution on fixed historical fork with controlled external feed returns; target bytecode and target storage are not fabricated",
+    "F": "standalone evaluator over frozen exact-path source obligations and controlled input observations; imports no target code and receives no deployed action",
+    "R": "standalone allowed-action/state-transition evaluator over frozen source-grounded path specification, F, and frozen pre-state; receives no deployed action",
+    "comparison": "D is compared against independently computed F/R only after all three records exist",
+    "outcomes": [
+      "COMPATIBLE",
+      "INCOMPATIBLE",
+      "INDETERMINATE"
+    ]
+  },
+  "identity_lock": [
+    {
+      "path_id": "SECURED_FINANCE_WBTC_PRODUCT",
+      "protocol": "Secured Finance",
+      "chain_id": 1,
+      "fork_block_number": 25961491,
+      "fork_block_hash": "0x8f1c4351645c70ee469989ffe55ba37c44dda3c3bbfbcf11c2beacb971f17f8d",
+      "fork_block_timestamp": 1789217999,
+      "target_contract": "0x7dca6b6BF30cd28ADe83e86e21e82e3F852bF2DC",
+      "target_runtime_sha256": "7358F1F34ADBD239176E2AA8F1E3F211B494DC4ECF5689CE79C3EB705781D49C",
+      "target_runtime_bytes": 1051,
+      "implementation": {
+        "address": "0xd024F3D33f9DBD131fFE2eFf2A920e9A7F62A18B",
+        "code_bytes": 10110,
+        "runtime_sha256": "AA8BB2EBA867C7F1D33BF17DF4C93B8E2BBDCF336B8160DE808A730784DCA80E",
+        "has_code": true
+      },
+      "currency_key": "WBTC",
+      "call_entrypoint": "getLastPrice(bytes32('WBTC'))",
+      "feeds": [
+        {
+          "address": "0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23",
+          "bytes": 9571,
+          "sha256": "53CA1C4D67C7B092F36C66E575874226DE7E8EAADA554F445F43FE2779743EC1",
+          "configured_decimals": 8
+        },
+        {
+          "address": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
+          "bytes": 9571,
+          "sha256": "ED698309290DE3517C7201FCAD9A9DBD4B8CDE4A72C9ADD23129201F299C6F2B",
+          "configured_decimals": 8
+        }
+      ],
+      "thresholds": [
+        {
+          "feed": "0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23",
+          "heartbeat_seconds": 86400,
+          "buffer_seconds": 300,
+          "comparator": "<=",
+          "last_acceptable_age_seconds": 86700
+        },
+        {
+          "feed": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
+          "heartbeat_seconds": 3600,
+          "buffer_seconds": 300,
+          "comparator": "<=",
+          "last_acceptable_age_seconds": 3900
+        }
+      ],
+      "observed_state": [
+        "raw return",
+        "revert selector/data"
+      ],
+      "evaluation_timestamp": 1789218000
+    },
+    {
+      "path_id": "NERITE_DUAL_FEED_MULTIPLICATIVE",
+      "protocol": "Nerite",
+      "chain_id": 42161,
+      "fork_block_number": 504401544,
+      "fork_block_hash": "0xe4de5b0aa87785925a320862794cfd89f5569cc94308933a247e8be4f6f6eac7",
+      "fork_block_timestamp": 1789218000,
+      "target_contract": "0x39c2a023b8aed406671a0bed1b02fe548f0d2098",
+      "target_runtime_sha256": "DE16A8F453DA89BA2EDE4FFF9F6652CE3BDFA7AB4C244E103B10CB7AB45AD451",
+      "target_runtime_bytes": 2102,
+      "call_entrypoint": "fetchPrice() returns (uint256 price,bool oracleFailure)",
+      "feeds": [
+        {
+          "address": "0x4DF393Fa84e4a0CFdF14ce52f2a4E0c3d1AB0668",
+          "bytes": 183,
+          "sha256": "DAE6567B347E9BC223D8735FABB874C93704BB78E7480A4107CEA058BC4C8B1F",
+          "configured_decimals": 18
+        },
+        {
+          "address": "0xabB160Db40515B77998289afCD16DC06Ae71d12E",
+          "bytes": 183,
+          "sha256": "DAE6567B347E9BC223D8735FABB874C93704BB78E7480A4107CEA058BC4C8B1F",
+          "configured_decimals": 18
+        }
+      ],
+      "thresholds": [
+        {
+          "role": "ETH/USD",
+          "feed": "0x4DF393Fa84e4a0CFdF14ce52f2a4E0c3d1AB0668",
+          "threshold_seconds": 90000,
+          "comparator": "<"
+        },
+        {
+          "role": "weETH/ETH",
+          "feed": "0xabB160Db40515B77998289afCD16DC06Ae71d12E",
+          "threshold_seconds": 90000,
+          "comparator": "<"
+        }
+      ],
+      "borrower_operations": {
+        "address": "0x9A8aC4d1bdfeCB567Ce1e4df2d3Af357b8330Ae0",
+        "runtime_sha256": "51C6C13384C980D17554ABDCC380B3358D20A78BADB83F178731F15C0E3D2042",
+        "runtime_bytes": 24430
+      },
+      "observed_state": [
+        "priceSource",
+        "lastGoodPrice",
+        "oracleFailure return flag",
+        "ShutDownFromOracleFailure event",
+        "borrowerOperations external-call trace"
+      ],
+      "evaluation_timestamp": 1789218001
+    },
+    {
+      "path_id": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+      "protocol": "Vesta",
+      "chain_id": 42161,
+      "fork_block_number": 504401544,
+      "fork_block_hash": "0xe4de5b0aa87785925a320862794cfd89f5569cc94308933a247e8be4f6f6eac7",
+      "fork_block_timestamp": 1789218000,
+      "target_contract": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+      "target_runtime_sha256": "F493237B9D26FCB9D47FC3685D30E1E17C8302B5D84071394E77642CFA14CFCB",
+      "target_runtime_bytes": 2141,
+      "collateral": "0x8d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1",
+      "call_entrypoint": "fetchPrice(address gOHM) returns (uint256)",
+      "price_feed": {
+        "address": "0x761aaeBf021F19F198D325D7979965D0c7C9e53b",
+        "bytes": 9571,
+        "sha256": "53CA1C4D67C7B092F36C66E575874226DE7E8EAADA554F445F43FE2779743EC1",
+        "controlled_decimals": 18,
+        "note": "deployed decimals() reverts at anchor; formal controlled response fixes decimals=18"
+      },
+      "index_feed": {
+        "address": "0x48C4721354A3B29D80EF03C65E6644A37338a0B1",
+        "bytes": 9571,
+        "sha256": "53CA1C4D67C7B092F36C66E575874226DE7E8EAADA554F445F43FE2779743EC1",
+        "controlled_decimals": 18,
+        "note": "deployed decimals() reverts at anchor; formal controlled response fixes decimals=18"
+      },
+      "thresholds": [
+        {
+          "role": "price",
+          "feed": "0x761aaeBf021F19F198D325D7979965D0c7C9e53b",
+          "threshold_seconds": 14400,
+          "comparator": "<=",
+          "requires_current_and_previous_valid": true
+        },
+        {
+          "role": "index",
+          "feed": "0x48C4721354A3B29D80EF03C65E6644A37338a0B1",
+          "threshold_seconds": 14400,
+          "comparator": "<=",
+          "requires_current_and_previous_valid": true
+        }
+      ],
+      "pre_state": {
+        "last_good_price": "32100000000000000000",
+        "last_good_index": "104109630429000000000",
+        "global_status": "0"
+      },
+      "chainlink_flags": {
+        "contract": "0x3C14e07Edd0dC67442FA96f1Ec6999c57E810a83",
+        "flag": "0xa438451D6458044c3c8CD2f6f31c91ac882A6d91",
+        "flag_value_at_anchor": false
+      },
+      "observed_state": [
+        "status",
+        "lastGoodPrice(gOHM)",
+        "lastGoodIndex(gOHM)",
+        "LastGoodPriceUpdated",
+        "LastGoodIndexUpdated",
+        "PriceFeedStatusChanged",
+        "raw return",
+        "per-leg cache provenance"
+      ],
+      "evaluation_timestamp": 1789218001
+    }
+  ],
+  "intervention_boundary": {
+    "allowed": [
+      "controlled external feed responses",
+      "experimental timestamp/time advancement",
+      "normal transaction/call execution"
+    ],
+    "forbidden": [
+      "modify target bytecode",
+      "patch target policy logic",
+      "directly fabricate target cache/status storage",
+      "skip required checks",
+      "replace target oracle implementation"
+    ]
+  },
+  "non_freshness_input_lock": {
+    "fresh_age_seconds": 1,
+    "current_round_id": 100,
+    "previous_round_id": 99,
+    "answered_in_round": 100,
+    "call_success": true,
+    "positive_answers": true,
+    "started_at": "equal to injected updatedAt",
+    "secured_answers": {
+      "feed_a": "100000000 (8 decimals)",
+      "feed_b": "100000000 (8 decimals)"
+    },
+    "nerite_answers": {
+      "ETH_USD": "1000000000000000000 (18 decimals)",
+      "weETH_ETH": "1000000000000000000 (18 decimals)"
+    },
+    "vesta_answers": {
+      "price_current_and_previous": "1000000000000000000 (18 decimals)",
+      "index_current_and_previous": "1000000000000000000 (18 decimals)",
+      "price_deviation": "0%, below frozen 50% branch threshold"
+    },
+    "rule": "Only timestamp age or the explicitly named call-failure dimension varies per matrix entry; all other fields remain fixed and valid."
+  },
+  "time_and_reset_rules": {
+    "default": "reset to exact historical anchor before each independent matrix entry; set execution timestamp to anchor timestamp + 1 second",
+    "vesta_independent_entries": "VE00 through VE09 each reset separately",
+    "vesta_stateful_sequence": "VE10 and VE11 share sequence VESTA_STATEFUL_01; no reset between them; VE10 establishes degraded state through its frozen sequential calls and VE11 continues from that produced state for recovery",
+    "vesta_sequence_timestamps": [
+      1789218001,
+      1789218002,
+      1789218003
+    ],
+    "no_direct_storage_writes": true
+  },
+  "output_fields": [
+    "execution_id",
+    "path",
+    "sequence_id",
+    "sequence_step",
+    "fork_block_number",
+    "fork_block_hash",
+    "pre_state",
+    "injected_input_values",
+    "input_timestamps",
+    "F_current",
+    "raw_EVM_return",
+    "revert_status",
+    "failure_flag",
+    "returned_price",
+    "returned_source",
+    "relevant_post_state",
+    "R_allowed_action_set",
+    "comparison",
+    "reason",
+    "raw_trace_locator",
+    "price_leg_cache_provenance",
+    "index_leg_cache_provenance"
+  ],
+  "interpretation": {
+    "report_by": "path and scenario",
+    "forbidden_statistics": [
+      "28 independent samples",
+      "28-test success rate",
+      "ecosystem policy-compliance rate",
+      "violation prevalence"
+    ],
+    "allowed_statements": [
+      "deployment-path action compatibility",
+      "information not visible from price return alone",
+      "state dependence",
+      "branch/action differences"
+    ],
+    "zero_incompatible_is_valid": true,
+    "incompatible_rule": "preserve unchanged; do not label vulnerability; do not revise reference; enter independent post-execution semantics review",
+    "cache_or_fallback_when_F_false": "not automatically incompatible"
+  },
+  "stop_rules": {
+    "schema": "policy-differential-stop-rules-v1",
+    "execute_exactly": 28,
+    "stop_after_fixed_matrix": true,
+    "no_replacement": true,
+    "stop_on": [
+      "identity drift",
+      "anchor hash mismatch",
+      "target bytecode modification required",
+      "direct cache-state fabrication required",
+      "F/R dependency on D",
+      "unresolved critical threshold/config"
+    ],
+    "accepted_outcomes": [
+      "COMPATIBLE",
+      "INCOMPATIBLE",
+      "INDETERMINATE",
+      "REVERT",
+      "MISSING_EXECUTION_WITNESS"
+    ],
+    "forbidden_extensions": [
+      "new protocol",
+      "new root",
+      "replacement path",
+      "new sampling universe",
+      "reuse old 116 records as validation"
+    ]
+  },
+  "ready_for_formal_execution": true
+}

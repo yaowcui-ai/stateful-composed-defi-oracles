@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "FELIX",
+    "window_id": "W2",
+    "id": "W2",
+    "startTimestamp": 1788763916,
+    "endTimestamp": 1789368715,
+    "fromBlock": 45249415,
+    "toBlock": 45864221,
+    "root": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+    "retrieval_endpoint": "https://rpc.hyperliquid.xyz/evm",
+    "transport_override": false,
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [
+      "0xbc6a72aabe3f2b93b4e83572c36881d8379588e52b1b3c66610a8595ce2c734d",
+      "0xfc1b56fc12ab7492f5ab7cd660ca9975437183eaeaf0c49716ef6a83b8dfdeab"
+    ],
+    "topic_counts": {},
+    "retrieval_errors": [
+      {
+        "fromBlock": 45249415,
+        "toBlock": 45299414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45299415,
+        "toBlock": 45349414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45349415,
+        "toBlock": 45399414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45399415,
+        "toBlock": 45449414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45449415,
+        "toBlock": 45499414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45499415,
+        "toBlock": 45549414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45549415,
+        "toBlock": 45599414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45599415,
+        "toBlock": 45649414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45649415,
+        "toBlock": 45699414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45699415,
+        "toBlock": 45749414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45749415,
+        "toBlock": 45799414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45799415,
+        "toBlock": 45849414,
+        "error": "Error: query exceeds max block range 1000"
+      },
+      {
+        "fromBlock": 45849415,
+        "toBlock": 45864221,
+        "error": "Error: query exceeds max block range 1000"
+      }
+    ],
+    "complete": false,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

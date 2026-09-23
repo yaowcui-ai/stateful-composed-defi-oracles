@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "VESTA",
+    "window_id": "W1",
+    "id": "W1",
+    "startTimestamp": 1788008400,
+    "endTimestamp": 1788613199,
+    "fromBlock": 499611512,
+    "toBlock": 502008172,
+    "root": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [
+      "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e",
+      "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+      "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963"
+    ],
+    "topic_counts": {},
+    "retrieval_errors": [
+      {
+        "fromBlock": 499611512,
+        "toBlock": 499661511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dc77778, 0x1dc77781]"
+      },
+      {
+        "fromBlock": 499661512,
+        "toBlock": 499711511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dc83ac8, 0x1dc83ad1]"
+      },
+      {
+        "fromBlock": 499711512,
+        "toBlock": 499761511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dc8fe18, 0x1dc8fe21]"
+      },
+      {
+        "fromBlock": 499761512,
+        "toBlock": 499811511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dc9c168, 0x1dc9c171]"
+      },
+      {
+        "fromBlock": 499811512,
+        "toBlock": 499861511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dca84b8, 0x1dca84c1]"
+      },
+      {
+        "fromBlock": 499861512,
+        "toBlock": 499911511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dcb4808, 0x1dcb4811]"
+      },
+      {
+        "fromBlock": 499911512,
+        "toBlock": 499961511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dcc0b58, 0x1dcc0b61]"
+      },
+      {
+        "fromBlock": 499961512,
+        "toBlock": 500011511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dcccea8, 0x1dccceb1]"
+      },
+      {
+        "fromBlock": 500011512,
+        "toBlock": 500061511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dcd91f8, 0x1dcd9201]"
+      },
+      {
+        "fromBlock": 500061512,
+        "toBlock": 500111511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dce5548, 0x1dce5551]"
+      },
+      {
+        "fromBlock": 500111512,
+        "toBlock": 500161511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dcf1898, 0x1dcf18a1]"
+      },
+      {
+        "fromBlock": 500161512,
+        "toBlock": 500211511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dcfdbe8, 0x1dcfdbf1]"
+      },
+      {
+        "fromBlock": 500211512,
+        "toBlock": 500261511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd09f38, 0x1dd09f41]"
+      },
+      {
+        "fromBlock": 500261512,
+        "toBlock": 500311511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd16288, 0x1dd16291]"
+      },
+      {
+        "fromBlock": 500311512,
+        "toBlock": 500361511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd225d8, 0x1dd225e1]"
+      },
+      {
+        "fromBlock": 500361512,
+        "toBlock": 500411511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd2e928, 0x1dd2e931]"
+      },
+      {
+        "fromBlock": 500411512,
+        "toBlock": 500461511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd3ac78, 0x1dd3ac81]"
+      },
+      {
+        "fromBlock": 500461512,
+        "toBlock": 500511511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd46fc8, 0x1dd46fd1]"
+      },
+      {
+        "fromBlock": 500511512,
+        "toBlock": 500561511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd53318, 0x1dd53321]"
+      },
+      {
+        "fromBlock": 500561512,
+        "toBlock": 500611511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd5f668, 0x1dd5f671]"
+      },
+      {
+        "fromBlock": 500611512,
+        "toBlock": 500661511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd6b9b8, 0x1dd6b9c1]"
+      },
+      {
+        "fromBlock": 500661512,
+        "toBlock": 500711511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd77d08, 0x1dd77d11]"
+      },
+      {
+        "fromBlock": 500711512,
+        "toBlock": 500761511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd84058, 0x1dd84061]"
+      },
+      {
+        "fromBlock": 500761512,
+        "toBlock": 500811511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd903a8, 0x1dd903b1]"
+      },
+      {
+        "fromBlock": 500811512,
+        "toBlock": 500861511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dd9c6f8, 0x1dd9c701]"
+      },
+      {
+        "fromBlock": 500861512,
+        "toBlock": 500911511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dda8a48, 0x1dda8a51]"
+      },
+      {
+        "fromBlock": 500911512,
+        "toBlock": 500961511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1ddb4d98, 0x1ddb4da1]"
+      },
+      {
+        "fromBlock": 500961512,
+        "toBlock": 501011511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1ddc10e8, 0x1ddc10f1]"
+      },
+      {
+        "fromBlock": 501011512,
+        "toBlock": 501061511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1ddcd438, 0x1ddcd441]"
+      },
+      {
+        "fromBlock": 501061512,
+        "toBlock": 501111511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1ddd9788, 0x1ddd9791]"
+      },
+      {
+        "fromBlock": 501111512,
+        "toBlock": 501161511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dde5ad8, 0x1dde5ae1]"
+      },
+      {
+        "fromBlock": 501161512,
+        "toBlock": 501211511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1ddf1e28, 0x1ddf1e31]"
+      },
+      {
+        "fromBlock": 501211512,
+        "toBlock": 501261511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1ddfe178, 0x1ddfe181]"
+      },
+      {
+        "fromBlock": 501261512,
+        "toBlock": 501311511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de0a4c8, 0x1de0a4d1]"
+      },
+      {
+        "fromBlock": 501311512,
+        "toBlock": 501361511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de16818, 0x1de16821]"
+      },
+      {
+        "fromBlock": 501361512,
+        "toBlock": 501411511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de22b68, 0x1de22b71]"
+      },
+      {
+        "fromBlock": 501411512,
+        "toBlock": 501461511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de2eeb8, 0x1de2eec1]"
+      },
+      {
+        "fromBlock": 501461512,
+        "toBlock": 501511511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de3b208, 0x1de3b211]"
+      },
+      {
+        "fromBlock": 501511512,
+        "toBlock": 501561511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de47558, 0x1de47561]"
+      },
+      {
+        "fromBlock": 501561512,
+        "toBlock": 501611511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de538a8, 0x1de538b1]"
+      },
+      {
+        "fromBlock": 501611512,
+        "toBlock": 501661511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de5fbf8, 0x1de5fc01]"
+      },
+      {
+        "fromBlock": 501661512,
+        "toBlock": 501711511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de6bf48, 0x1de6bf51]"
+      },
+      {
+        "fromBlock": 501711512,
+        "toBlock": 501761511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de78298, 0x1de782a1]"
+      },
+      {
+        "fromBlock": 501761512,
+        "toBlock": 501811511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de845e8, 0x1de845f1]"
+      },
+      {
+        "fromBlock": 501811512,
+        "toBlock": 501861511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de90938, 0x1de90941]"
+      },
+      {
+        "fromBlock": 501861512,
+        "toBlock": 501911511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1de9cc88, 0x1de9cc91]"
+      },
+      {
+        "fromBlock": 501911512,
+        "toBlock": 501961511,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1dea8fd8, 0x1dea8fe1]"
+      },
+      {
+        "fromBlock": 501961512,
+        "toBlock": 502008172,
+        "error": "Error: You can make eth_getLogs requests with up to a 10 block range. Based on your parameters, this block range should work: [0x1deb5328, 0x1deb5331]"
+      }
+    ],
+    "complete": false,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

@@ -1,0 +1,254 @@
+{
+  "schema": "semantic-heldout-observation-v1",
+  "condition_id": "VH2B",
+  "episode_id": "VH2",
+  "implementation": "VESTA",
+  "ordinal": 1,
+  "factor": "call_failure_from_shared_snapshot",
+  "value": "1070000000000000000",
+  "replacement_allowed": false,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "started_at": "2026-09-15T10:50:45.334Z",
+  "completed_at": "2026-09-15T10:50:46.832Z",
+  "full": {
+    "return": [
+      "1310000000000000000"
+    ],
+    "post_public": {
+      "status": [
+        "1"
+      ],
+      "lastGoodPrice": [
+        "1310000000000000000"
+      ],
+      "lastGoodIndex": [
+        "1000000000000000000"
+      ]
+    },
+    "pre_public": {
+      "status": [
+        "0"
+      ],
+      "lastGoodPrice": [
+        "1310000000000000000"
+      ],
+      "lastGoodIndex": [
+        "1000000000000000000"
+      ]
+    },
+    "public_history": [
+      {
+        "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+        "topics": [
+          "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+          "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+        "transactionHash": "0x20cef20bf6c42a69967db36b399beec8366e1279f56f563f3de914029ee0eb9b",
+        "blockHash": "0x554c9c30701c95c857b8b3ed8e3e4b3a5b8e62d9d6a62a6afc368101f676daec",
+        "blockNumber": "0x1e108e8a",
+        "logIndex": "0x0",
+        "transactionIndex": "0x0",
+        "removed": false
+      },
+      {
+        "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+        "topics": [
+          "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "transactionHash": "0x20cef20bf6c42a69967db36b399beec8366e1279f56f563f3de914029ee0eb9b",
+        "blockHash": "0x554c9c30701c95c857b8b3ed8e3e4b3a5b8e62d9d6a62a6afc368101f676daec",
+        "blockNumber": "0x1e108e8a",
+        "logIndex": "0x1",
+        "transactionIndex": "0x0",
+        "removed": false
+      }
+    ],
+    "trace": {
+      "file": "traces/VH2B.json",
+      "failed": false,
+      "gas": 71979
+    },
+    "non_abi_storage": {
+      "sstores": [
+        {
+          "pc": 4310,
+          "stack_tail": [
+            "0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+            "76c52cde8aa729c46c2cf8fd8f3acf544e2af6f43ccc2f0920b14ecd473a1853"
+          ]
+        },
+        {
+          "pc": 3166,
+          "stack_tail": [
+            "0000000000000000000000012ba039c16b75c93e6ff33db12accd97d1f7fd0e0",
+            "0000000000000000000000000000000000000000000000000000000000000066"
+          ]
+        }
+      ]
+    }
+  },
+  "layers": {
+    "R": {
+      "return": [
+        "1310000000000000000"
+      ]
+    },
+    "P": {
+      "return": [
+        "1310000000000000000"
+      ],
+      "post_public": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1310000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      }
+    },
+    "H": {
+      "return": [
+        "1310000000000000000"
+      ],
+      "post_public": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1310000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "pre_public": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1310000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "public_history": [
+        {
+          "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+          "transactionHash": "0x20cef20bf6c42a69967db36b399beec8366e1279f56f563f3de914029ee0eb9b",
+          "blockHash": "0x554c9c30701c95c857b8b3ed8e3e4b3a5b8e62d9d6a62a6afc368101f676daec",
+          "blockNumber": "0x1e108e8a",
+          "logIndex": "0x0",
+          "transactionIndex": "0x0",
+          "removed": false
+        },
+        {
+          "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+          "topics": [
+            "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "transactionHash": "0x20cef20bf6c42a69967db36b399beec8366e1279f56f563f3de914029ee0eb9b",
+          "blockHash": "0x554c9c30701c95c857b8b3ed8e3e4b3a5b8e62d9d6a62a6afc368101f676daec",
+          "blockNumber": "0x1e108e8a",
+          "logIndex": "0x1",
+          "transactionIndex": "0x0",
+          "removed": false
+        }
+      ]
+    },
+    "X": {
+      "return": [
+        "1310000000000000000"
+      ],
+      "post_public": {
+        "status": [
+          "1"
+        ],
+        "lastGoodPrice": [
+          "1310000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "pre_public": {
+        "status": [
+          "0"
+        ],
+        "lastGoodPrice": [
+          "1310000000000000000"
+        ],
+        "lastGoodIndex": [
+          "1000000000000000000"
+        ]
+      },
+      "public_history": [
+        {
+          "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+          "topics": [
+            "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+            "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+          "transactionHash": "0x20cef20bf6c42a69967db36b399beec8366e1279f56f563f3de914029ee0eb9b",
+          "blockHash": "0x554c9c30701c95c857b8b3ed8e3e4b3a5b8e62d9d6a62a6afc368101f676daec",
+          "blockNumber": "0x1e108e8a",
+          "logIndex": "0x0",
+          "transactionIndex": "0x0",
+          "removed": false
+        },
+        {
+          "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+          "topics": [
+            "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "transactionHash": "0x20cef20bf6c42a69967db36b399beec8366e1279f56f563f3de914029ee0eb9b",
+          "blockHash": "0x554c9c30701c95c857b8b3ed8e3e4b3a5b8e62d9d6a62a6afc368101f676daec",
+          "blockNumber": "0x1e108e8a",
+          "logIndex": "0x1",
+          "transactionIndex": "0x0",
+          "removed": false
+        }
+      ],
+      "trace": {
+        "file": "traces/VH2B.json",
+        "failed": false,
+        "gas": 71979
+      },
+      "non_abi_storage": {
+        "sstores": [
+          {
+            "pc": 4310,
+            "stack_tail": [
+              "0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+              "76c52cde8aa729c46c2cf8fd8f3acf544e2af6f43ccc2f0920b14ecd473a1853"
+            ]
+          },
+          {
+            "pc": 3166,
+            "stack_tail": [
+              "0000000000000000000000012ba039c16b75c93e6ff33db12accd97d1f7fd0e0",
+              "0000000000000000000000000000000000000000000000000000000000000066"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "tx_hash": "0x20cef20bf6c42a69967db36b399beec8366e1279f56f563f3de914029ee0eb9b",
+  "block_number": 504401546
+}

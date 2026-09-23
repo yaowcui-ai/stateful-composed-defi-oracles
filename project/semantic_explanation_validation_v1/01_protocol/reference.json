@@ -1,0 +1,8 @@
+{
+  "schema":"independent-semantic-reference-v1",
+  "status":"FROZEN_PRE_EXECUTION",
+  "allowed_inputs":["deployment_identity","bound_configuration","source_predicates","legal_history_schedule","controlled_dependency_contract"],
+  "forbidden_inputs":["condition_id","episode_id","fault_injected","reference_label","deployed_output","return","post_public","pre_public","public_history","trace","non_abi_storage"],
+  "construction":"Reference labels are generated from factor-to-source-predicate tables sealed before target execution and checked after execution by independent return, event, and state witnesses.",
+  "mismatch_classes":["REFERENCE_ERROR","INSTRUMENTATION_ERROR","INTERVENTION_DOMAIN_VIOLATION","UNEXPECTED_TARGET_BEHAVIOUR","INDETERMINATE"]
+}

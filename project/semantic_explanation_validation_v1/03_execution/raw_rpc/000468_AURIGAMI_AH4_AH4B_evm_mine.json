@@ -1,0 +1,13 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 468,
+    "method": "evm_mine",
+    "params": []
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 468,
+    "result": "0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "g4-formal-selection-freeze-v1",
+  "status": "FROZEN",
+  "route": "A_STATEFUL_REPLICATION",
+  "core_formal_set": [
+    "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+    "AURIGAMI_REPORTER_AGGREGATION_FALLBACK",
+    "FATHOM_DELAYED_PRICE_FEED"
+  ],
+  "selected_count": 3,
+  "new_implementations": 2,
+  "conditional_comparator_decision": {
+    "candidate": "MENTO_SORTED_ORACLES",
+    "decision": "EXCLUDED_BEFORE_EXECUTION",
+    "reason": "The bound one-reporter history is expiry followed by fresh-report revalidation, with no alternative retained return source. It adds a validity threshold but not a distinct state-history ambiguity beyond existing enforcement evidence.",
+    "outcome_used": false,
+    "replacement_allowed": false
+  },
+  "boundary_only": [
+    "FELIX_REDSTONE_DISABLE_CACHE"
+  ],
+  "excluded_stateful": [
+    "ASYMMETRY_WBTC_CROSS_RATE"
+  ],
+  "lineage_claim": "L3 for the selected cross-implementation pairs, qualification_scope=BOUNDED_PUBLIC_PROVENANCE",
+  "identities": {
+    "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE": {
+      "chain_id": 42161,
+      "block_number": 504401544,
+      "block_hash": "0xe4de5b0aa87785925a320862794cfd89f5569cc94308933a247e8be4f6f6eac7",
+      "root": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+      "entrypoint": "fetchPrice(address gOHM)"
+    },
+    "AURIGAMI_REPORTER_AGGREGATION_FALLBACK": {
+      "chain_id": 1313161554,
+      "block_number": 215607038,
+      "block_hash": "0xf8d3df95f8f6e0bf55decf6437fb24dddd743834f6e0777efc51cb546b3f83a1",
+      "root": "0xC6e5185438e1730959c1eF3551059A3feC744E90",
+      "implementation": "0xC6e5185438e1730959c1eF3551059A3feC744E90",
+      "entrypoint": "getUnderlyingPrice(auUSDC)"
+    },
+    "FATHOM_DELAYED_PRICE_FEED": {
+      "chain_id": 50,
+      "block_number": 107219710,
+      "block_hash": "0x19017f946190a457b62cd2d86ba53c111f75f2d23ce55a3f86978a40fde536ed",
+      "root": "0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88",
+      "implementation": "0x6d19ee49ea1d811197a446f9275c5eda943f0013",
+      "entrypoint": "peekPrice() / boundary-only readPrice()",
+      "source_oracle": "0xb2dfd3b56a909efbea6e8a49c0d17f653aa1d7ca",
+      "source_implementation": "0x41e2326ee5dabd031bafe64ba624592a68f57edd"
+    }
+  },
+  "formal_execution": "NOT_STARTED"
+}

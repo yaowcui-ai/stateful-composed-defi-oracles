@@ -1,0 +1,39 @@
+{
+  "schema": "semantic-explanation-protocol-v1",
+  "status": "FROZEN_PRE_EXECUTION",
+  "research_question": "Which semantic judgements are supported by R, P, H, and X observations under held-out values, legal histories, stages, and implementations?",
+  "implementations": [
+    {"id":"VESTA","role":"known_development_implementation","lineage":"Liquity-derived"},
+    {"id":"AURIGAMI","role":"known_development_implementation","lineage":"bounded-public-L3"},
+    {"id":"FATHOM","role":"known_incomplete_implementation","lineage":"bounded-public-L3"},
+    {"id":"MENTO","role":"prospective_unexecuted_implementation","lineage":"bounded-public-L3"},
+    {"id":"FELIX","role":"prospective_terminal_boundary","lineage":"Liquity-derived-L2"}
+  ],
+  "propositions": [
+    {"id":"input_acceptance","not_evaluated_distinct_from_rejected":true},
+    {"id":"return_source"},
+    {"id":"updated_stage"},
+    {"id":"state_transition"},
+    {"id":"timestamp_meaning","unknown_allowed":true}
+  ],
+  "observation_layers": {
+    "R":["return"],
+    "P":["return","post_public"],
+    "H":["return","post_public","pre_public","public_history"],
+    "X":["return","post_public","pre_public","public_history","trace","non_abi_storage"]
+  },
+  "development_domain": {
+    "source":"V0.4 and frozen G4-G7 only",
+    "seen_values":["1000000000000000000","1200000000000000000","100000000","120000000"],
+    "never_counted_as_validation":true
+  },
+  "e4_joint_gate": {
+    "required_criteria":["multiple_dynamic_inputs_participate","top_timestamp_has_event_meaning","input_acceptance_predicate","fallback_cache_source_or_state_transition","exact_bound_legal_execution"],
+    "on_no_match":"NO_QUALIFIED_JOINT_PATH_NO_REPLACEMENT"
+  },
+  "e5": {"window_count_per_deployment":2,"window_days":7,"window_freeze_rule":"calendar windows immediately preceding each pinned block, no movement for outcome","transaction_calls_separate_from_counterfactual_reads":true},
+  "e6": {"selection_unit":"episode","target_fraction":0.2,"selection_rule":"sha256 episode_id ascending with coverage repair fixed before replay","scientific_sample_increment":0},
+  "counting_units":["lineage","deployment","episode","designated_observation","interpretation_task","pair","setup_call","intervention_call","retry_call"],
+  "missingness_rule":"retain every failure; poison descendants of an invalid episode history; never replace by outcome",
+  "formal_inference":"exact finite-domain descriptive results only"
+}

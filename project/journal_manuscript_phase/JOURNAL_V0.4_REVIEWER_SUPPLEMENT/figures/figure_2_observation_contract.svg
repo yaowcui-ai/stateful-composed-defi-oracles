@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="586.44pt" height="388.728pt" viewBox="0 0 586.44 388.728" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-15T13:08:04.011890</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.728 
+L 586.44 388.728 
+L 586.44 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 31.4064 64.3572 
+L 555.0336 64.3572 
+L 555.0336 24.5592 
+L 31.4064 24.5592 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #eaf2f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 31.4064 202.3236 
+L 222.075 202.3236 
+L 222.075 120.0744 
+L 31.4064 120.0744 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #f3f5f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 128.1636 66.355521 
+Q 128.1636 90.889425 128.1636 114.4171 
+" clip-path="url(#p627c47b92c)" style="fill: none; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 130.1636 110.4171 
+L 128.1636 114.4171 
+L 126.1636 110.4171 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #5a6670; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 250.533 120.0744 
+L 555.0336 120.0744 
+L 555.0336 85.5828 
+L 250.533 85.5828 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #f3f5f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 407.052 66.360832 
+Q 407.052 74.441363 407.052 81.515663 
+" clip-path="url(#p627c47b92c)" style="fill: none; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 409.052 77.515663 
+L 407.052 81.515663 
+L 405.052 77.515663 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #5a6670; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 250.533 329.6772 
+L 555.0336 329.6772 
+L 555.0336 138.6468 
+L 250.533 138.6468 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #ffffff; stroke: #5a6670; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 264.762 308.4516 
+L 540.8046 308.4516 
+L 540.8046 178.4448 
+L 264.762 178.4448 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #eaf2f6; stroke: #226d93; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 281.8368 292.5324 
+L 523.7298 292.5324 
+L 523.7298 247.428 
+L 281.8368 247.428 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #ffffff; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 407.052 122.078551 
+Q 407.052 129.096962 407.052 135.109144 
+" clip-path="url(#p627c47b92c)" style="fill: none; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 409.052 131.109144 
+L 407.052 135.109144 
+L 405.052 131.109144 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #5a6670; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 215.534384 272.89872 
+Q 230.611904 272.89872 244.683193 272.89872 
+" clip-path="url(#p627c47b92c)" style="fill: none; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 240.683193 270.89872 
+L 244.683193 272.89872 
+L 240.683193 274.89872 
+z
+" clip-path="url(#p627c47b92c)" style="fill: #5a6670; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="293.22" y="40.014873" transform="rotate(-0 293.22 40.014873)">Prospectively specified conditions and bound deployment</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'; text-anchor: middle" x="293.22" y="54.105277" transform="rotate(-0 293.22 54.105277)">Legal histories, source/configuration predicates and fixed comparison pairs</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="126.7407" y="149.153519" transform="rotate(-0 126.7407 149.153519)">Reference Y</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'" transform="translate(87.709528 167.725403)">Input acceptance</text>
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'" transform="translate(95.436872 178.487294)">Return source</text>
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'" transform="translate(104.982497 189.249184)">Transition</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #5a6670; font: 9px 'DejaVu Sans'" transform="translate(47.737575 221.430769)">Specified before observed outputs;</text>
+    <text style="fill: #5a6670; font: 9px 'DejaVu Sans'" transform="translate(52.618669 231.5088)">not a complete second simulator</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="402.7833" y="99.340424" transform="rotate(-0 402.7833 99.340424)">Designated deployed execution</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: start" x="261.9162" y="153.50472" transform="rotate(-0 261.9162 153.50472)">O3  =  O2 + collected opcode trace</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: start" x="276.1452" y="194.364" transform="rotate(-0 276.1452 194.364)">O2  =  O1 + actual public context</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'" transform="translate(276.1452 212.940529)">Pre/post getters, source/status/validity fields</text>
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'" transform="translate(276.1452 223.01856)">and declared public events</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="402.7833" y="264.581721" transform="rotate(-0 402.7833 264.581721)">O1  =  complete primary return tuple</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'; text-anchor: middle" x="402.7833" y="280.58243" transform="rotate(-0 402.7833 280.58243)">Includes Boolean fields where the ABI returns them</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(57.071169 271.728695)">Compare predeclared pairs:</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(60.82195 282.926508)">same or different Y versus</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(52.363356 294.12432)">same or different observation</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(31.4064 351.379068)">Nested observation sets, not a ranking of scientific value. Public fields are never withheld from O2.</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(31.4064 362.57688)">Observed matrix: 11 predeclared O1 collisions separated by O2; no additional O3 separation.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p627c47b92c">
+   <rect x="8.64" y="8.64" width="569.16" height="371.448"/>
+  </clipPath>
+ </defs>
+</svg>

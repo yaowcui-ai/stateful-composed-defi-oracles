@@ -1,0 +1,249 @@
+{
+  "execution_id": "VE10",
+  "path": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+  "sequence_id": "VESTA_STATEFUL_01",
+  "sequence_step": 1,
+  "fork_block_number": 504401544,
+  "fork_block_hash": "0xe4de5b0aa87785925a320862794cfd89f5569cc94308933a247e8be4f6f6eac7",
+  "raw_trace_locator": "[archival locator withheld]",
+  "inputs": {
+    "sequence": [
+      {
+        "price": {
+          "age": 1,
+          "ok": true
+        },
+        "index": {
+          "age": 1,
+          "ok": true
+        }
+      },
+      {
+        "price": {
+          "age": 1,
+          "ok": false
+        },
+        "index": {
+          "age": 1,
+          "ok": true
+        }
+      }
+    ]
+  },
+  "F_current": {
+    "step_1": {
+      "current": true,
+      "perInput": {
+        "price": true,
+        "index": true
+      },
+      "source": "independent frozen input-obligation evaluator"
+    },
+    "step_2": {
+      "current": false,
+      "perInput": {
+        "price": false,
+        "index": true
+      },
+      "source": "independent frozen input-obligation evaluator"
+    }
+  },
+  "pre_state": {
+    "status": 0,
+    "lastGoodPrice": "32100000000000000000",
+    "lastGoodIndex": "104109630429000000000"
+  },
+  "D": {
+    "action": "SEQUENCE_OTHER",
+    "steps": [
+      {
+        "action": "RETURN_CURRENT",
+        "raw_EVM_return": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+        "revert_status": false,
+        "returned_price": "1000000000000000000",
+        "transaction": {
+          "hash": "0xcfb1e4125b1ff9f4f9a6c3d108a68e7d38129eb41305e3289b0894745c569f3a",
+          "blockNumber": 504401545,
+          "blockHash": "0x129a04c09f1c5a828cf9ab8a76ef4e8a7feeaa2f0cee7b7a224557d54134ab75",
+          "status": 1,
+          "gasUsed": "79327"
+        },
+        "trace_method": "trace_transaction"
+      },
+      {
+        "action": "RETURN_CURRENT",
+        "raw_EVM_return": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+        "revert_status": false,
+        "returned_price": "1000000000000000000",
+        "transaction": {
+          "hash": "0x09f459d9d475dfd9a22295155287f71f2d168967e6976fffa0df04ae83e2638f",
+          "blockNumber": 504401546,
+          "blockHash": "0x1d67eef1b98c4b174a69162bb28b96599024b1797b0b84659e403513ce53238e",
+          "status": 1,
+          "gasUsed": "71985"
+        },
+        "trace_method": "trace_transaction"
+      }
+    ]
+  },
+  "post_state": {
+    "status": 1,
+    "lastGoodPrice": "1000000000000000000",
+    "lastGoodIndex": "1000000000000000000"
+  },
+  "R_allowed_action_set": [
+    "NORMAL_TO_DEGRADED_TRANSITION"
+  ],
+  "comparison": "INCOMPATIBLE",
+  "reason": "independent two-step state-transition reference",
+  "step_records": [
+    {
+      "label": "VE10.1 fresh establishment",
+      "inputs": {
+        "price": {
+          "age": 1,
+          "ok": true
+        },
+        "index": {
+          "age": 1,
+          "ok": true
+        }
+      },
+      "injected": [
+        {
+          "address": "0x761aaeBf021F19F198D325D7979965D0c7C9e53b",
+          "runtime_sha256": "4DFCBCE915B0B2AD743D454C44339C2CCB4E96E9AC38423244175D68D8A80573",
+          "runtime_bytes": 295,
+          "decimals": 18,
+          "age": 1,
+          "evaluationTimestamp": 1789218001,
+          "answer": "1000000000000000000",
+          "callOk": true,
+          "previousOk": true
+        },
+        {
+          "address": "0x48C4721354A3B29D80EF03C65E6644A37338a0B1",
+          "runtime_sha256": "4DFCBCE915B0B2AD743D454C44339C2CCB4E96E9AC38423244175D68D8A80573",
+          "runtime_bytes": 295,
+          "decimals": 18,
+          "age": 1,
+          "evaluationTimestamp": 1789218001,
+          "answer": "1000000000000000000",
+          "callOk": true,
+          "previousOk": true
+        }
+      ],
+      "F_current": {
+        "current": true,
+        "perInput": {
+          "price": true,
+          "index": true
+        },
+        "source": "independent frozen input-obligation evaluator"
+      },
+      "pre_state": {
+        "status": 0,
+        "lastGoodPrice": "32100000000000000000",
+        "lastGoodIndex": "104109630429000000000"
+      },
+      "D": {
+        "action": "RETURN_CURRENT",
+        "raw_EVM_return": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+        "revert_status": false,
+        "returned_price": "1000000000000000000",
+        "transaction": {
+          "hash": "0xcfb1e4125b1ff9f4f9a6c3d108a68e7d38129eb41305e3289b0894745c569f3a",
+          "blockNumber": 504401545,
+          "blockHash": "0x129a04c09f1c5a828cf9ab8a76ef4e8a7feeaa2f0cee7b7a224557d54134ab75",
+          "status": 1,
+          "gasUsed": "79327"
+        },
+        "trace_method": "trace_transaction"
+      },
+      "post_state": {
+        "status": 0,
+        "lastGoodPrice": "1000000000000000000",
+        "lastGoodIndex": "1000000000000000000"
+      },
+      "R_allowed_action_set": [
+        "RETURN_CURRENT"
+      ],
+      "comparison": "COMPATIBLE",
+      "reason": "D action is in independently frozen R"
+    },
+    {
+      "label": "VE10.2 degradation",
+      "inputs": {
+        "price": {
+          "age": 1,
+          "ok": false
+        },
+        "index": {
+          "age": 1,
+          "ok": true
+        }
+      },
+      "injected": [
+        {
+          "address": "0x761aaeBf021F19F198D325D7979965D0c7C9e53b",
+          "runtime_sha256": "A6B489E2A6B78EDCCBAF68C76362705EA7DE32DC44A743BB054BC9F2DF1128B0",
+          "runtime_bytes": 253,
+          "decimals": 18,
+          "age": 1,
+          "evaluationTimestamp": 1789218002,
+          "answer": "1000000000000000000",
+          "callOk": false,
+          "previousOk": false
+        },
+        {
+          "address": "0x48C4721354A3B29D80EF03C65E6644A37338a0B1",
+          "runtime_sha256": "86FE272A003B9A93DF7523D91162DCD67F4144171162DF050FEAAF5A2155106C",
+          "runtime_bytes": 295,
+          "decimals": 18,
+          "age": 1,
+          "evaluationTimestamp": 1789218002,
+          "answer": "1000000000000000000",
+          "callOk": true,
+          "previousOk": true
+        }
+      ],
+      "F_current": {
+        "current": false,
+        "perInput": {
+          "price": false,
+          "index": true
+        },
+        "source": "independent frozen input-obligation evaluator"
+      },
+      "pre_state": {
+        "status": 0,
+        "lastGoodPrice": "1000000000000000000",
+        "lastGoodIndex": "1000000000000000000"
+      },
+      "D": {
+        "action": "RETURN_CURRENT",
+        "raw_EVM_return": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+        "revert_status": false,
+        "returned_price": "1000000000000000000",
+        "transaction": {
+          "hash": "0x09f459d9d475dfd9a22295155287f71f2d168967e6976fffa0df04ae83e2638f",
+          "blockNumber": 504401546,
+          "blockHash": "0x1d67eef1b98c4b174a69162bb28b96599024b1797b0b84659e403513ce53238e",
+          "status": 1,
+          "gasUsed": "71985"
+        },
+        "trace_method": "trace_transaction"
+      },
+      "post_state": {
+        "status": 1,
+        "lastGoodPrice": "1000000000000000000",
+        "lastGoodIndex": "1000000000000000000"
+      },
+      "R_allowed_action_set": [
+        "RETURN_MIXED_CURRENT_CACHED"
+      ],
+      "comparison": "INCOMPATIBLE",
+      "reason": "D action is outside independently frozen R"
+    }
+  ]
+}

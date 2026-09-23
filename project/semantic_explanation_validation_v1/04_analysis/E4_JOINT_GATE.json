@@ -1,0 +1,13 @@
+{
+  "schema": "joint-temporal-enforcement-gate-v1",
+  "status": "NO_QUALIFIED_JOINT_PATH_NO_REPLACEMENT",
+  "criteria": ["multiple_dynamic_inputs_participate", "top_timestamp_has_event_meaning", "input_acceptance_predicate", "fallback_cache_source_or_state_transition", "exact_bound_legal_execution"],
+  "candidates": {
+    "VESTA": [true, false, true, true, true],
+    "AURIGAMI": [true, false, true, true, true],
+    "FATHOM": [false, true, true, true, true],
+    "MENTO": [true, true, true, false, true],
+    "FELIX": [false, false, true, true, true]
+  },
+  "decision": "E4 closed without execution because no bound path satisfies all five frozen criteria; no candidate was replaced and no definition was weakened."
+}

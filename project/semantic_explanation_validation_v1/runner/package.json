@@ -1,0 +1,11 @@
+{
+  "name":"semantic-explanation-validation-runner",
+  "private":true,
+  "version":"1.0.0",
+  "type":"module",
+  "dependencies": {
+    "ethers":"6.15.0",
+    "hardhat":"2.26.3",
+    "solc":"0.8.30"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 2384,
+    "method": "hardhat_setBalance",
+    "params": [
+      "0x000000000000000000000000000000000000bEEF",
+      "0x21e19e0c9bab2400000"
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 2384,
+    "result": true
+  }
+}

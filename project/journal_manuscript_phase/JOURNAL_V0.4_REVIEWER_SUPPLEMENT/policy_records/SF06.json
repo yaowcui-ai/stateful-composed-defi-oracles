@@ -1,0 +1,64 @@
+{
+  "execution_id": "SF06",
+  "path": "SECURED_FINANCE_WBTC_PRODUCT",
+  "sequence_id": "SF06_INDEPENDENT",
+  "sequence_step": 1,
+  "fork_block_number": 25961491,
+  "fork_block_hash": "0x8f1c4351645c70ee469989ffe55ba37c44dda3c3bbfbcf11c2beacb971f17f8d",
+  "raw_trace_locator": "[archival locator withheld]",
+  "inputs": {
+    "feed_a": {
+      "age": 1,
+      "ok": true
+    },
+    "feed_b": {
+      "age": 3901,
+      "ok": true
+    }
+  },
+  "injected": [
+    {
+      "address": "0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23",
+      "runtime_sha256": "1B240E8213EECD73AC1B579B11F5BE906DCDD64B5F14D261CAAD291466E0ECA5",
+      "runtime_bytes": 287,
+      "decimals": 8,
+      "age": 1,
+      "evaluationTimestamp": 1789218000,
+      "answer": "100000000",
+      "callOk": true
+    },
+    {
+      "address": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
+      "runtime_sha256": "0A5D27B8848E5ABEDF62BA3A02C68504F515779FC76852BCF6447C42376F50A1",
+      "runtime_bytes": 287,
+      "decimals": 8,
+      "age": 3901,
+      "evaluationTimestamp": 1789218000,
+      "answer": "100000000",
+      "callOk": true
+    }
+  ],
+  "F_current": {
+    "current": false,
+    "perInput": {
+      "feed_a": true,
+      "feed_b": false
+    },
+    "source": "independent frozen input-obligation evaluator"
+  },
+  "pre_state": {},
+  "D": {
+    "action": "REVERT_STALE_PRICE_FEED",
+    "raw_EVM_return": "0x",
+    "revert_status": {
+      "data": "0x182b9e2d000000000000000000000000f4030086522a5beea4988f8ca5b36dbc97bee88c0000000000000000000000000000000000000000000000000000000000000e10000000000000000000000000000000000000000000000000000000006aa53d93000000000000000000000000000000000000000000000000000000006aa54cd0",
+      "short_message": "execution reverted (unknown custom error)"
+    }
+  },
+  "post_state": {},
+  "R_allowed_action_set": [
+    "REVERT_STALE_PRICE_FEED"
+  ],
+  "comparison": "COMPATIBLE",
+  "reason": "D action is in independently frozen R"
+}

@@ -1,0 +1,196 @@
+{
+  "schema": "semantic-heldout-observation-v1",
+  "condition_id": "XH5B",
+  "episode_id": "XH5",
+  "implementation": "FELIX",
+  "ordinal": 1,
+  "factor": "nuisance_time_b",
+  "value": "91000000",
+  "replacement_allowed": false,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "started_at": "2026-09-15T10:52:06.949Z",
+  "completed_at": "2026-09-15T10:52:08.374Z",
+  "full": {
+    "return": [
+      "910000000000000000",
+      false
+    ],
+    "post_public": {
+      "lastGoodPrice": [
+        "910000000000000000"
+      ],
+      "whypeUsdOracle": [
+        "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+        "86400",
+        "8"
+      ],
+      "stalenessThreshold": [
+        "86400"
+      ],
+      "decimals": [
+        "8"
+      ]
+    },
+    "pre_public": {
+      "lastGoodPrice": [
+        "910000000000000000"
+      ],
+      "whypeUsdOracle": [
+        "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+        "86400",
+        "8"
+      ],
+      "stalenessThreshold": [
+        "86400"
+      ],
+      "decimals": [
+        "8"
+      ]
+    },
+    "public_history": [],
+    "trace": {
+      "file": "traces/XH5B.json",
+      "failed": false,
+      "gas": 43804
+    },
+    "non_abi_storage": {
+      "sstores": [
+        {
+          "pc": 1023,
+          "stack_tail": [
+            "0000000000000000000000000000000000000000000000000ca0f82db99b0000",
+            "0000000000000000000000000000000000000000000000000000000000000001"
+          ]
+        }
+      ]
+    }
+  },
+  "layers": {
+    "R": {
+      "return": [
+        "910000000000000000",
+        false
+      ]
+    },
+    "P": {
+      "return": [
+        "910000000000000000",
+        false
+      ],
+      "post_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      }
+    },
+    "H": {
+      "return": [
+        "910000000000000000",
+        false
+      ],
+      "post_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "pre_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "public_history": []
+    },
+    "X": {
+      "return": [
+        "910000000000000000",
+        false
+      ],
+      "post_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "pre_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "public_history": [],
+      "trace": {
+        "file": "traces/XH5B.json",
+        "failed": false,
+        "gas": 43804
+      },
+      "non_abi_storage": {
+        "sstores": [
+          {
+            "pc": 1023,
+            "stack_tail": [
+              "0000000000000000000000000000000000000000000000000ca0f82db99b0000",
+              "0000000000000000000000000000000000000000000000000000000000000001"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "tx_hash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+  "block_number": 45864224
+}

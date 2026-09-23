@@ -1,0 +1,29 @@
+{
+  "schema": "g4-metric-lock-v1",
+  "status": "FROZEN",
+  "pair_count": 21,
+  "definitions": {
+    "distinguishes_k": "exact normalized O_k(left) != O_k(right)",
+    "informative_unresolved_k": "reference semantic relation differs and O_k is equal",
+    "o2_incremental_split": "O1 equal and O2 unequal for an informative pair",
+    "o3_incremental_split": "O2 equal and O3 unequal for an informative pair",
+    "nuisance_difference_k": "reference relation same and O_k unequal",
+    "compatibility": "COMPATIBLE/INCOMPATIBLE/INDETERMINATE under independent F/R"
+  },
+  "mandatory_outputs": [
+    "pair-level table",
+    "O1/O2/O3 finite equivalence classes annotated by Y",
+    "same-Y/different-O nuisance table",
+    "construction failures",
+    "compatibility table"
+  ],
+  "forbidden": [
+    "accuracy",
+    "success rate",
+    "p-value",
+    "independent-sample inference",
+    "ecosystem denominator",
+    "global identifiability",
+    "presumed O3 gain"
+  ]
+}

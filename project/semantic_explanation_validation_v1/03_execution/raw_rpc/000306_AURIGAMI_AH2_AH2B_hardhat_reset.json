@@ -1,0 +1,20 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 306,
+    "method": "hardhat_reset",
+    "params": [
+      {
+        "forking": {
+          "jsonRpcUrl": "<RPC_ENDPOINT_OMITTED>",
+          "blockNumber": 215607038
+        }
+      }
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 306,
+    "result": true
+  }
+}

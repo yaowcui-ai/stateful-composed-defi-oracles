@@ -1,0 +1,123 @@
+{
+  "schema": "natural-history-window-lock-v1",
+  "status": "FROZEN_BEFORE_SEMANTIC_HISTORY_RETRIEVAL",
+  "created_at": "2026-09-15T11:03:53.601Z",
+  "rule": "two adjacent seven-day windows immediately preceding each pinned block; address-only root log inclusion; no window movement; deterministic even sampling capped at 200 records per window only after full count",
+  "deployments": {
+    "VESTA": {
+      "endpoint": "<RPC_ENDPOINT_OMITTED>",
+      "root": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+      "anchorBlock": 504401544,
+      "anchorHash": "0xe4de5b0aa87785925a320862794cfd89f5569cc94308933a247e8be4f6f6eac7",
+      "anchorTimestamp": 1789218000,
+      "windows": [
+        {
+          "id": "W1",
+          "startTimestamp": 1788008400,
+          "endTimestamp": 1788613199,
+          "fromBlock": 499611512,
+          "toBlock": 502008172
+        },
+        {
+          "id": "W2",
+          "startTimestamp": 1788613200,
+          "endTimestamp": 1789217999,
+          "fromBlock": 502008173,
+          "toBlock": 504401540
+        }
+      ]
+    },
+    "AURIGAMI": {
+      "endpoint": "<RPC_ENDPOINT_OMITTED>",
+      "root": "0xC6e5185438e1730959c1eF3551059A3feC744E90",
+      "anchorBlock": 215607038,
+      "anchorHash": "0xf8d3df95f8f6e0bf55decf6437fb24dddd743834f6e0777efc51cb546b3f83a1",
+      "anchorTimestamp": 1789368662,
+      "windows": [
+        {
+          "id": "W1",
+          "startTimestamp": 1788159062,
+          "endTimestamp": 1788763861,
+          "fromBlock": 213661905,
+          "toBlock": 214629681
+        },
+        {
+          "id": "W2",
+          "startTimestamp": 1788763862,
+          "endTimestamp": 1789368661,
+          "fromBlock": 214629682,
+          "toBlock": 215607037
+        }
+      ]
+    },
+    "FATHOM": {
+      "endpoint": "<RPC_ENDPOINT_OMITTED>",
+      "root": "0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88",
+      "anchorBlock": 107219710,
+      "anchorHash": "0x19017f946190a457b62cd2d86ba53c111f75f2d23ce55a3f86978a40fde536ed",
+      "anchorTimestamp": 1789368674,
+      "windows": [
+        {
+          "id": "W1",
+          "startTimestamp": 1788159074,
+          "endTimestamp": 1788763873,
+          "fromBlock": 106669979,
+          "toBlock": 106939929
+        },
+        {
+          "id": "W2",
+          "startTimestamp": 1788763874,
+          "endTimestamp": 1789368673,
+          "fromBlock": 106939930,
+          "toBlock": 107219709
+        }
+      ]
+    },
+    "MENTO": {
+      "endpoint": "<RPC_ENDPOINT_OMITTED>",
+      "root": "0xefb84935239dacdecf7c5ba76d8de40b077b7b33",
+      "anchorBlock": 77467895,
+      "anchorHash": "0x44cfb1c3c2dc5fc64839ffaaba577a013d923325791579e28866a024a832e187",
+      "anchorTimestamp": 1789368653,
+      "windows": [
+        {
+          "id": "W1",
+          "startTimestamp": 1788159053,
+          "endTimestamp": 1788763852,
+          "fromBlock": 76258295,
+          "toBlock": 76863094
+        },
+        {
+          "id": "W2",
+          "startTimestamp": 1788763853,
+          "endTimestamp": 1789368652,
+          "fromBlock": 76863095,
+          "toBlock": 77467894
+        }
+      ]
+    },
+    "FELIX": {
+      "endpoint": "<RPC_ENDPOINT_OMITTED>",
+      "root": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+      "anchorBlock": 45864222,
+      "anchorHash": "0x7dca15d1636dca73ca6c00608afac949ffa0c4fc6f7b31fd6c3015e885abdd82",
+      "anchorTimestamp": 1789368716,
+      "windows": [
+        {
+          "id": "W1",
+          "startTimestamp": 1788159116,
+          "endTimestamp": 1788763915,
+          "fromBlock": 44634598,
+          "toBlock": 45249414
+        },
+        {
+          "id": "W2",
+          "startTimestamp": 1788763916,
+          "endTimestamp": 1789368715,
+          "fromBlock": 45249415,
+          "toBlock": 45864221
+        }
+      ]
+    }
+  }
+}

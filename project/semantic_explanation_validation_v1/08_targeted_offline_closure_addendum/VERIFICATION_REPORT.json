@@ -1,0 +1,23 @@
+{
+  "schema": "targeted-offline-closure-addendum-verification-v1",
+  "rows": {
+    "conditions": 50,
+    "labels": 250,
+    "matched_design": 40,
+    "deviates": 10,
+    "fully_qualified_matched_conditions": 33,
+    "matched_episodes": 18,
+    "fully_qualified_matched_episodes": 15,
+    "matched_nontrivial_labels": 162,
+    "qualified_matched_nontrivial_labels": 141,
+    "actual_execution_only_rows": 50
+  },
+  "checks": {
+    "ah5_both_deviate": true,
+    "no_unconditional_yes": true,
+    "vesta_excludes_old_pricefeed": true,
+    "seven_difference_wording_present": true,
+    "no_rpc_or_reexecution": true,
+    "manuscript_revision_hold": true
+  }
+}

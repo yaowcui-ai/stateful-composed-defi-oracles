@@ -1,0 +1,29 @@
+{
+  "PHASE_A": "PASS",
+  "derived_counts": {
+    "planned_conditions": 27,
+    "valid_execution_records": 20,
+    "technical_noncomparable": 7,
+    "predeclared_pairs": 21,
+    "evaluable_pairs": 15,
+    "noncomparable_pairs": 6,
+    "different_Y_evaluable": 13,
+    "O1_collisions_among_different_Y": 11,
+    "noncollision_different_Y_controls": 2,
+    "O2_informative_splits": 11,
+    "O3_additional_splits": 0
+  },
+  "sealed_outputs_hashes_match": true,
+  "locks": [
+    {
+      "path": "JOURNAL_CLAIM_EVIDENCE_LOCK_V3.md",
+      "sha256": "343acb521f11ff1f62db20090239a5dc2cd9f5a901f31b756fe7a9972fb70ff2"
+    },
+    {
+      "path": "JOURNAL_MANUSCRIPT_LOCK_V3.md",
+      "sha256": "a60b8da80e5b9559ea3653d50b66ce48b87059d56e911edc0fdd847db9f40e4a"
+    }
+  ],
+  "PHASE_B_AUTHORIZED": true,
+  "new_execution": false
+}

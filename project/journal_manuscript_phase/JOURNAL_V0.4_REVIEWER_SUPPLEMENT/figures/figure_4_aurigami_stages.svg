@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="597.6pt" height="371.916439pt" viewBox="0 0 597.6 371.916439" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-15T13:08:05.041188</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 371.916439 
+L 597.6 371.916439 
+L 597.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.2464 81.98712 
+L 194.3424 81.98712 
+L 194.3424 26.1036 
+L 20.2464 26.1036 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #eaf2f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 20.2464 253.1304 
+L 194.3424 253.1304 
+L 194.3424 193.75416 
+L 20.2464 193.75416 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #f3f5f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 198.661222 55.442448 
+Q 203.337203 55.442448 207.006953 55.442448 
+" clip-path="url(#p9f7eee5fbd)" style="fill: none; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 203.006953 53.442448 
+L 207.006953 55.442448 
+L 203.006953 57.442448 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #5a6670; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 211.752 81.98712 
+L 385.848 81.98712 
+L 385.848 26.1036 
+L 211.752 26.1036 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #eaf2f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 211.752 253.1304 
+L 385.848 253.1304 
+L 385.848 193.75416 
+L 211.752 193.75416 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #f3f5f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 390.166822 55.442448 
+Q 394.842803 55.442448 398.512553 55.442448 
+" clip-path="url(#p9f7eee5fbd)" style="fill: none; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 394.512553 53.442448 
+L 398.512553 55.442448 
+L 394.512553 57.442448 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #5a6670; stroke: #5a6670; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 403.2576 81.98712 
+L 577.3536 81.98712 
+L 577.3536 26.1036 
+L 403.2576 26.1036 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #eaf2f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 403.2576 253.1304 
+L 577.3536 253.1304 
+L 577.3536 193.75416 
+L 403.2576 193.75416 
+z
+" clip-path="url(#p9f7eee5fbd)" style="fill: #f3f5f6; stroke: #5a6670; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'" transform="translate(96.076431 41.146795)">AA2</text>
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'" transform="translate(64.626431 52.344608)">Backup at read</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(34.7544 108.795517)">Reporter 1 timestamp</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(34.7544 120.905142)">1789368672</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(34.7544 133.014767)"/>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(34.7544 145.124392)">Reporter 2 timestamp</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(34.7544 157.234017)">1789368673</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="107.2944" y="215.474869" transform="rotate(-0 107.2944 215.474869)">Aggregate timestamp</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'; text-anchor: middle" x="107.2944" y="236.613441" transform="rotate(-0 107.2944 236.613441)">1789368672</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(34.7544 276.446077)">isFromMainFeed = false</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(34.7544 291.443109)">Return = 10³⁰</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'" transform="translate(287.582031 41.107733)">AA3</text>
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'" transform="translate(238.163281 52.305545)">One qualifying report</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(226.26 108.795517)">Reporter 1 timestamp</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(226.26 120.905142)">1789375874</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(226.26 133.014767)"/>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(226.26 145.124392)">Reporter 2 timestamp</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(226.26 157.234017)">1789368673</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="298.8" y="215.474869" transform="rotate(-0 298.8 215.474869)">Aggregate timestamp</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'; text-anchor: middle" x="298.8" y="236.613441" transform="rotate(-0 298.8 236.613441)">1789368672</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(226.26 276.446077)">isFromMainFeed = false</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(226.26 291.443109)">Return = 10³⁰</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'" transform="translate(479.087631 41.107733)">AA4</text>
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'" transform="translate(420.340756 52.305545)">Second qualifying report</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(417.7656 108.795517)">Reporter 1 timestamp</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(417.7656 120.905142)">1789375874</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(417.7656 133.014767)"/>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(417.7656 145.124392)">Reporter 2 timestamp</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(417.7656 157.234017)">1789375875</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #182838; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="490.3056" y="215.474869" transform="rotate(-0 490.3056 215.474869)">Aggregate timestamp</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #182838; font: 9px 'DejaVu Sans'; text-anchor: middle" x="490.3056" y="236.613441" transform="rotate(-0 490.3056 236.613441)">1789375874</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(417.7656 276.446077)">isFromMainFeed = true</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(417.7656 291.443109)">Return = 10³⁰</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(20.2464 322.265147)">AA3: reporter record accepted; aggregate unchanged; backup retained.</text>
+    <text style="fill: #182838; font: 10px 'DejaVu Sans'" transform="translate(20.2464 333.46296)">AA4: second report accepted; aggregate refreshed; main selected.</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #5a6670; font: 9px 'DejaVu Sans'; text-anchor: start" x="20.2464" y="361.40472" transform="rotate(-0 20.2464 361.40472)">Record updates occur in the authorized setup prefix. The subsequent getUnderlyingPrice call is a pure read.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9f7eee5fbd">
+   <rect x="8.64" y="8.64" width="580.32" height="349.272"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,93 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "FC2",
+  "implementation": "FATHOM_DELAYED_PRICE_FEED",
+  "episode": "F_C",
+  "ordinal": 2,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "history_integrity": true,
+  "reference_file": "reference/FC2.json",
+  "pre": {
+    "delayedPrice": [
+      "27936237197953895",
+      "1789372440"
+    ],
+    "latestPrice": [
+      "27936237197953895",
+      "1789373340"
+    ],
+    "lastUpdateTS": [
+      "1789373340"
+    ],
+    "timeDelay": [
+      "900"
+    ],
+    "priceLife": [
+      "3600"
+    ],
+    "paused": [
+      false
+    ],
+    "isPriceOk": [
+      true
+    ],
+    "isPriceFresh": [
+      true
+    ],
+    "readPrice": [
+      "27936237197953895"
+    ],
+    "nextPrice": [
+      "27936237197953895"
+    ]
+  },
+  "O1": {
+    "raw_return": "0x0x00000000000000000000000000000000000000000000000000633fdc168b8b67",
+    "decoded": {
+      "decode_error": "TypeError: invalid BytesLike value (argument=\"value\", value=\"0x0x00000000000000000000000000000000000000000000000000633fdc168b8b67\", code=INVALID_ARGUMENT, version=6.15.0)",
+      "raw": "0x0x00000000000000000000000000000000000000000000000000633fdc168b8b67"
+    },
+    "reverted": false
+  },
+  "post": {
+    "delayedPrice": [
+      "27936237197953895",
+      "1789372440"
+    ],
+    "latestPrice": [
+      "27936237197953895",
+      "1789373340"
+    ],
+    "lastUpdateTS": [
+      "1789373340"
+    ],
+    "timeDelay": [
+      "900"
+    ],
+    "priceLife": [
+      "3600"
+    ],
+    "paused": [
+      false
+    ],
+    "isPriceOk": [
+      true
+    ],
+    "isPriceFresh": [
+      true
+    ],
+    "readPrice": [
+      "27936237197953895"
+    ],
+    "nextPrice": [
+      "27936237197953895"
+    ]
+  },
+  "events": [],
+  "trace": "traces/FC2.json",
+  "tx_hash": "NA",
+  "block_number": 107219752,
+  "swap": "NA"
+}

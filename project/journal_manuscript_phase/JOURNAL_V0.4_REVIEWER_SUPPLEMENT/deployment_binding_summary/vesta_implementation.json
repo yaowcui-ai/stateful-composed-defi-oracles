@@ -1,0 +1,15 @@
+{
+  "proxy": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+  "implementation": "0x522808d93Ac229CEfc17c4BE0408520f7e27D26d",
+  "implementation_runtime_bytes": 5652,
+  "implementation_runtime_sha256": "F7CA795217706A4D46FD54525F357C997C0FB68C0383426046B9A4C05E6CB9E1",
+  "verified_source_name": "PriceFeedV2",
+  "verified_source_path": "contracts/PriceFeedV2.sol",
+  "compiler": "0.8.10+commit.fc410830",
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  },
+  "source_locator": "https://arbitrum.blockscout.com/api/v2/smart-contracts/0x522808d93ac229cefc17c4be0408520f7e27d26d",
+  "key_semantic": "isChainlinkIndexBroken checks response validity but does not apply _chainlinkIsFrozen(chainlinkIndexResponse); the 14,400-second age predicate is applied to the price leg, not the index leg."
+}

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "MENTO",
+    "window_id": "W2",
+    "id": "W2",
+    "startTimestamp": 1788763853,
+    "endTimestamp": 1789368652,
+    "fromBlock": 76863095,
+    "toBlock": 77467894,
+    "root": "0xefb84935239dacdecf7c5ba76d8de40b077b7b33",
+    "retrieval_endpoint": "https://forno.celo.org",
+    "transport_override": false,
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [
+      "0x636207d0069f1a3500c8d1676c804bc9d9a9d27e9add85139022a1757edf5522",
+      "0x7cebb17173a9ed273d2b7538f64395c0ebf352ff743f1cf8ce66b437a6144213",
+      "0xa9981ebfc3b766a742486e898f54959b050a66006dbce1a4155c1f84a08bcf41"
+    ],
+    "topic_counts": {},
+    "retrieval_errors": [
+      {
+        "fromBlock": 76863095,
+        "toBlock": 76913094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 76913095,
+        "toBlock": 76963094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 76963095,
+        "toBlock": 77013094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77013095,
+        "toBlock": 77063094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77063095,
+        "toBlock": 77113094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77113095,
+        "toBlock": 77163094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77163095,
+        "toBlock": 77213094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77213095,
+        "toBlock": 77263094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77263095,
+        "toBlock": 77313094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77313095,
+        "toBlock": 77363094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77363095,
+        "toBlock": 77413094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      },
+      {
+        "fromBlock": 77413095,
+        "toBlock": 77463094,
+        "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+      }
+    ],
+    "complete": false,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

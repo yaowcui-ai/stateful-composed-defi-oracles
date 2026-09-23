@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Supplement S1 — evidence and extended methods</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="supplement.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Supplement S1 — evidence and extended methods</h1>
+</header>
+<h1 id="supplement-s1-evidence-and-extended-methods">Supplement S1: Evidence and extended methods</h1>
+<p>Tables and section numbers inside the preserved extended sections follow the V0.6 source. Main-manuscript Tables 1–2 are separate. The four sections A–D below provide the complete evidence and comparison ledgers.</p>
+<p>This companion accompanies <em>Interpreting Stateful and Composed DeFi Oracles: Public Fields, Update Histories, and Temporal Coverage</em>. The package README identifies the current governing evidence review and the exact files for each finding. Historical records retain their original classifications; the latest dispositions control scientific use.</p>
+<h2 id="extended-study-methods">Extended study methods</h2>
+<h2 id="study-design-and-evidence-qualification">3. Study Design and Evidence Qualification</h2>
+<p>The study uses three execution designs, each suited to a different interpretive question. Fixed historical observations establish timestamp propagation on composed paths. Controlled enforcement and stateful comparisons vary feed conditions and legal state histories to expose return and public-field contrasts. The subsequent five-implementation examination adds longer histories, changed values, and proposition-level evidence review. The results retain these designs separately while applying a common vocabulary to their observations.</p>
+<h3 id="selection-and-architectural-applicability">3.1. Selection and architectural applicability</h3>
+<p>The initial qualification processed a fixed frame of 614 canonical EVM Lending/CDP protocols in a deterministic order. Qualification used source identity, deployment evidence, architecture, and temporal-interface requirements. Price outputs, timestamp outputs, and age-gap outcomes were excluded from the discovery decisions. This procedure provides an inspectable basis for the numeric selection.</p>
+<p>The frame produced 102 qualified-family aggregate credits, including four numeric-multi families. Protocol and family records have separate grains, summarized in Table 2. The planned breadth requirement of 12 numeric families, ten protocols, and five chains was met only for chains: the corresponding observations were four, four, and five. The subsequent fixed numeric confirmation used those eligible paths with a bounded semantic-conformance objective.</p>
+<p>Stateful selection followed the earlier results and used source, binding, reachability, and public-observation criteria before its formal outputs. The follow-up examination retained its declared conditions and recorded deviations during later evidence review. The studies consequently have distinct selection histories and denominators. Their common analytical unit is the bound execution and the proposition being explained.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Evidence set</th>
+<th>Unit and scope</th>
+<th>Accounting used in this paper</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initial architectural frame</td>
+<td>Protocol</td>
+<td>614: 48 qualified-contributing; 505 partial; 33 unresolved; 21 excluded; 7 other outcomes</td>
+</tr>
+<tr>
+<td>Qualified-family aggregate</td>
+<td>Family credit</td>
+<td>102: 4 numeric-multi; 56 numeric-transform; 42 representation-only</td>
+</tr>
+<tr>
+<td>Policy qualification ledger</td>
+<td>Policy-family credit</td>
+<td>32 architecture; 10 complete</td>
+</tr>
+<tr>
+<td>Fixed numeric observations</td>
+<td>Root × snapshot</td>
+<td>6 roots × 3 snapshots = 18; 9 readable; 9 contract reverts</td>
+</tr>
+<tr>
+<td>Earlier controlled enforcement</td>
+<td>Path-scenario</td>
+<td>28: 25 unchanged compatible; 1 classifier-corrected; 2 non-comparable</td>
+</tr>
+<tr>
+<td>Earlier stateful comparison</td>
+<td>Condition / declared pair</td>
+<td>27 / 21 planned; 20 / 15 evaluable</td>
+</tr>
+<tr>
+<td>Follow-up examination</td>
+<td>Condition / declared comparison</td>
+<td>50 / 25 attempted; 40 / 18 design-matched; 33 / 15 fully evidence-qualified</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 2. Evidence grains and study accounting.</strong> Family and policy credits follow their respective registries. The two sets containing 15 comparisons are separate studies. Setup calls, getters, traces, and repeated snapshots retain their own roles rather than increasing the implementation count. Detailed qualification records are linked in Appendix A.</p>
+<h3 id="controlled-execution-and-legal-histories">3.2. Controlled execution and legal histories</h3>
+<p>The controlled studies execute bound target implementations on historical forks. Inputs and dependency responses vary to establish age boundaries, call failures, and declared value histories. Target cache and status state are established through normal target calls. The records preserve the prefix, primary invocation, public observations, and execution trace separately.</p>
+<p>The primary call’s position in this sequence is essential. Fathom’s <code>peekPrice()</code> can promote records, so its designated invocation is the intervention itself. Observation collection uses the saved execution and non-mutating getters. Aurigami reads occur after reporter updates, allowing the report-processing stage to be distinguished from source selection during the read. Mento’s primary invocation is a report submission; its success acknowledgment is interpreted as an update operation. Felix’s prefix can establish terminal state before a later retained-price read.</p>
+<p>The earlier stateful study fixed 27 conditions and 21 pairs across Vesta, Aurigami, and Fathom. It obtained 20 valid executions: eight for Vesta, eight for Aurigami, and four for Fathom. Seven Fathom conditions retained historical-state infrastructure failures. Their six affected pairs remain outside the evaluable set. The follow-up used five implementations and 25 two-condition episodes. All 50 designated calls completed, and the subsequent qualification assessed both execution fidelity and the evidence supporting each semantic proposition.</p>
+<h3 id="independent-support-for-the-explanation">3.3. Independent support for the explanation</h3>
+<p>An explanation is supported by the bound source branch together with concrete execution evidence. The intended intervention specifies what was attempted. Public records establish observed values and states. Trace evidence establishes particular internal actions when needed, such as Fathom’s source-retrieval call. Storage writes are attributed to their execution context before they support an update claim. A dependency’s storage operation has a different role from a target-cache update.</p>
+<p>The follow-up review applies two filters. First, the actual condition must match its declared design. Second, the applicable semantic labels must have sufficient source and execution support. This yields 40 design-matched conditions, of which 33 have all nontrivial labels qualified. At comparison grain, both endpoints must qualify: 18 comparisons match design and 15 have complete evidence. The latter comprise four Aurigami, four Fathom, four Mento, and three Felix comparisons. Three additional qualified conditions have an unqualified partner and support individual execution descriptions.</p>
+<p>The seven remaining design-matched conditions are Vesta cases. Their implementation metadata and public observations are retained, while locally saved, line-addressable source-body evidence is incomplete for three semantic propositions per condition. They therefore contribute public execution facts at the appropriate scope. The main follow-up findings use the four implementations with fully qualified conditions.</p>
+<p>The offline review also identified seven differences from the reference-label records retained by the original analysis. Four accompanied a Vesta design deviation, and three corrected Fathom’s input-evaluation or transition labels. Retrospective interpreter results and their rule revisions are documented in Appendix B. The empirical findings here use the reviewed witnesses and their specific evidence locators. The first author reviewed the evidence labels and all seven corrections against the retained source and execution records. Independent inter-rater agreement was not assessed.</p>
+<h3 id="fixed-blocks-references-and-the-controlled-domain">3.4. Fixed blocks, references, and the controlled domain</h3>
+<p>The numeric schedule used three target times: 11 September 2026 at 13:00 UTC, 12 September at 01:00 UTC, and 12 September at 13:00 UTC. For each chain, the highest finalized block at or before the scheduled time defined the observation. The root and its required inputs were read at that block, and the block timestamp enters the age equations. The bindings include feed identities, composition formulas, decimal scaling, and integer-rounding behavior. Numeric qualification required multiple dynamic contributors and usable temporal representations. Unavailable or sentinel timestamps yield an undefined comparison and remain missing observations.</p>
+<p>The earlier enforcement experiment used Ethereum block 25,961,491 for Secured Finance and Arbitrum block 504,401,544 for Nerite and Vesta. External-feed responses were controlled while target bytecode and target-maintained cache/status logic executed on the historical fork. Each Secured Finance and Nerite path had eight scenarios: fresh inputs, threshold-minus-one/equality/plus-one for each feed with the other feed fresh, and both age limits exceeded. The twelve Vesta entries covered age conditions, feed-call failures, and a state-establishment and continuation sequence. A scenario could contain more than one invocation, so the 28 entries count path-scenarios.</p>
+<p>For that comparison, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math> is the observed action, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>F</mi><annotation encoding="application/x-tex">F</annotation></semantics></math> evaluates the applicable current-input predicates, and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math> describes allowed actions under the bound configuration and pre-state. A typical input predicate combines call success, response validity, and a configured age comparator. For determinate input evidence, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>=</mo><msub><mo>⋀</mo><mi>i</mi></msub><msub><mi>ϕ</mi><mi>i</mi></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>q</mi><mi>i</mi></msub><mo>,</mo><mi>t</mi><mo>,</mo><mi>c</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">F=\bigwedge_i\phi_i(q_i,t,c)</annotation></semantics></math>, where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>q</mi><mi>i</mi></msub><annotation encoding="application/x-tex">q_i</annotation></semantics></math> is the current response and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math> the path configuration. The expected action can depend on both <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>F</mi><annotation encoding="application/x-tex">F</annotation></semantics></math> and retained state. Independence concerns the separation of observed execution from its expected interpretation: a deployed return is evaluated against the reference rather than used to construct that reference.</p>
+<p>Successful controlled responses kept positive answers, decimal structure, and round relationships fixed within the earlier path scenarios. The Vesta comparison used equal current/previous answers. This defines a domain in which the tested age and call-failure branches can be read against the recorded observations. The complete scenario accounting and its later binding correction are preserved in Appendix C.</p>
+<h3 id="implementations-histories-and-comparison-construction">3.5. Implementations, histories, and comparison construction</h3>
+<p>The earlier stateful selection assessed eight candidate dossiers before choosing Vesta, Aurigami, and Fathom. Existing policy records supplied the initial candidates; binding and reachability checks determined which histories could be established through target calls. Mento’s single-reporter configuration was excluded from that particular design before execution. It entered the later examination under a different, report-transition question. This change in analytical role is recorded with the separate study selection.</p>
+<p>The selected architectures expose different organizations of state. Vesta retains component values and an explicit status. Aurigami retains reporter and aggregate records and selects main or backup at read time. Fathom retains delayed/latest price records, update clocks, and validity conditions. Mento retains reporter rates and submission times. Felix adds a terminal-disable branch with a retained last-good value. Their exact root, anchor, and entrypoint information is summarized in Appendix C, with executable-source evidence linked to the binding dossiers.</p>
+<p>Histories were constructed using the operations of each implementation. Authorized reporter submissions established Aurigami’s records. Fathom’s bound source was advanced through its normal update operations before delayed-feed invocations. Mento used authorized reports. Felix used healthy calls to establish the retained price and a controlled failure to reach disablement. Target storage was produced by these calls. Source-lineage judgments use inspected public origins and inheritance: the Felix/Vesta relationship remains a shared Liquity-derived ancestry, while other comparisons retain the bounded public-provenance qualification of their dossiers.</p>
+<p>The later design contained five two-condition episodes per implementation. Declared factors included age boundaries, failure causes, changed values, longer legal prefixes, and shifts in absolute time. Conditions aimed at equal and unequal returns complemented stability comparisons. The implemented condition was then checked against its declaration, preserving the distinction between an executable call and a faithful experimental contrast. Table D1 lists all 25 planned comparisons and their final disposition, including the qualified individual endpoints whose partners deviated.</p>
+<h3 id="observation-windows-and-evidence-roles">3.6. Observation windows and evidence roles</h3>
+<p>Each designated invocation has a public observation window before it and another after it, before a subsequent target mutation. An updating prefix is associated with the condition that uses the resulting state. For Aurigami, its reporter events precede the read-only <code>getUnderlyingPrice</code> call. Fathom’s <code>peekPrice()</code> is called once as the designated intervention; its additional fields are obtained from the saved execution and read-only getters. This arrangement keeps the returned tuple and the observed state attached to the same invocation.</p>
+<p>The earlier O2 normalization retains ordered event signatures, indexed topics and data, public cache/record fields, configuration and source indicators. Its O3 collection records opcodes with stack, memory and storage recording disabled and an empty enumerated nonpublic-state set. The later examination records additional trace detail used in the proposition review. These two trace collections have different capabilities and keep distinct identities.</p>
+<p>The follow-up’s public-history review includes saved setup/prefix receipts as well as primary-call logs. This matters for terminal reads: a quiet later call can inherit a state established by a publicly recorded earlier event. Scheduled fault values, condition names, and harness annotations describe intervention intent. They are kept separate from evidence that the target actually evaluated an input or changed a particular record. For Fathom, the review locates the <code>retrivePrice()</code> self-call in the trace. For Felix, it attributes writes to the correct target or dependency context.</p>
+<p>Three evidence levels are used throughout the results. Returns, getter values and receipt records supply direct observations. Exact arithmetic and corrected decoding supply derived results. Bound source branches connect those observations to semantic propositions. The retained prospective pair labels describe the earlier design, while the follow-up’s qualified explanations incorporate the later offline review. Appendix B documents the reference and rule corrections at that transition.</p>
+<h3 id="analysis-questions">3.7. Analysis questions</h3>
+<p>The analysis answers three questions:</p>
+<ul>
+<li><strong>RQ1:</strong> Which public fields and execution histories distinguish the source, update stage, and state associated with oracle observations?</li>
+<li><strong>RQ2:</strong> How do these field-to-semantics relationships vary across the studied stateful implementations and declared history contrasts?</li>
+<li><strong>RQ3:</strong> What temporal coverage do propagated timestamps provide on the fixed readable composition paths?</li>
+</ul>
+<p>Sections 4 and 5 answer RQ1 and RQ2 through mechanism-centered comparisons. Section 6 answers RQ3 through the required-input timestamp relations. Each result combines a concrete observation, its supporting mechanism, and its interpretive consequence.</p>
+<h2 id="extended-comparison-tables-and-enforcement-context">Extended comparison tables and enforcement context</h2>
+<h2 id="cross-implementation-synthesis">5. Cross-Implementation Synthesis</h2>
+<h3 id="each-interface-distributes-its-explanation-differently">5.1. Each interface distributes its explanation differently</h3>
+<p>The stateful findings identify several ways to expose the meaning of an output. Aurigami places source identity in a public flag and update-stage context in reporter and aggregate records. Fathom associates validity with a returned Boolean or a separate getter, while record timestamps explain promotion. Felix exposes initial disablement through the full return and events, with later reads interpreted through the established history. Mento exposes submission and revalidation through report records and invocation timing.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Implementation</th>
+<th>Question addressed</th>
+<th>Evidence carrying the explanation</th>
+<th>Representative qualified witness</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aurigami</td>
+<td>Which source is selected for an equal price?</td>
+<td>Public source flag, aggregate and reporter records</td>
+<td>AH1, AH2, AH4</td>
+</tr>
+<tr>
+<td>Aurigami</td>
+<td>Which timestamp advanced?</td>
+<td>Separate reporter and aggregate timestamps</td>
+<td>AH3</td>
+</tr>
+<tr>
+<td>Fathom</td>
+<td>Did this valid return evaluate an input?</td>
+<td>Pre/post delayed/latest records and source-call evidence</td>
+<td>FH1</td>
+</tr>
+<tr>
+<td>Fathom</td>
+<td>Which retained record is returned and is it valid?</td>
+<td>Delayed/latest values, timestamps, validity getters</td>
+<td>FH2, FH4, FH5</td>
+</tr>
+<tr>
+<td>Felix</td>
+<td>Did this invocation disable the path or read an already retained value?</td>
+<td>Complete return, disable events, prefix history, contextualized writes</td>
+<td>XH1, XH2; individual XH3B</td>
+</tr>
+<tr>
+<td>Mento</td>
+<td>Did a report refresh or revalidate the record?</td>
+<td>Previous report timestamp, invocation time, updated record and events</td>
+<td>MH1, MH2, MH4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 5. Field-to-semantics relationships across qualified follow-up cases.</strong> Evidence combinations support the named propositions. Each row names the proposition and the observations supporting its interpretation.</p>
+<p>The shared result is a separation of interpretive dimensions. Price equality, source equality, update-stage equality, and transition equality each require their own evidence. The deployments differ in where that evidence resides. This variation is the basis for cross-implementation characterization: the same analytical questions lead to different useful fields and different history requirements.</p>
+<h3 id="equality-contrasts-and-controls-serve-different-purposes">5.2. Equality contrasts and controls serve different purposes</h3>
+<p>The earlier stateful matrix contains 15 evaluable declared pairs. Its retained reference ledger assigns different semantic labels to thirteen pairs, including eleven equal-return pairs and two non-collision pairs; two are same-reference controls. All eleven return-collision pairs differ in collected public context. The public tuples separate all 20 valid records, so the collected trace layer adds no further pair separation in that finite matrix. These observation-level comparisons provide context for the proposition-qualified follow-up.</p>
+<p>The follow-up adds proposition-specific explanations and more varied histories. Its 15 fully qualified planned comparisons include equal returns with different source or update behavior, changed returns with the same categorical operation, and stability controls. AH3 and FH4 are particularly useful: timestamps change while the categorical source and transition labels agree. They show how a record-level difference can be meaningful without creating a new state-machine class.</p>
+<p>The two analyses therefore answer related questions at different resolutions. Pair comparisons locate observable distinctions. Source and witness analysis explain what those distinctions mean. A public tuple can uniquely identify a collected record because a timestamp differs; the explanatory result is the supported relation between that timestamp and a reporter, aggregate, delayed window, or submission event.</p>
+<h3 id="complementary-enforcement-examples">5.3. Complementary enforcement examples</h3>
+<p>The earlier controlled enforcement study contributes additional action context. Under its tested rejected-input conditions, Secured Finance reverts, while Nerite returns a last-good value with a failure signal and source-state change. Vesta supplies retained public return and status sequences, including equal numeric returns across observed status changes. These observations complement the detailed source-grounded mechanisms in Section 4.</p>
+<p>The complete earlier accounting is 28 path-scenarios: 25 unchanged compatible classifications, one action-classifier correction, and two cases rendered non-comparable by reference binding. Its purpose here is to locate the variety of exposed actions. For Vesta, the current source-evidence qualification in Section 3.3 governs further semantic use. The earlier records and correction trail remain available alongside the fully qualified follow-up results.</p>
+<p>Secured Finance’s two tested feed limits are 86,700 and 3,900 seconds, including the configured buffer. The root returns the current product at equality and reverts when the first input reaches 86,701 seconds or the second reaches 3,901 seconds. SF03, SF06, and SF07 expose rejection through a stale-feed revert. This is an action-level expression of the two input predicates at the bound product path.</p>
+<p>Nerite uses a strict 90,000-second threshold in the tested domain. NE02, NE03, NE05, NE06, and NE07 return the pre-call <code>lastGoodPrice</code> with a true failure flag, retain that value, and change <code>priceSource</code> from 0 to 2. Fresh and threshold-minus-one cases return the current product with a false flag and update the last-good record. Thus, both the strictness of the comparator and the placement of the failure signal affect the meaning of the observed price. These records supply a whole-value retained-return contrast alongside Aurigami’s alternative source and Fathom’s delayed record.</p>
+<p>The retained Vesta sequence supplies a direct public-state witness. VE10.1, VE10.2, and VE11 each return <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>18</mn></msup><annotation encoding="application/x-tex">10^{18}</annotation></semantics></math>, while the recorded status follows 0→0→1→0 across the established state and subsequent calls. A separate anchor-history case, VE08, returns <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>32.1</mn><mo>×</mo><msup><mn>10</mn><mn>18</mn></msup></mrow><annotation encoding="application/x-tex">32.1\times10^{18}</annotation></semantics></math> under the controlled price-call failure, while VE10.2 returns <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>18</mn></msup><annotation encoding="application/x-tex">10^{18}</annotation></semantics></math> after a successful prefix established that lower cache value. The returns and status readings document value stability across state changes and value differences across histories. Their more detailed source-leg interpretations remain with the qualified source-binding records, as described in Appendix B.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Path and cases</th>
+<th>Controlled condition</th>
+<th>Observed return and public context</th>
+<th>Explanatory role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Secured Finance SF03/06/07</td>
+<td>One or both configured age limits exceeded</td>
+<td>Stale-feed revert</td>
+<td>Rejection is expressed through the call outcome</td>
+</tr>
+<tr>
+<td>Nerite NE02/03/05/06/07</td>
+<td>One or both strict age predicates fail</td>
+<td>Last-good price; flag true; <code>priceSource</code> 0→2</td>
+<td>A retained number and an explicit failure signal coexist</td>
+</tr>
+<tr>
+<td>Vesta VE10.1→VE10.2→VE11</td>
+<td>Established cache, price-call failure, restored inputs</td>
+<td>Equal numeric return; public status 0→0→1→0</td>
+<td>Output stability coexists with observed state change</td>
+</tr>
+<tr>
+<td>Felix XH1/XH2</td>
+<td>Age rejection or oracle-call failure</td>
+<td>Same price component; flag false→true; disable events</td>
+<td>The complete return expresses the initial transition</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 6. Complementary enforcement observations.</strong> The rows retain their respective predicates, entrypoints and study identities. Vesta’s row reports the directly retained numeric and public-status observations. All earlier scenario classifications, including the two non-comparable cases, appear in Table C2.</p>
+<figure>
+<img src="figures/figure_3_field_to_semantics.png" alt="Return signal and history across qualified mechanisms" />
+<figcaption aria-hidden="true">Return signal and history across qualified mechanisms</figcaption>
+</figure>
+<p><strong>Figure 3. Where the explanation resides on the studied paths.</strong> Aurigami uses source and record fields, Fathom combines retained-record validity with promotion evidence, Felix combines a complete return signal with the relevant event prefix, and Mento combines report records with invocation time. The figure maps fields to questions; each row points to its corresponding witnesses in Section 4.</p>
+<h2 id="complete-temporal-table-and-provenance">Complete temporal table and provenance</h2>
+<h2 id="temporal-coverage-on-composed-paths">6. Temporal Coverage on Composed Paths</h2>
+<h3 id="selected-constituent-propagation">6.1. Selected-constituent propagation</h3>
+<p>The Compound path computes a composed value while propagating a selected constituent’s timestamp. Its source prediction and the required-input bindings determine which publication the top-level field represents. At the three fixed snapshots, reported ages are 196, 352, and 58 seconds, while the corresponding oldest-required ages are 81,798, 38,580, and 81,780 seconds. The signed differences are 81,602, 38,228, and 81,722 seconds.</p>
+<p>These observations make the coverage distinction concrete. A recent selected constituent supplies a recent top-level timestamp while another required publication is older. The value computation and propagated timestamp follow their respective rules. Correct interpretation assigns the top-level timestamp to the constituent it covers and uses the required-input set for the oldest-publication question.</p>
+<h3 id="oldest-required-propagation">6.2. Oldest-required propagation</h3>
+<p>Vetro and Asymmetry instead propagate the oldest required timestamp. Each yields three readable observations with zero signed gap. Their absolute ages vary across snapshots, but reported and effective age agree at every readable observation.</p>
+<p>The equality induced by a minimum-timestamp rule follows algebraically. The empirical contribution is the deployment binding, source prediction, and execution conformance that establish this rule on the selected roots. Together with Compound, the results identify two concrete meanings of a top-level timestamp exposed along composed paths.</p>
+<p>Binding precedes this calculation. The reader must identify the required dynamic inputs, verify their scale in the root formula, and determine whether the returned timestamp is selected or reduced across those inputs. Formula replay tests the value relation with the same block’s inputs, while timestamp prediction tests the temporal relation. These checks distinguish a mathematically possible propagation rule from the rule instantiated by the selected deployment. They also retain failed reads as missing numeric observations, as shown for all three selected Silo roots in Table 7.</p>
+<figure>
+<img src="figures/figure_4_temporal_coverage.png" alt="Timestamp propagation and fixed numeric observations" />
+<figcaption aria-hidden="true">Timestamp propagation and fixed numeric observations</figcaption>
+</figure>
+<p><strong>Figure 4. Timestamp coverage and fixed execution observations.</strong> Compound propagates the selected constituent timestamp; Vetro and Asymmetry propagate the minimum required timestamp. Each plotted pair uses the same block’s reported and effective publication ages. The table retains primary, recovery, and corrected-analysis evidence tiers. Table 7 includes the nine additional planned observations whose calls reverted.</p>
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr>
+<th>Family / root group</th>
+<th>Snapshot</th>
+<th style="text-align: right;">Reported age (s)</th>
+<th style="text-align: right;">Effective age (s)</th>
+<th style="text-align: right;">Signed gap (s)</th>
+<th>Evidence status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Compound</td>
+<td>T0</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">81,798</td>
+<td style="text-align: right;">81,602</td>
+<td>Primary</td>
+</tr>
+<tr>
+<td>Compound</td>
+<td>T1</td>
+<td style="text-align: right;">352</td>
+<td style="text-align: right;">38,580</td>
+<td style="text-align: right;">38,228</td>
+<td>Primary</td>
+</tr>
+<tr>
+<td>Compound</td>
+<td>T2</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">81,780</td>
+<td style="text-align: right;">81,722</td>
+<td>Formula replay corrected from existing inputs</td>
+</tr>
+<tr>
+<td>Vetro</td>
+<td>T0</td>
+<td style="text-align: right;">53,412</td>
+<td style="text-align: right;">53,412</td>
+<td style="text-align: right;">0</td>
+<td>Secondary infrastructure recovery</td>
+</tr>
+<tr>
+<td>Vetro</td>
+<td>T1</td>
+<td style="text-align: right;">24,912</td>
+<td style="text-align: right;">24,912</td>
+<td style="text-align: right;">0</td>
+<td>Secondary infrastructure recovery</td>
+</tr>
+<tr>
+<td>Vetro</td>
+<td>T2</td>
+<td style="text-align: right;">68,112</td>
+<td style="text-align: right;">68,112</td>
+<td style="text-align: right;">0</td>
+<td>Primary</td>
+</tr>
+<tr>
+<td>Asymmetry</td>
+<td>T0</td>
+<td style="text-align: right;">56,940</td>
+<td style="text-align: right;">56,940</td>
+<td style="text-align: right;">0</td>
+<td>Secondary infrastructure recovery</td>
+</tr>
+<tr>
+<td>Asymmetry</td>
+<td>T1</td>
+<td style="text-align: right;">13,716</td>
+<td style="text-align: right;">13,716</td>
+<td style="text-align: right;">0</td>
+<td>Secondary infrastructure recovery</td>
+</tr>
+<tr>
+<td>Asymmetry</td>
+<td>T2</td>
+<td style="text-align: right;">56,916</td>
+<td style="text-align: right;">56,916</td>
+<td style="text-align: right;">0</td>
+<td>Primary</td>
+</tr>
+<tr>
+<td>Silo, Sonic root</td>
+<td>T0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Sonic root</td>
+<td>T1</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Sonic root</td>
+<td>T2</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Arbitrum root</td>
+<td>T0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Arbitrum root</td>
+<td>T1</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Arbitrum root</td>
+<td>T2</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Avalanche root</td>
+<td>T0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Avalanche root</td>
+<td>T1</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+<tr>
+<td>Silo, Avalanche root</td>
+<td>T2</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td>Contract revert</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 7. All 18 planned numeric observations.</strong> Formula replay and timestamp prediction match for the nine readable observations after the disclosed Compound T2 analysis correction. Four rows retain recovery provenance. Silo’s selected roots reverted under the planned calls and contribute the nine nonnumeric records. Exact identities and row locators accompany the table in Appendix A.</p>
+<h3 id="temporal-metadata-as-a-specific-explanation">6.3. Temporal metadata as a specific explanation</h3>
+<p>The numeric and stateful findings meet at the interpretation of a field. In the numeric paths, source binding identifies the publication represented by a propagated timestamp. In Aurigami and Fathom, timestamped public records locate the aggregate or retained stage represented by an observation. In Mento, the report time identifies a submission and supports expiry reasoning at a later invocation. Each use asks the same first question: which event or record generated this time?</p>
+<p>The experiments establish these relationships on their respective paths. The temporal study supplies a controlled definition of required-input coverage; the stateful cases supply source and history context for returned observations. Their synthesis is an empirical account of interpretation across mechanisms.</p>
+<h2 id="appendix-a.-evidence-guide">Appendix A. Evidence Guide</h2>
+<h3 id="a.1.-main-result-locators">A.1. Main result locators</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Manuscript result</th>
+<th>Evidence location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All 18 numeric observations and row identities</td>
+<td><a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/numeric_observation_table.csv">Numeric observation table</a></td>
+</tr>
+<tr>
+<td>Earlier stateful conditions and pairs</td>
+<td><a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/g7_condition_results.csv">Condition results</a>; <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/g7_predeclared_pair_results.csv">declared pair results</a></td>
+</tr>
+<tr>
+<td>Earlier public observations</td>
+<td><a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/normalized_observations.json">Normalized observations</a></td>
+</tr>
+<tr>
+<td>Earlier 28 enforcement scenarios</td>
+<td><a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/policy_original_results.csv">Complete original/derived classifications</a></td>
+</tr>
+<tr>
+<td>Follow-up condition fidelity</td>
+<td><a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/ADDENDUM_CONDITION_FIDELITY.csv">50-condition fidelity ledger</a></td>
+</tr>
+<tr>
+<td>Follow-up proposition support</td>
+<td><a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/NONTRIVIAL_LABEL_EVIDENCE_AUDIT.csv">250-row evidence audit</a></td>
+</tr>
+<tr>
+<td>Follow-up final denominators</td>
+<td><a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/FINAL_QUALIFIED_DENOMINATOR_AND_DISPOSITION.md">Final qualified denominator and disposition</a></td>
+</tr>
+<tr>
+<td>Public/internal/harness distinction</td>
+<td><a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/PUBLIC_VS_HARNESS_EVIDENCE_AUDIT.md">Observation evidence audit</a></td>
+</tr>
+<tr>
+<td>Exact Vesta evidence scope</td>
+<td><a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/VESTA_PRICEFEEDV2_SOURCE_BINDING_AUDIT.md">PriceFeedV2 source-binding audit</a></td>
+</tr>
+</tbody>
+</table>
+<p>The follow-up observations are retained under <code>semantic_explanation_validation_v1/03_execution/observations/&lt;condition_id&gt;.json</code>. The corresponding trace files, raw RPC records, and call ledger provide the lower-level evidence locators recorded by the proposition audit.</p>
+<h3 id="a.2.-follow-up-comparison-accounting">A.2. Follow-up comparison accounting</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Implementation</th>
+<th style="text-align: right;">Attempted conditions</th>
+<th style="text-align: right;">Design-matched conditions</th>
+<th style="text-align: right;">Fully qualified conditions</th>
+<th>Fully qualified planned comparisons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vesta</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Aurigami</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td>4: AH1, AH2, AH3, AH4</td>
+</tr>
+<tr>
+<td>Fathom</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td>4: FH1, FH2, FH4, FH5</td>
+</tr>
+<tr>
+<td>Mento</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td>4: MH1, MH2, MH4, MH5</td>
+</tr>
+<tr>
+<td>Felix</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td>3: XH1, XH2, XH5</td>
+</tr>
+<tr>
+<td>Total</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">33</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table A1. Final follow-up qualification.</strong> Of the 25 planned comparisons, 18 have two design-matched endpoints. Three of those remain source-incomplete Vesta comparisons. FH3B, MH3B, and XH3B are qualified individual conditions outside the complete-pair denominator. Among 162 nontrivial labels on design-matched conditions, 141 have qualified support. These figures describe evidence qualification.</p>
+<p>The ten design deviations are VH1B, VH4A, VH4B, AH5A, AH5B, FH3A, MH3A, XH3A, XH4A, and XH4B. AH5A/B actually selected main at the inclusive boundary; their recorded calls support that actual time-shifted main-path description. Their originally intended backup comparison is excluded.</p>
+<h3 id="a.3.-screening-detail">A.3. Screening detail</h3>
+<p>The <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/screening_summary.md">screening summary</a> preserves the protocol and family accounting behind Table 2. Policy-family credits follow a separate ledger, including control and boundary entries. The historical Top100 policy total contains one unresolved credit attribution: the explicit registry sums to 14 while the retained total is 15. That attribution remains unresolved in the supporting records.</p>
+<h2 id="appendix-b.-analysis-corrections-and-supporting-material">Appendix B. Analysis Corrections and Supporting Material</h2>
+<h3 id="b.1.-numeric-and-earlier-enforcement-corrections">B.1. Numeric and earlier enforcement corrections</h3>
+<p>Compound T2’s original formula mismatch arose because the transport runner lacked the family-specific formula-replay branch. Recomputing the retained inputs gives</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">⌊</mo><mfrac><mrow><mn>1</mn><mo>,</mo><mn>138</mn><mo>,</mo><mn>880</mn><mo>,</mo><mn>907</mn><mo>,</mo><mn>015</mn><mo>,</mo><mn>225</mn><mo>,</mo><mn>000</mn><mo>×</mo><mn>253</mn><mo>,</mo><mn>375</mn><mo>,</mo><mn>200</mn><mo>,</mo><mn>000</mn></mrow><msup><mn>10</mn><mn>18</mn></msup></mfrac><mo stretchy="true" form="postfix">⌋</mo></mrow><mo>=</mo><mn>288</mn><mo>,</mo><mn>564</mn><mo>,</mo><mn>177</mn><mo>,</mo><mn>591</mn><mo>,</mo></mrow><annotation encoding="application/x-tex">
+\left\lfloor
+\frac{1{,}138{,}880{,}907{,}015{,}225{,}000
+\times253{,}375{,}200{,}000}{10^{18}}
+\right\rfloor=288{,}564{,}177{,}591,
+</annotation></semantics></math></p>
+<p>equal to the root answer. The derived formula status is <code>MATCH_AFTER_ANALYSIS_CORRECTION</code>; timestamps and ages remain unchanged. The <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/corrections/compound_T2.md">correction record</a> and <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/corrections/numeric_recovery.md">recovery record</a> retain the numeric evidence tiers.</p>
+<p>The earlier policy study preserves 25 original compatible records, VE10’s <code>COMPATIBLE_AFTER_ACTION_CLASSIFIER_CORRECTION</code>, and VE06/VE07’s <code>NOT_COMPARABLE_REFERENCE_BINDING_ERROR</code>. VE10 originally classified a numerically colliding action incorrectly; the derived correction used unchanged execution evidence. VE06/VE07 used a reference from a different Vesta source variant. Their original classifications and reference remain preserved in the <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/corrections/vesta_review.md">review</a>. Their deployed returns remain observations, while their original obligation comparison is non-comparable.</p>
+<p>The earlier stateful study also retains an offline return-decoding correction for duplicated hexadecimal prefixes. Legal ABI bytes in the saved RPC traces supply the corrected complete tuples, including Fathom’s Boolean. The <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/return_decoding_correction.md">decoding record</a> identifies the original and derived fields.</p>
+<h3 id="b.2.-follow-up-label-review-and-interpreter-status">B.2. Follow-up label review and interpreter status</h3>
+<p>Compared with the reference-label records retained by the original analysis, the review found seven differences. Four arise in VH1B, whose executed age was 1 second and departed from its declared condition. FH1A and FH3A did not evaluate an input. FH3B was already invalid at the primary invocation’s start, so its invocation did not cause a valid-to-invalid transition. The later condition review further excluded AH5A/B from their planned backup comparison, producing the final 40-condition fidelity denominator.</p>
+<p>The original interpreter’s zero-error assertion was withdrawn. Its 14 terminal-layer indeterminate tasks were classified as rule incompleteness, and its apparent 21-task advantage over public history depended on missing prefix/setup logs in that public baseline. Those logs were available among the retained receipts. Executable-rule provenance also limits the interpretation of prospective rule validation. Corrected rules and rescoring remain retrospective exploratory material in the <a href="project/semantic_explanation_validation_v1/07_offline_correctness_closure_v1/OFFLINE_CORRECTNESS_CLOSURE_FINAL_REPORT.md">closure report</a> and <a href="project/semantic_explanation_validation_v1/07_offline_correctness_closure_v1/CLAIM_DISPOSITION_MATRIX.md">claim disposition</a>. The final addendum controls condition and proposition qualification.</p>
+<h3 id="b.3.-historical-retrieval-and-replay-checks">B.3. Historical retrieval and replay checks</h3>
+<p>Ten fixed historical windows yielded 39,978 Mento root-address events. Zero-log windows for the other four implementations were retained. These records document event retrieval under the specified query scope. The selected replay covered five of 25 episodes and 594 RPC projections, with 594 matching stable semantic projections. A separate replay implementation and clean process were used within the same research workflow. These supporting checks concern retrieval and transcript portability.</p>
+<p>The earlier 116-instance synthetic policy workflow and the unavailable historical A/B materials remain project history outside the results used in this manuscript. Their status and the unsuccessful engineering attempts are preserved in the existing supporting records.</p>
+<h2 id="appendix-c.-deployment-anchors-and-complete-earlier-tables">Appendix C. Deployment Anchors and Complete Earlier Tables</h2>
+<h3 id="c.1.-bound-identities">C.1. Bound identities</h3>
+<p>The following anchors identify the five implementations in the later examination. Root addresses, block hashes, implementation identities and source/runtime correspondence are retained together in the binding records. Entrypoints distinguish report updates, mutating fetches, and read-only reads.</p>
+<p><strong>Table C1. Historical roots and designated entrypoints.</strong> Blocks refer to the fork anchors. Later local invocation timestamps are recorded separately with the controlled history.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Implementation</th>
+<th>Chain ID / anchor block</th>
+<th>Root</th>
+<th>Designated entrypoint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VESTA</td>
+<td>42161 / 504401544</td>
+<td>0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702</td>
+<td>fetchPrice(address)</td>
+</tr>
+<tr>
+<td>AURIGAMI</td>
+<td>1313161554 / 215607038</td>
+<td>0xC6e5185438e1730959c1eF3551059A3feC744E90</td>
+<td>getUnderlyingPrice(address)</td>
+</tr>
+<tr>
+<td>FATHOM</td>
+<td>50 / 107219710</td>
+<td>0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88</td>
+<td>peekPrice(); readPrice()</td>
+</tr>
+<tr>
+<td>MENTO</td>
+<td>42220 / 77467895</td>
+<td>0xefb84935239dacdecf7c5ba76d8de40b077b7b33</td>
+<td>report(…)</td>
+</tr>
+<tr>
+<td>FELIX</td>
+<td>999 / 45864222</td>
+<td>0x12a1868b89789900e413a6241ca9032dd1873a51</td>
+<td>fetchPrice()</td>
+</tr>
+</tbody>
+</table>
+<p>The Mento root binds implementation <code>0x93da60dcdda3229246769cce307076c181f41f72</code> and the selected feed <code>0x44D99a013a0DAdbB4C06F9Cc9397BFd3AC12b017</code>. Felix binds implementation <code>0x3e46a36debc92d845af452a6d5b3395acd21144e</code> and oracle <code>0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43</code>. Vesta’s metadata identifies PriceFeedV2 at <code>0x522808d93Ac229CEfc17c4BE0408520f7e27D26d</code>; its local source-body evidence has the qualification in Section 3.3. Fathom’s executable-runtime/source correspondence excludes compiler metadata equality. Full identity records are in the <a href="project/semantic_explanation_validation_v1/01_protocol/deployments.json">deployment ledger</a>, the <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/deployment_binding_summary/README.md">earlier binding guide</a>, and the <a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/VESTA_PRICEFEEDV2_SOURCE_BINDING_AUDIT.md">targeted source audit</a>.</p>
+<h3 id="c.2.-earlier-enforcement-classifications">C.2. Earlier enforcement classifications</h3>
+<p><strong>Table C2. All 28 earlier path-scenarios.</strong> Action columns reproduce the interpretations recorded by that study, preserving the original and derived classifications. C = compatible; I = incompatible; C* = compatible after action-classifier correction; NC = reference-binding non-comparability. Vesta action-source interpretations retain the current source-evidence qualification. Direct returns and public states used by this manuscript are identified in Section 5.3.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Retained F label</th>
+<th>Recorded derived action interpretation</th>
+<th>Original</th>
+<th>Derived</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SF00</td>
+<td>true</td>
+<td>return current product</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>SF01</td>
+<td>true</td>
+<td>return current product</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>SF02</td>
+<td>true</td>
+<td>return current product</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>SF03</td>
+<td>false</td>
+<td>revert stale price feed</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>SF04</td>
+<td>true</td>
+<td>return current product</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>SF05</td>
+<td>true</td>
+<td>return current product</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>SF06</td>
+<td>false</td>
+<td>revert stale price feed</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>SF07</td>
+<td>false</td>
+<td>revert stale price feed</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE00</td>
+<td>true</td>
+<td>return current product flag false</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE01</td>
+<td>true</td>
+<td>return current product flag false</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE02</td>
+<td>false</td>
+<td>return last good price flag true</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE03</td>
+<td>false</td>
+<td>return last good price flag true</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE04</td>
+<td>true</td>
+<td>return current product flag false</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE05</td>
+<td>false</td>
+<td>return last good price flag true</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE06</td>
+<td>false</td>
+<td>return last good price flag true</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>NE07</td>
+<td>false</td>
+<td>return last good price flag true</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE00</td>
+<td>true</td>
+<td>return current</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE01</td>
+<td>true</td>
+<td>return current</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE02</td>
+<td>true</td>
+<td>return current</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE03</td>
+<td>false</td>
+<td>return mixed current cached</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE04</td>
+<td>true</td>
+<td>return current</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE05</td>
+<td>true</td>
+<td>return current</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE06</td>
+<td>false</td>
+<td>return current</td>
+<td>I</td>
+<td>NC</td>
+</tr>
+<tr>
+<td>VE07</td>
+<td>false</td>
+<td>return mixed current cached</td>
+<td>I</td>
+<td>NC</td>
+</tr>
+<tr>
+<td>VE08</td>
+<td>false</td>
+<td>return mixed current cached</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE09</td>
+<td>false</td>
+<td>return mixed current cached</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>VE10</td>
+<td>true → false</td>
+<td>normal to degraded transition</td>
+<td>I</td>
+<td>C*</td>
+</tr>
+<tr>
+<td>VE11</td>
+<td>true</td>
+<td>degraded to recovery transition</td>
+<td>C</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<p>The two NC cases retain their original F labels as part of the analysis record. VE06/VE07 used a reference from another Vesta source variant, and their compatibility inference remains withdrawn. VE10 retains its original incompatible classification alongside the derived classifier correction. The totals are 25 unchanged C, one C*, and two NC. The <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/policy_original_results.csv">complete ledger</a> preserves the original action strings and allowed-reference fields.</p>
+<h3 id="c.3.-earlier-stateful-conditions">C.3. Earlier stateful conditions</h3>
+<p><strong>Table C3. All 27 earlier designated conditions.</strong> Returns are the complete corrected ABI tuples derived from unchanged trace bytes. NA indicates unavailable execution evidence. This table exposes observation coverage independently of the current semantic-label qualification. Each listed available return has a corresponding row in the normalized observation record.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Episode</th>
+<th>Entrypoint</th>
+<th>Complete primary return</th>
+<th>Observation status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VA0</td>
+<td>V_A</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>VA1</td>
+<td>V_A</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>VA2</td>
+<td>V_A</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>VA3</td>
+<td>V_A</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>VA4</td>
+<td>V_A</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>VB0</td>
+<td>V_B</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1200000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>VB1</td>
+<td>V_B</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1200000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>VB2</td>
+<td>V_B</td>
+<td>fetchPrice(gOHM)</td>
+<td>(1000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AA0</td>
+<td>A_A</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1000000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AA1</td>
+<td>A_A</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1000000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AA2</td>
+<td>A_A</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1000000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AA3</td>
+<td>A_A</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1000000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AA4</td>
+<td>A_A</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1000000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AB0</td>
+<td>A_B</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1200000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AB1</td>
+<td>A_B</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1000000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>AB2</td>
+<td>A_B</td>
+<td>getUnderlyingPrice(auUSDC)</td>
+<td>(1000000000000000000000000000000)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>FA0</td>
+<td>F_A</td>
+<td>peekPrice()</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>FA1</td>
+<td>F_A</td>
+<td>peekPrice()</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>FA2</td>
+<td>F_A</td>
+<td>peekPrice()</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>FA3</td>
+<td>F_A</td>
+<td>peekPrice()</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>FB0</td>
+<td>F_B</td>
+<td>peekPrice()</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>FB1</td>
+<td>F_B</td>
+<td>peekPrice()</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>FB2</td>
+<td>F_B</td>
+<td>peekPrice()</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>FC0</td>
+<td>F_C</td>
+<td>peekPrice()</td>
+<td>(27936237197953895, true)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>FC1</td>
+<td>F_C</td>
+<td>peekPrice()</td>
+<td>(27936237197953895, true)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>FC2</td>
+<td>F_C</td>
+<td>readPrice()</td>
+<td>(27936237197953895)</td>
+<td>Retained execution</td>
+</tr>
+<tr>
+<td>FC3</td>
+<td>F_C</td>
+<td>readPrice()</td>
+<td>(27936237197953895)</td>
+<td>Retained execution</td>
+</tr>
+</tbody>
+</table>
+<p>FA0–FA3 and FB0–FB2 retain historical-state/rate-limit and inherited-history failures. FC0–FC3 belong to a separately initialized boundary episode. Vesta’s public status and cache observations remain in the normalized records; richer source interpretations follow the current qualification. The unchanged raw bytes and the original duplicate-prefix decoding fields are retained with the correction in Appendix B.</p>
+<h3 id="c.4.-earlier-declared-pair-coverage">C.4. Earlier declared pair coverage</h3>
+<p><strong>Table C4. All 21 earlier pairs.</strong> The Y relation is the retained design-reference relation. Equality columns describe the saved complete return and normalized public tuples. Available public tuples differ for all 15 evaluable pairs, and the collected O3 adds zero further splits. Unavailable pairs retain their declared endpoints.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Pair</th>
+<th>Endpoints</th>
+<th>Retained reference relation</th>
+<th>O1</th>
+<th>O2</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PV01</td>
+<td>VA1/VA2</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PV02</td>
+<td>VA0/VA2</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PV03</td>
+<td>VA2/VA3</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PV04</td>
+<td>VA2/VA4</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PV05</td>
+<td>VB1/VB2</td>
+<td>different</td>
+<td>Different</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PV06</td>
+<td>VA2/VB1</td>
+<td>same enum different prehistory</td>
+<td>Different</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PA01</td>
+<td>AA1/AA2</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PA02</td>
+<td>AA0/AA2</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PA03</td>
+<td>AA2/AA3</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PA04</td>
+<td>AA3/AA4</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PA05</td>
+<td>AB0/AB1</td>
+<td>different</td>
+<td>Different</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PA06</td>
+<td>AB1/AB2</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PA07</td>
+<td>AA2/AB1</td>
+<td>same</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PF01</td>
+<td>FA0/FA1</td>
+<td>same</td>
+<td>NA</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>PF02</td>
+<td>FA1/FA2</td>
+<td>different</td>
+<td>NA</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>PF03</td>
+<td>FA2/FA3</td>
+<td>different</td>
+<td>NA</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>PF04</td>
+<td>FB0/FB1</td>
+<td>different</td>
+<td>NA</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>PF05</td>
+<td>FB1/FB2</td>
+<td>different</td>
+<td>NA</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+<tr>
+<td>PF06</td>
+<td>FC0/FC1</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PF07</td>
+<td>FC2/FC3</td>
+<td>different</td>
+<td>Equal</td>
+<td>Different</td>
+<td>Evaluable</td>
+</tr>
+<tr>
+<td>PF08</td>
+<td>FA1/FB1</td>
+<td>different</td>
+<td>NA</td>
+<td>NA</td>
+<td>Technical missingness</td>
+</tr>
+</tbody>
+</table>
+<p>PV05 and PA05 are the non-collision controls. PV06 and PA07 retain the same categorical reference relation with different histories or records. PV03’s different prior statuses explain why its public separation is specific to those histories. The <a href="project/journal_manuscript_phase/JOURNAL_V0.4_REVIEWER_SUPPLEMENT/g7_field_to_contrast_table.csv">field-to-contrast table</a> supplies literal getter values and pointers for each evaluable pair. The newer proposition qualification is reported separately in Appendix D.</p>
+<h2 id="appendix-d.-complete-follow-up-comparison-coverage">Appendix D. Complete Follow-Up Comparison Coverage</h2>
+<p><strong>Table D1. All 25 planned two-condition comparisons.</strong> A/B identify the declared endpoint conditions. Qualified means that the endpoint matches its design and all applicable nontrivial propositions have evidence support. Source-incomplete marks a design-matched Vesta endpoint with unresolved exact-source evidence. Deviation marks an actual condition different from the declared design. A qualified individual endpoint remains usable at that grain even when its pair is excluded.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Episode</th>
+<th>Declared A / B factors</th>
+<th>A</th>
+<th>B</th>
+<th>Final comparison disposition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VH1</td>
+<td>age theta minus 1 / age theta plus 1</td>
+<td>Source-incomplete</td>
+<td>Deviation</td>
+<td>Excluded from planned comparisons</td>
+</tr>
+<tr>
+<td>VH2</td>
+<td>age rejection from shared snapshot / call failure from shared snapshot</td>
+<td>Source-incomplete</td>
+<td>Source-incomplete</td>
+<td>Design-matched; source-incomplete</td>
+</tr>
+<tr>
+<td>VH3</td>
+<td>retained H / current K</td>
+<td>Source-incomplete</td>
+<td>Source-incomplete</td>
+<td>Design-matched; source-incomplete</td>
+</tr>
+<tr>
+<td>VH4</td>
+<td>long prefix untrusted / long prefix revalidated</td>
+<td>Deviation</td>
+<td>Deviation</td>
+<td>Excluded from planned comparisons</td>
+</tr>
+<tr>
+<td>VH5</td>
+<td>nuisance time a / nuisance time b</td>
+<td>Source-incomplete</td>
+<td>Source-incomplete</td>
+<td>Design-matched; source-incomplete</td>
+</tr>
+<tr>
+<td>AH1</td>
+<td>updater 2 then 1 first / aggregate completed</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>AH2</td>
+<td>age theta / age theta plus 1</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>AH3</td>
+<td>raw only / aggregate refresh</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>AH4</td>
+<td>three reporter prefix / main expired after long prefix</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>AH5</td>
+<td>backup nuisance time a / backup nuisance time b</td>
+<td>Deviation</td>
+<td>Deviation</td>
+<td>Excluded from planned comparisons</td>
+</tr>
+<tr>
+<td>FH1</td>
+<td>delay 899 / delay 900</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>FH2</td>
+<td>latest changed delayed retained / delayed promoted</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>FH3</td>
+<td>source success shared prestate / source error shared prestate</td>
+<td>Deviation</td>
+<td>Qualified</td>
+<td>Excluded from planned comparisons</td>
+</tr>
+<tr>
+<td>FH4</td>
+<td>equal value promotion 3 / equal value promotion 4</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>FH5</td>
+<td>retained age 3600 / retained age 3601</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>MH1</td>
+<td>report age 359 / report age 361</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>MH2</td>
+<td>expired invalid / new report revalidated</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>MH3</td>
+<td>equivalent rate old timestamp / equivalent rate new timestamp</td>
+<td>Deviation</td>
+<td>Qualified</td>
+<td>Excluded from planned comparisons</td>
+</tr>
+<tr>
+<td>MH4</td>
+<td>long history fresh / long history expired</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>MH5</td>
+<td>nuisance time a / nuisance time b</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>XH1</td>
+<td>healthy / stale disable</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>XH2</td>
+<td>healthy shared prestate / revert disable shared prestate</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+<tr>
+<td>XH3</td>
+<td>terminal cached first / terminal cached repeat</td>
+<td>Deviation</td>
+<td>Qualified</td>
+<td>Excluded from planned comparisons</td>
+</tr>
+<tr>
+<td>XH4</td>
+<td>healthy noncollision / cached noncollision</td>
+<td>Deviation</td>
+<td>Deviation</td>
+<td>Excluded from planned comparisons</td>
+</tr>
+<tr>
+<td>XH5</td>
+<td>nuisance time a / nuisance time b</td>
+<td>Qualified</td>
+<td>Qualified</td>
+<td>Qualified planned comparison</td>
+</tr>
+</tbody>
+</table>
+<p>This table yields 18 design-matched comparisons, including 15 with fully qualified evidence. At condition grain, 40 match design and 33 are fully qualified. The remaining qualified single endpoints are FH3B, MH3B, and XH3B. The full 50-condition record includes actual interventions and their locators in the <a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/ADDENDUM_CONDITION_FIDELITY.csv">condition audit</a>; all 250 proposition rows remain in the <a href="project/semantic_explanation_validation_v1/08_targeted_offline_closure_addendum/NONTRIVIAL_LABEL_EVIDENCE_AUDIT.csv">evidence-support table</a>.</p>
+<p>The comparison list preserves controls along with changing-state cases. AH3 and FH4 examine timestamped records within stable categorical interpretations; MH5 and XH5 retain time-shift stability. The excluded pairs remain visible beside the qualified cases, and their actual execution records are retained at the narrower descriptive scope specified by the audit.</p>
+<h2 id="retained-complete-stateful-comparison-text">Retained complete stateful comparison text</h2>
+<h2 id="stateful-findings">4. Stateful Findings</h2>
+<h3 id="reporter-acceptance-aggregate-advancement-and-source-selection-are-distinct-stages">4.1. Reporter acceptance, aggregate advancement, and source selection are distinct stages</h3>
+<p>Aurigami provides the clearest staged example. In the earlier controlled sequence, one authorized report is accepted while the aggregate remains old and the read continues to select backup. A later qualifying update refreshes the aggregate and the read selects main. The primary returned price remains equal across the sequence. Reporter records and update events explain the processing history, while the public source indicator explains the selection at read time.</p>
+<p>The sequence AA2–AA4 makes the intermediate stage observable. AA2 begins with an expired aggregate and selects backup. The AA3 prefix accepts a new reporter-1 record at timestamp 1,789,375,874. Reporter 2 remains at 1,789,368,673, and aggregate time remains 1,789,368,672. The prefix emits <code>MainFeedFail</code>, and the following read returns <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>30</mn></msup><annotation encoding="application/x-tex">10^{30}</annotation></semantics></math> with <code>isFromMainFeed=false</code>. The accepted raw record and unchanged aggregate give the event its stage-specific interpretation: report reception succeeded while the aggregation step retained the older record.</p>
+<p>In AA4, the reporter-2 timestamp advances to 1,789,375,875, aggregate time advances to 1,789,375,874, and the prefix emits <code>MainFeedSync</code>. The read now reports <code>isFromMainFeed=true</code> while returning the same <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>30</mn></msup><annotation encoding="application/x-tex">10^{30}</annotation></semantics></math>. Figure 1 places the raw records, aggregate record, and selected source beside one another. Their joint change identifies how the second report enables main selection. The public source indicator is a named return field of <code>_getRawUnderlyingPrice</code>, and the reporter/aggregate updates belong to the authorized prefix calls.</p>
+<figure>
+<img src="figures/figure_1_aurigami_stages.png" alt="Aurigami reporter, aggregate and source stages" />
+<figcaption aria-hidden="true">Aurigami reporter, aggregate and source stages</figcaption>
+</figure>
+<p><strong>Figure 1. Reporter acceptance, aggregate refresh, and read-time selection in the earlier AA2–AA4 sequence.</strong> Timestamps are seconds. All three primary reads return <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>30</mn></msup><annotation encoding="application/x-tex">10^{30}</annotation></semantics></math>. The first accepted update advances reporter 1 while the aggregate and backup selection remain unchanged; the second advances the aggregate and enables main selection. Values are preserved from the earlier field-to-contrast evidence.</p>
+<p>The qualified follow-up comparisons reproduce and refine this distinction. AH1 reverses the authorized updater order. After the first update, the primary return is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.91</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">0.91\times10^{30}</annotation></semantics></math>, and the public <code>rawUnderlying</code> source flag is false. After aggregate completion, the return remains <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.91</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">0.91\times10^{30}</annotation></semantics></math>, and the flag becomes true. The bound semantics associate these flags with backup and main selection. Thus, the same numeric result accompanies a change in selected source that is directly represented in another public field.</p>
+<p>AH2 isolates the age predicate. With a 7,200-second validity period, the read selects main at the boundary and backup one second later. Both return <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.07</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">1.07\times10^{30}</annotation></semantics></math>. The source flag changes even though the stored aggregate remains equal. This is read-time selection over persisted data: the read’s <code>updated_stage</code> and <code>state_transition</code> labels are both <code>NONE</code>.</p>
+<p>AH3 exposes a subtler distinction between reporter time and aggregate time. After a reporter update, reporter 1 has timestamp 1,789,368,672, while reporter 2 and the aggregate retain timestamp 1,789,368,670. After the subsequent update, reporter 2 reaches 1,789,368,673 and aggregate time advances to 1,789,368,672. Both primary reads return <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.31</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">1.31\times10^{30}</annotation></semantics></math> from main. These fields locate freshness at different stages of the aggregation process. The first timestamp advance describes a reporter record; the later advance describes the aggregate’s temporal state.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Comparison</th>
+<th>Stable primary observation</th>
+<th>Distinguishing public evidence</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AH1A / AH1B</td>
+<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.91</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">0.91\times10^{30}</annotation></semantics></math></td>
+<td>Source flag false / true; reporter and aggregate records</td>
+<td>Backup selection / main selection after the update prefix</td>
+</tr>
+<tr>
+<td>AH2A / AH2B</td>
+<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.07</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">1.07\times10^{30}</annotation></semantics></math></td>
+<td>Source flag true / false at 7,200 / 7,201 s</td>
+<td>Main / backup selected from the same retained aggregate</td>
+</tr>
+<tr>
+<td>AH3A / AH3B</td>
+<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.31</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">1.31\times10^{30}</annotation></semantics></math>, main selected</td>
+<td>Aggregate time 1,789,368,670 / 1,789,368,672</td>
+<td>Equal values with different aggregate publication state</td>
+</tr>
+<tr>
+<td>AH4A / AH4B</td>
+<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.91</mn><mo>×</mo><msup><mn>10</mn><mn>30</mn></msup></mrow><annotation encoding="application/x-tex">0.91\times10^{30}</annotation></semantics></math></td>
+<td>Source flag true / false after the longer reporter prefix</td>
+<td>The same selection contrast under a three-reporter history</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 3. Aurigami’s four qualified planned comparisons.</strong> Numeric values are the actual consumer-scaled returns. Reporter and aggregate updates occur in the prefix; the primary reads make no persistent transition. AH3 supports timestamp advancement and stage interpretation even though its reviewed categorical labels agree.</p>
+<p>Together, these cases show why an accepted report, a newer raw timestamp, and a main-source read answer different questions. Aurigami’s public interface exposes the distinctions through the combination of reporter records, aggregate time, and the source flag. A reader can explain the observed output by following the stages in that order.</p>
+<p>The two sequences also distinguish aggregate persistence from aggregate timestamp persistence. In AA3, the old aggregate record remains in place because the other required report is too old. In AH3, main remains selected and the aggregate time is constrained by the older reporter timestamp even after a newer raw timestamp appears. Their shared explanatory structure is the separation of processing stages, while their concrete retained records and eligibility circumstances differ. Reporting both avoids treating every raw update with an unchanged aggregate timestamp as the same execution branch.</p>
+<h3 id="retained-value-validity-and-current-input-evaluation-follow-different-conditions">4.2. Retained-value validity and current input evaluation follow different conditions</h3>
+<p>Fathom’s delayed feed separates when a record is returned, when a source is evaluated, and when records advance. FH1 places <code>peekPrice()</code> on either side of its 900-second update boundary. At 899 seconds, the call returns the delayed price with <code>true</code>, and the records remain unchanged. At 900 seconds, the source is evaluated and the delayed/latest records advance. The returned tuple is identical: <code>(27936237197953895, true)</code>.</p>
+<p>The public record timestamps locate this change. The delayed timestamp advances from 1,789,370,640 to 1,789,372,440, and the latest timestamp advances to 1,789,373,340. The retained trace confirms the <code>retrivePrice()</code> self-call on the updating execution. The first invocation’s <code>true</code> expresses the validity of the retained result. The second invocation additionally evaluates and accepts a source response. The complete return tuple therefore has a stable value and validity flag across different input-evaluation and update actions.</p>
+<p>FH2 makes delayed provenance visible through a changing price. The first invocation returns 27,936,237,197,953,895 while storing 27,422,056,278,282,322 as the latest value. The later invocation promotes that latest record and returns 27,422,056,278,282,322. Both invocations change the observed validity from false to true and update delayed/latest records. Their numeric difference follows which source window has reached the delayed stage.</p>
+<p>The equal-value promotions in FH4 complement this contrast. Successive promotions keep the returned tuple equal while delayed and latest timestamps advance. FH5 then isolates record validity through scalar <code>readPrice()</code> calls. The scalar is equal at retained ages 3,600 and 3,601 seconds; the separate <code>isPriceOk</code> and <code>isPriceFresh</code> getters change from true to false. Both scalar reads leave state unchanged and do not evaluate a source.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Comparison</th>
+<th>Return behavior</th>
+<th>Additional evidence</th>
+<th>Explained distinction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FH1A / FH1B</td>
+<td>Same <code>(price, true)</code></td>
+<td>Record timestamps, pre/post state, source-call trace</td>
+<td>Retained return / eligible source evaluation and record promotion</td>
+</tr>
+<tr>
+<td>FH2A / FH2B</td>
+<td>Different delayed prices</td>
+<td>Delayed/latest values and window timestamps</td>
+<td>Which previously obtained value has reached the delayed stage</td>
+</tr>
+<tr>
+<td>FH4A / FH4B</td>
+<td>Same <code>(price, true)</code></td>
+<td>Advancing delayed/latest timestamps</td>
+<td>Successive promotions of equal-valued records</td>
+</tr>
+<tr>
+<td>FH5A / FH5B</td>
+<td>Same scalar price</td>
+<td>Validity getters true / false</td>
+<td>Retained record crosses its validity boundary</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 4. Fathom’s four qualified planned comparisons.</strong> The complete Boolean-bearing tuple is retained for <code>peekPrice()</code>. FH5 uses the scalar <code>readPrice()</code> entrypoint, with validity observed through separate getters.</p>
+<p>Fathom consequently assigns different meanings to the return Boolean, record timestamps, and update eligibility. Reading these fields together explains both equal-value updates and validity changes. The result also makes call timing part of the explanation: a read can observe an already expired record, while an eligible updating call can restore validity by promoting records.</p>
+<figure>
+<img src="figures/figure_2_fathom_records.png" alt="Fathom retained validity and record promotion" />
+<figcaption aria-hidden="true">Fathom retained validity and record promotion</figcaption>
+</figure>
+<p><strong>Figure 2. Two temporal decisions in Fathom.</strong> The upper panel shows the qualified FH1 comparison: the complete tuple is equal at 899 and 900 seconds, while the latter invocation advances delayed/latest timestamps. The lower panel shows FH5: a read-only scalar read remains equal at ages 3,600 and 3,601 seconds, while separate validity getters change. <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>=</mo><mn>27</mn><mo>,</mo><mn>936</mn><mo>,</mo><mn>237</mn><mo>,</mo><mn>197</mn><mo>,</mo><mn>953</mn><mo>,</mo><mn>895</mn></mrow><annotation encoding="application/x-tex">P=27{,}936{,}237{,}197{,}953{,}895</annotation></semantics></math> in deployed integer units.</p>
+<p>The single qualified condition FH3B gives additional context for failure handling. Its source retrieval is rejected, the delayed record remains the return source, and the retained records do not advance. The record was already invalid at the primary invocation’s start, so the reviewed transition is <code>NONE</code>. This witness separates the failed attempt to update from the time-based condition that existed before it. FH3A did not implement its intended matching retrieval condition, so the planned success-versus-error pair is excluded from the four comparisons in Table 4.</p>
+<p>Together with the earlier FC0–FC3 boundary observations, the follow-up gives two forms of replication. The 899/900 and 3,600/3,601 contrasts repeat the temporal boundaries with explicit proposition support. FH2 and FH4 extend the explanation to changed-value and repeated equal-value promotions. These histories establish how validity, input evaluation, and retained stage relate across both equal-valued and changed-value promotions.</p>
+<h3 id="the-meaning-of-a-failure-flag-depends-on-the-invocations-place-in-history">4.3. The meaning of a failure flag depends on the invocation’s place in history</h3>
+<p>Felix provides a contrasting observation structure. In XH1, the healthy invocation returns <code>(910000000000000000, false)</code>. The age-rejected invocation returns the same price with <code>true</code>, accompanied by public disable-related events. XH2 produces the corresponding contrast for a failed oracle call at price 1,070,000,000,000,000,000. The reviewed labels distinguish current-oracle return and cache update from retained-cache return and an enabled-to-disabled transition.</p>
+<p>Here the full return tuple already distinguishes the two endpoints. The Boolean is part of the interface’s explanation and remains in the primary observation. Public events additionally locate the transition and identify the failing oracle. Contextualized storage evidence supports which target state was written.</p>
+<p>A later retained-cache read illustrates why the same flag needs invocation context. The qualified individual condition XH3B follows a legal disabling prefix and returns <code>(1310000000000000000, false)</code>. Its reviewed labels are input not evaluated, retained cache, no updated stage, and no new transition. The preceding disable history supplies the interpretation of this cached result. The false flag on that later invocation and the false flag on a healthy invocation describe their respective branches; the retained history identifies which branch was reached.</p>
+<p>XH5 supplies a stability control: time-shifted healthy conditions retain the same categorical interpretation. The qualified comparison set therefore includes two disable contrasts and one stability comparison. XH3B contributes a separately qualified execution witness because its planned partner deviated from the declared first-versus-repeat construction.</p>
+<p>The practical distinction is between observing a transition and observing a state that already exists. The first failing invocation exposes disablement through its return and events. A later invocation serves the retained value under that established state. The sequence gives a fuller explanation than treating the Boolean as a permanent classification of every subsequent price.</p>
+<p>The evidence also illustrates how observation granularity affects a comparison. Price-only projections of XH1 and XH2 are equal across healthy and failing endpoints. Their complete return tuples differ because the failure Boolean changes. For the later XH3B invocation, the retained value is supplied under an already disabled path, and the prefix provides the transition evidence. These are three distinct observations: equality of a price component, a signal within the same return, and a relevant event before the return. Keeping them separate makes the interface’s contribution visible at each step.</p>
+<h3 id="equal-rates-can-accompany-different-report-transitions">4.4. Equal rates can accompany different report transitions</h3>
+<p>Mento’s studied entrypoint updates a report. Its primary observation is successful completion; the rate and time are available through public records and events. On the bound single-reporter path, the report timestamp identifies submission time. The expiry interpretation depends on that timestamp and the time of the designated invocation.</p>
+<p>MH1 contrasts a submission while the previous report is within its configured lifetime with a submission after that lifetime. Both submit the same rate and leave a currently valid record. The reviewed transition labels distinguish <code>VALID_REFRESH</code> from <code>EXPIRED_TO_VALID</code>. The new submission timestamps differ, and the previous record plus invocation time identifies which transition occurred. MH2 and MH4 provide additional declared histories containing these transition classes.</p>
+<p>This case emphasizes that a post-call valid record describes the resulting state. Explaining whether the call refreshed an already valid report or revalidated an expired one requires the preceding record and the invocation’s time. A pre-call getter collected at an earlier fork time is interpreted at its own block; the transition is evaluated at the designated call. The analysis uses saved block evidence and the bound expiry predicate for that distinction.</p>
+<p>MH5 supplies a time-shift control in which absolute submission timestamps differ while the reviewed transition class remains <code>VALID_REFRESH</code>. Across these four qualified comparisons, report identity and transition class have separate roles. Public timestamp differences locate particular updates, while the expiry relation explains their semantic class.</p>
+<p>The distinction can be stated with the observed record time <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>u</mi><annotation encoding="application/x-tex">u</annotation></semantics></math>, configured token expiry <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>θ</mi><annotation encoding="application/x-tex">\theta</annotation></semantics></math>, and designated invocation time <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>. The implementation’s expiry predicate evaluates their relation at <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>, while a successful submission installs its new time. In the studied configuration, the token-specific expiry is 360 seconds. MH1 uses elapsed times of 359 and 361 seconds. Each submission leaves the same rate and a newly timestamped record, but the old record’s status at invocation separates routine refresh from revalidation. The saved raw block and record evidence establish these times independently of the labels used by the execution harness.</p>
+<p>Mento’s primary <code>SUCCESS</code> observation is an acknowledgment of the report operation. Public <code>medianRate</code>, <code>medianTimestamp</code>, reporter records, and receipt events carry the numeric and temporal content used in the explanation. This gives a useful comparison with the read-centered Aurigami and Fathom cases: the relevant observation point can be the update itself, and explaining its transition requires relating the new record to the previous one.</p>
+<h2 id="references">References</h2>
+<p>[Adams et al. 2020] Adams, H., Zinsmeister, N., Robinson, D.: “Uniswap v2 Core”; Technical whitepaper (March 2020). https://app.uniswap.org/whitepaper.pdf</p>
+<p>[alcueca et al. 2024] alcueca, ruvaag, totomanov, r0ohafza: “ERC-7726: Common Quote Oracle”; Draft specification (20 June 2024), accessed 13 September 2026. https://eips.ethereum.org/EIPS/eip-7726</p>
+<p>[Amsterdamer et al. 2011] Amsterdamer, Y., Deutch, D., Tannen, V.: “Provenance for Aggregate Queries”; Author manuscript, arXiv:1101.1110 (2011). https://arxiv.org/pdf/1101.1110</p>
+<p>[Angeris and Chitra 2020] Angeris, G., Chitra, T.: “Improved Price Oracles: Constant Function Market Makers”; Author manuscript, arXiv:2003.10001 (June 2020 revision). https://arxiv.org/pdf/2003.10001</p>
+<p>[Barboni et al. 2025] Barboni, M., De Angelis, G., Morichetta, A., Polini, A.: “Wielding Blockchain Transactions for Capture-Replay Testing of Upgradeable Smart Contracts”; ACM Transactions on Internet Technology (2025). doi:10.1145/3737699. https://doi.org/10.1145/3737699</p>
+<p>[Bodell et al. 2023] Bodell III, W. E., Meisami, S., Duan, Y.: “Proxy Hunting: Understanding and Characterizing Proxy-based Upgradeable Smart Contracts in Blockchains”; Proc. 32nd USENIX Security Symposium (2023), 1829–1846. https://www.usenix.org/system/files/usenixsecurity23-bodell.pdf</p>
+<p>[Chainlink n.d.] Chainlink: “Data Feeds API Reference”; Technical documentation (n.d.), accessed 13 September 2026. https://docs.chain.link/data-feeds/api-reference</p>
+<p>[ChainSecurity 2024] ChainSecurity / Decentralized Security AG: “Euler — Price Oracles”; Security assessment (2024), code received 1 and 15 May 2024. https://reports.chainsecurity.com/Euler/ChainSecurity_Euler_PriceOracles_Audit.pdf</p>
+<p>[Cheney et al. 2009] Cheney, J., Ahmed, A., Acar, U.: “Provenance as Dependency Analysis”; Author manuscript, arXiv:0708.2173 (2009 revision; first posted 2007). https://arxiv.org/pdf/0708.2173</p>
+<p>[Deng et al. 2024] Deng, X., Beillahi, S. M., Minwalla, C., Du, H., Veneris, A., Long, F.: “Safeguarding DeFi Smart Contracts against Oracle Deviations”; Proc. International Conference on Software Engineering (ICSE), 2024; author version arXiv:2401.06044. https://arxiv.org/pdf/2401.06044</p>
+<p>[Euler n.d.] Euler: “Oracle Checks”; Repository documentation (n.d.), accessed 13 September 2026. https://github.com/euler-xyz/oracle-checks</p>
+<p>[Euler Labs n.d.] Euler Labs: “Euler Price Oracles”; Repository and design whitepaper (n.d.), accessed 13 September 2026. https://github.com/euler-xyz/euler-price-oracle</p>
+<p>[Gansäuer et al. 2025] Gansäuer, R., Ben Aoun, H., Droll, J., Hartenstein, H.: “Price Oracle Accuracy Across Blockchains: A Measurement and Analysis”; CAAW 2025, conference-hosted public paper version. https://caaw.io/2025/papers/CAAW25_paper_22.pdf</p>
+<p>[Liquity n.d.] Liquity: “Liquity v1: PriceFeed and Oracle; PriceFeed Logic; PriceFeed Limitations and Known Issues”; Technical documentation (n.d.), accessed 13 September 2026. https://github.com/liquity/dev#pricefeed-and-oracle</p>
+<p>[Liu et al. 2020] Liu, B., Szalachowski, P., Zhou, J.: “A First Look into DeFi Oracles”; Author manuscript, arXiv:2005.04377 (2020; revised 2021). https://arxiv.org/pdf/2005.04377</p>
+<p>[Liu et al. 2024] Liu, Y., Li, S., Wu, X., Li, Y., Chen, Z., Lo, D.: “Demystifying the Characteristics for Smart Contract Upgrades”; Author manuscript, arXiv:2406.05712 (2024). https://arxiv.org/pdf/2406.05712</p>
+<p>[MakerDAO n.d.] MakerDAO: “Oracle Security Module (OSM)”; Repository documentation and source (n.d.), accessed 13 September 2026. https://github.com/makerdao/osm</p>
+<p>[Nottingham 2010] Nottingham, M.: “HTTP Cache-Control Extensions for Stale Content”; RFC 5861 (May 2010). https://www.rfc-editor.org/rfc/rfc5861.html</p>
+<p>[Wang et al. 2021] Wang, S.-H., Wu, C.-C., Liang, Y.-C., Hsieh, L.-H., Hsiao, H.-C.: “ProMutator: Detecting Vulnerable Price Oracles in DeFi by Mutated Transactions”; Proc. IEEE European Symposium on Security and Privacy Workshops (2021), 380–385. doi:10.1109/EuroSPW54576.2021.00047. https://doi.org/10.1109/EuroSPW54576.2021.00047</p>
+<p>[Yates et al. 2020] Yates, R. D., Sun, Y., Brown III, D. R., Kaul, S. K., Modiano, E., Ulukus, S.: “Age of Information: An Introduction and Survey”; Author manuscript, arXiv:2007.08564 (2020). https://arxiv.org/pdf/2007.08564</p>
+</body>
+</html>

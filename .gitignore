@@ -1,0 +1,12 @@
+# Local generated files only. The distributed evidence is tracked.
+__pycache__/
+.pytest_cache/
+node_modules/
+.venv/
+.env
+.env.*
+*.pyc
+*.pyo
+*.swp
+Thumbs.db
+.DS_Store

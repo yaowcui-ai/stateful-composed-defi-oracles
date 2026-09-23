@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="653.4pt" height="388.728pt" viewBox="0 0 653.4 388.728" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-15T13:08:04.523484</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.728 
+L 653.4 388.728 
+L 653.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 8.64 74.014848 
+L 116.7804 74.014848 
+L 116.7804 16.06896 
+L 8.64 16.06896 
+z
+" style="fill: #eaf2f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="fill: #182838; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="62.7102" y="47.525341" transform="rotate(-0 62.7102 47.525341)">Path / pair</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 116.7804 74.014848 
+L 224.9208 74.014848 
+L 224.9208 16.06896 
+L 116.7804 16.06896 
+z
+" style="fill: #eaf2f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="fill: #182838; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="170.8506" y="47.525341" transform="rotate(-0 170.8506 47.525341)">Same complete O1</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 224.9208 74.014848 
+L 434.8404 74.014848 
+L 434.8404 16.06896 
+L 224.9208 16.06896 
+z
+" style="fill: #eaf2f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="fill: #182838; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="329.8806" y="47.525341" transform="rotate(-0 329.8806 47.525341)">Execution A: public context</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 434.8404 74.014848 
+L 644.76 74.014848 
+L 644.76 16.06896 
+L 434.8404 16.06896 
+z
+" style="fill: #eaf2f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="fill: #182838; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="539.8002" y="47.525341" transform="rotate(-0 539.8002 47.525341)">Execution B: public context</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 8.64 131.960736 
+L 116.7804 131.960736 
+L 116.7804 74.014848 
+L 8.64 74.014848 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 100.432214)">Vesta</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 110.510245)">VA1 / VA2</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 116.7804 131.960736 
+L 224.9208 131.960736 
+L 224.9208 74.014848 
+L 116.7804 74.014848 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font: 9px 'DejaVu Sans'; text-anchor: start" x="123.809526" y="105.471229" transform="rotate(-0 123.809526 105.471229)">(10¹⁸)</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 224.9208 131.960736 
+L 434.8404 131.960736 
+L 434.8404 74.014848 
+L 224.9208 74.014848 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 100.432214)">status: 0 → 0</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 110.510245)">current price × current index</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 434.8404 131.960736 
+L 644.76 131.960736 
+L 644.76 74.014848 
+L 434.8404 74.014848 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 100.432214)">status: 0 → 1</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 110.510245)">cached price × current index</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 8.64 189.906624 
+L 116.7804 189.906624 
+L 116.7804 131.960736 
+L 8.64 131.960736 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 158.378102)">Aurigami</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 168.456133)">AA1 / AA2</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 116.7804 189.906624 
+L 224.9208 189.906624 
+L 224.9208 131.960736 
+L 116.7804 131.960736 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font: 9px 'DejaVu Sans'; text-anchor: start" x="123.809526" y="163.417118" transform="rotate(-0 123.809526 163.417118)">(10³⁰)</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 224.9208 189.906624 
+L 434.8404 189.906624 
+L 434.8404 131.960736 
+L 224.9208 131.960736 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 158.378102)">isFromMainFeed = true</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 168.456133)">main selected</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 434.8404 189.906624 
+L 644.76 189.906624 
+L 644.76 131.960736 
+L 434.8404 131.960736 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 158.378102)">isFromMainFeed = false</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 168.456133)">backup selected</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 8.64 247.852512 
+L 116.7804 247.852512 
+L 116.7804 189.906624 
+L 8.64 189.906624 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 216.32399)">Fathom</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 226.402021)">FC0 / FC1</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 116.7804 247.852512 
+L 224.9208 247.852512 
+L 224.9208 189.906624 
+L 116.7804 189.906624 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font: 9px 'DejaVu Sans'; text-anchor: start" x="123.809526" y="221.363006" transform="rotate(-0 123.809526 221.363006)">(P, true)</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 224.9208 247.852512 
+L 434.8404 247.852512 
+L 434.8404 189.906624 
+L 224.9208 189.906624 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 216.32399)">delayed.timestamp = 1789370640</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 226.402021)">latest.timestamp = 1789372440</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 434.8404 247.852512 
+L 644.76 247.852512 
+L 644.76 189.906624 
+L 434.8404 189.906624 
+z
+" style="fill: #ffffff; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 216.32399)">delayed.timestamp = 1789372440</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 226.402021)">latest.timestamp = 1789373340</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 8.64 305.7984 
+L 116.7804 305.7984 
+L 116.7804 247.852512 
+L 8.64 247.852512 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 274.269878)">Fathom</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(15.669126 284.347909)">FC2 / FC3</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 116.7804 305.7984 
+L 224.9208 305.7984 
+L 224.9208 247.852512 
+L 116.7804 247.852512 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font: 9px 'DejaVu Sans'; text-anchor: start" x="123.809526" y="279.308894" transform="rotate(-0 123.809526 279.308894)">(P)</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 224.9208 305.7984 
+L 434.8404 305.7984 
+L 434.8404 247.852512 
+L 224.9208 247.852512 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 274.269878)">isPriceFresh = true</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(238.565574 284.347909)">isPriceOk = true</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 434.8404 305.7984 
+L 644.76 305.7984 
+L 644.76 247.852512 
+L 434.8404 247.852512 
+z
+" style="fill: #f3f5f6; stroke: #cbd3d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 274.269878)">isPriceFresh = false</text>
+     <text style="font: 9px 'DejaVu Sans'" transform="translate(448.485174 284.347909)">isPriceOk = false</text>
+    </g>
+   </g>
+   <g id="text_21">
+    <text style="fill: #5a6670; font: 9px 'DejaVu Sans'; text-anchor: start" x="8.64" y="333.657" transform="rotate(-0 8.64 333.657)">P = 27936237197953895. Integer values use the deployed scaling; they are not cross-path price comparisons.</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #5a6670; font: 9px 'DejaVu Sans'; text-anchor: start" x="8.64" y="352.2294" transform="rotate(-0 8.64 352.2294)">Vesta provenance follows bound semantics plus cache/status witnesses. These are local contrasts, not one shared state machine.</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #5a6670; font: 9px 'DejaVu Sans'; text-anchor: start" x="8.64" y="370.8018" transform="rotate(-0 8.64 370.8018)">Fathom evidence is limited to FC0–FC3; the six planned pairs involving its unavailable history/failure arms remain NC.</text>
+   </g>
+  </g>
+ </g>
+</svg>

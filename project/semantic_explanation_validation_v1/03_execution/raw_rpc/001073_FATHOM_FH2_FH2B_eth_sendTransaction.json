@@ -1,0 +1,21 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1073,
+    "method": "eth_sendTransaction",
+    "params": [
+      {
+        "from": "0x000000000000000000000000000000000000bEEF",
+        "to": "0x951857744785e80e2de051c32ee7b25f9c458c42",
+        "data": "0xd0e30db0",
+        "value": "0x9835c27fa5d472f6d4",
+        "gas": "0x1c9c380"
+      }
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1073,
+    "result": "0x3e20a0d541e304491449f718306ddfc8f63fabc23126d695dd7ebebb6aa59c7d"
+  }
+}

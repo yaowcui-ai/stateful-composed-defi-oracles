@@ -1,0 +1,42 @@
+{
+  "schema": "independent-reproduction-selection-v1",
+  "status": "FROZEN_BY_PREDECLARED_RULE",
+  "rule": "lowest sha256(episode_id) within each implementation; one episode per implementation gives 5/25 = 20% coverage repair",
+  "selected": [
+    {
+      "episode_id": "AH5",
+      "implementation": "AURIGAMI",
+      "split": "VALIDATION",
+      "history": "nuisance-shifted equivalent backup path",
+      "sha256": "305fd93fab34cf23a684a828051a97eeae2bd12fa08463cda75253359d4d788a"
+    },
+    {
+      "episode_id": "FH4",
+      "implementation": "FATHOM",
+      "split": "VALIDATION",
+      "history": "longer equal-value promotion history",
+      "sha256": "1c347a35f33c06831da2887cd0b94c5085fbe90de1c28a5dc219c00f61f75e38"
+    },
+    {
+      "episode_id": "XH3",
+      "implementation": "FELIX",
+      "split": "VALIDATION",
+      "history": "terminal cached repeat",
+      "sha256": "3a3c61c183ff936162e542fe285d3bed6e3a4a0372489e9b1159d2fe34959f76"
+    },
+    {
+      "episode_id": "MH1",
+      "implementation": "MENTO",
+      "split": "VALIDATION",
+      "history": "fresh to inclusive expiry boundary",
+      "sha256": "9d37112ca6693432cbb3508c9e15b5ebf1b242a719f1a011310c0da923f54e27"
+    },
+    {
+      "episode_id": "VH1",
+      "implementation": "VESTA",
+      "split": "VALIDATION",
+      "history": "K cache then matched age boundary",
+      "sha256": "13f1295311be6a84a89aa3a263b042850f7e39fe45d7321b76c68069bbcab131"
+    }
+  ]
+}

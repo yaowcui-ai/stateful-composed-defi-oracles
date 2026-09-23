@@ -1,0 +1,19 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 2097,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0xefb84935239dacdecf7c5ba76d8de40b077b7b33",
+        "data": "0xffe736bf00000000000000000000000044d99a013a0dadbb4c06f9cc9397bfd3ac12b017"
+      },
+      "latest"
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 2097,
+    "result": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001485c0e710ff9ef059834f42b312f10e7af823bd"
+  }
+}

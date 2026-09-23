@@ -1,0 +1,15 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1201,
+    "method": "evm_setNextBlockTimestamp",
+    "params": [
+      1789369081
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1201,
+    "result": "1789369081"
+  }
+}

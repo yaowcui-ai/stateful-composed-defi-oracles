@@ -1,0 +1,34 @@
+{
+  "schema": "reference-adjudication-v1",
+  "mismatches": [
+    {
+      "condition_id": "VH1B",
+      "proposition": "input_acceptance",
+      "predicted": "REJECTED",
+      "witnessed": "ACCEPTED",
+      "classification": "REFERENCE_ERROR"
+    },
+    {
+      "condition_id": "VH1B",
+      "proposition": "return_source",
+      "predicted": "RETAINED_CACHE",
+      "witnessed": "CURRENT_INPUT",
+      "classification": "REFERENCE_ERROR"
+    },
+    {
+      "condition_id": "VH1B",
+      "proposition": "updated_stage",
+      "predicted": "STATUS_AND_CACHE",
+      "witnessed": "CACHE",
+      "classification": "REFERENCE_ERROR"
+    },
+    {
+      "condition_id": "VH1B",
+      "proposition": "state_transition",
+      "predicted": "HEALTHY_TO_UNTRUSTED",
+      "witnessed": "NONE",
+      "classification": "REFERENCE_ERROR"
+    }
+  ],
+  "policy": "mismatches retained and adjudicated by independent execution witnesses"
+}

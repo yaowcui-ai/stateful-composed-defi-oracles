@@ -1,0 +1,561 @@
+{
+  "schema": "natural-history-summary-v1",
+  "status": "COMPLETE_WITH_RETAINED_MISSINGNESS",
+  "window_count": 10,
+  "complete_windows": 4,
+  "total_root_logs": 654,
+  "controlled_topic_matches": 654,
+  "results": [
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "VESTA",
+      "window_id": "W1",
+      "id": "W1",
+      "startTimestamp": 1788008400,
+      "endTimestamp": 1788613199,
+      "fromBlock": 499611512,
+      "toBlock": 502008172,
+      "root": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+      "retrieval_endpoint": "https://arb1.arbitrum.io/rpc",
+      "transport_override": true,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [
+        "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e",
+        "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+        "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963"
+      ],
+      "topic_counts": {},
+      "retrieval_errors": [],
+      "complete": true,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "VESTA",
+      "window_id": "W2",
+      "id": "W2",
+      "startTimestamp": 1788613200,
+      "endTimestamp": 1789217999,
+      "fromBlock": 502008173,
+      "toBlock": 504401540,
+      "root": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+      "retrieval_endpoint": "https://arb1.arbitrum.io/rpc",
+      "transport_override": true,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [
+        "0x5c57579a8214fe4f710c1c56fa829f045b9fa6d225a744225a30c32188064d4e",
+        "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+        "0x9a696fe6a955b23852e2b245b6847dfda7d8944623d9b42628e087344ad17963"
+      ],
+      "topic_counts": {},
+      "retrieval_errors": [],
+      "complete": true,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "AURIGAMI",
+      "window_id": "W1",
+      "id": "W1",
+      "startTimestamp": 1788159062,
+      "endTimestamp": 1788763861,
+      "fromBlock": 213661905,
+      "toBlock": 214629681,
+      "root": "0xC6e5185438e1730959c1eF3551059A3feC744E90",
+      "retrieval_endpoint": "https://mainnet.aurora.dev",
+      "transport_override": false,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [],
+      "topic_counts": {},
+      "retrieval_errors": [],
+      "complete": true,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "AURIGAMI",
+      "window_id": "W2",
+      "id": "W2",
+      "startTimestamp": 1788763862,
+      "endTimestamp": 1789368661,
+      "fromBlock": 214629682,
+      "toBlock": 215607037,
+      "root": "0xC6e5185438e1730959c1eF3551059A3feC744E90",
+      "retrieval_endpoint": "https://mainnet.aurora.dev",
+      "transport_override": false,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [],
+      "topic_counts": {},
+      "retrieval_errors": [],
+      "complete": true,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "FATHOM",
+      "window_id": "W1",
+      "id": "W1",
+      "startTimestamp": 1788159074,
+      "endTimestamp": 1788763873,
+      "fromBlock": 106669979,
+      "toBlock": 106939929,
+      "root": "0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88",
+      "retrieval_endpoint": "https://xdc.public-rpc.com",
+      "transport_override": false,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [
+        "0x1dad06f9b840665ab0cfae3caef238945679f3e2123bdcc11b1612a94c22d470"
+      ],
+      "topic_counts": {},
+      "retrieval_errors": [
+        {
+          "fromBlock": 106669979,
+          "toBlock": 106719978,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 106719979,
+          "toBlock": 106769978,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 106769979,
+          "toBlock": 106819978,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 106819979,
+          "toBlock": 106869978,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 106869979,
+          "toBlock": 106919978,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 106919979,
+          "toBlock": 106939929,
+          "error": "Error: Block range is too large"
+        }
+      ],
+      "complete": false,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "FATHOM",
+      "window_id": "W2",
+      "id": "W2",
+      "startTimestamp": 1788763874,
+      "endTimestamp": 1789368673,
+      "fromBlock": 106939930,
+      "toBlock": 107219709,
+      "root": "0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88",
+      "retrieval_endpoint": "https://xdc.public-rpc.com",
+      "transport_override": false,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [
+        "0x1dad06f9b840665ab0cfae3caef238945679f3e2123bdcc11b1612a94c22d470"
+      ],
+      "topic_counts": {},
+      "retrieval_errors": [
+        {
+          "fromBlock": 106939930,
+          "toBlock": 106989929,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 106989930,
+          "toBlock": 107039929,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 107039930,
+          "toBlock": 107089929,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 107089930,
+          "toBlock": 107139929,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 107139930,
+          "toBlock": 107189929,
+          "error": "Error: Block range is too large"
+        },
+        {
+          "fromBlock": 107189930,
+          "toBlock": 107219709,
+          "error": "Error: Block range is too large"
+        }
+      ],
+      "complete": false,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "MENTO",
+      "window_id": "W1",
+      "id": "W1",
+      "startTimestamp": 1788159053,
+      "endTimestamp": 1788763852,
+      "fromBlock": 76258295,
+      "toBlock": 76863094,
+      "root": "0xefb84935239dacdecf7c5ba76d8de40b077b7b33",
+      "retrieval_endpoint": "https://forno.celo.org",
+      "transport_override": false,
+      "log_count": 654,
+      "controlled_event_topic_count": 654,
+      "controlled_event_topics": [
+        "0x636207d0069f1a3500c8d1676c804bc9d9a9d27e9add85139022a1757edf5522",
+        "0x7cebb17173a9ed273d2b7538f64395c0ebf352ff743f1cf8ce66b437a6144213",
+        "0xa9981ebfc3b766a742486e898f54959b050a66006dbce1a4155c1f84a08bcf41"
+      ],
+      "topic_counts": {
+        "0x7cebb17173a9ed273d2b7538f64395c0ebf352ff743f1cf8ce66b437a6144213": 370,
+        "0xa9981ebfc3b766a742486e898f54959b050a66006dbce1a4155c1f84a08bcf41": 284
+      },
+      "retrieval_errors": [
+        {
+          "fromBlock": 76258295,
+          "toBlock": 76308294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76308295,
+          "toBlock": 76358294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76358295,
+          "toBlock": 76408294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76408295,
+          "toBlock": 76458294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76458295,
+          "toBlock": 76508294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76508295,
+          "toBlock": 76558294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76558295,
+          "toBlock": 76608294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76608295,
+          "toBlock": 76658294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76658295,
+          "toBlock": 76708294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76708295,
+          "toBlock": 76758294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76758295,
+          "toBlock": 76808294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76808295,
+          "toBlock": 76858294,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        }
+      ],
+      "complete": false,
+      "semantic_scope": "actual root-emitted public history; pure reads and internal calls without root logs remain unobserved"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "MENTO",
+      "window_id": "W2",
+      "id": "W2",
+      "startTimestamp": 1788763853,
+      "endTimestamp": 1789368652,
+      "fromBlock": 76863095,
+      "toBlock": 77467894,
+      "root": "0xefb84935239dacdecf7c5ba76d8de40b077b7b33",
+      "retrieval_endpoint": "https://forno.celo.org",
+      "transport_override": false,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [
+        "0x636207d0069f1a3500c8d1676c804bc9d9a9d27e9add85139022a1757edf5522",
+        "0x7cebb17173a9ed273d2b7538f64395c0ebf352ff743f1cf8ce66b437a6144213",
+        "0xa9981ebfc3b766a742486e898f54959b050a66006dbce1a4155c1f84a08bcf41"
+      ],
+      "topic_counts": {},
+      "retrieval_errors": [
+        {
+          "fromBlock": 76863095,
+          "toBlock": 76913094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76913095,
+          "toBlock": 76963094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 76963095,
+          "toBlock": 77013094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77013095,
+          "toBlock": 77063094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77063095,
+          "toBlock": 77113094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77113095,
+          "toBlock": 77163094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77163095,
+          "toBlock": 77213094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77213095,
+          "toBlock": 77263094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77263095,
+          "toBlock": 77313094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77313095,
+          "toBlock": 77363094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77363095,
+          "toBlock": 77413094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        },
+        {
+          "fromBlock": 77413095,
+          "toBlock": 77463094,
+          "error": "Error: query exceeds range, retry smaller (max block range 5000, got 49999)"
+        }
+      ],
+      "complete": false,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "FELIX",
+      "window_id": "W1",
+      "id": "W1",
+      "startTimestamp": 1788159116,
+      "endTimestamp": 1788763915,
+      "fromBlock": 44634598,
+      "toBlock": 45249414,
+      "root": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+      "retrieval_endpoint": "https://rpc.hyperliquid.xyz/evm",
+      "transport_override": false,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [
+        "0xbc6a72aabe3f2b93b4e83572c36881d8379588e52b1b3c66610a8595ce2c734d",
+        "0xfc1b56fc12ab7492f5ab7cd660ca9975437183eaeaf0c49716ef6a83b8dfdeab"
+      ],
+      "topic_counts": {},
+      "retrieval_errors": [
+        {
+          "fromBlock": 44634598,
+          "toBlock": 44684597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 44684598,
+          "toBlock": 44734597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 44734598,
+          "toBlock": 44784597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 44784598,
+          "toBlock": 44834597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 44834598,
+          "toBlock": 44884597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 44884598,
+          "toBlock": 44934597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 44934598,
+          "toBlock": 44984597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 44984598,
+          "toBlock": 45034597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45034598,
+          "toBlock": 45084597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45084598,
+          "toBlock": 45134597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45134598,
+          "toBlock": 45184597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45184598,
+          "toBlock": 45234597,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45234598,
+          "toBlock": 45249414,
+          "error": "Error: query exceeds max block range 1000"
+        }
+      ],
+      "complete": false,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    },
+    {
+      "schema": "natural-history-window-result-v1",
+      "implementation": "FELIX",
+      "window_id": "W2",
+      "id": "W2",
+      "startTimestamp": 1788763916,
+      "endTimestamp": 1789368715,
+      "fromBlock": 45249415,
+      "toBlock": 45864221,
+      "root": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+      "retrieval_endpoint": "https://rpc.hyperliquid.xyz/evm",
+      "transport_override": false,
+      "log_count": 0,
+      "controlled_event_topic_count": 0,
+      "controlled_event_topics": [
+        "0xbc6a72aabe3f2b93b4e83572c36881d8379588e52b1b3c66610a8595ce2c734d",
+        "0xfc1b56fc12ab7492f5ab7cd660ca9975437183eaeaf0c49716ef6a83b8dfdeab"
+      ],
+      "topic_counts": {},
+      "retrieval_errors": [
+        {
+          "fromBlock": 45249415,
+          "toBlock": 45299414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45299415,
+          "toBlock": 45349414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45349415,
+          "toBlock": 45399414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45399415,
+          "toBlock": 45449414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45449415,
+          "toBlock": 45499414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45499415,
+          "toBlock": 45549414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45549415,
+          "toBlock": 45599414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45599415,
+          "toBlock": 45649414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45649415,
+          "toBlock": 45699414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45699415,
+          "toBlock": 45749414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45749415,
+          "toBlock": 45799414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45799415,
+          "toBlock": 45849414,
+          "error": "Error: query exceeds max block range 1000"
+        },
+        {
+          "fromBlock": 45849415,
+          "toBlock": 45864221,
+          "error": "Error: query exceeds max block range 1000"
+        }
+      ],
+      "complete": false,
+      "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+    }
+  ],
+  "limitations": [
+    "Address-filtered logs do not reveal pure eth_call invocations.",
+    "Transactions with internal target calls but no root-emitted log are not enumerated.",
+    "Counterfactual reads were not counted as production calls.",
+    "Empty windows were not moved or replaced."
+  ]
+}

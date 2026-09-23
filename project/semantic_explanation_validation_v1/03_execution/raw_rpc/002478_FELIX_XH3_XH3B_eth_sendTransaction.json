@@ -1,0 +1,20 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 2478,
+    "method": "eth_sendTransaction",
+    "params": [
+      {
+        "from": "0x000000000000000000000000000000000000bEEF",
+        "to": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+        "data": "0x0fdb11cf",
+        "gas": "0x1c9c380"
+      }
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 2478,
+    "result": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "schema": "semantic-heldout-observation-v1",
+  "condition_id": "FH5A",
+  "episode_id": "FH5",
+  "implementation": "FATHOM",
+  "ordinal": 0,
+  "factor": "retained_age_3600",
+  "value": "1070000000000000000",
+  "replacement_allowed": false,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "started_at": "2026-09-15T10:51:33.557Z",
+  "completed_at": "2026-09-15T10:51:35.573Z",
+  "full": {
+    "return": [
+      "27936237197953895"
+    ],
+    "post_public": {
+      "delayedPrice": [
+        "27936237197953895",
+        "1789370640"
+      ],
+      "latestPrice": [
+        "27936237197953895",
+        "1789372440"
+      ],
+      "lastUpdateTS": [
+        "1789372440"
+      ],
+      "timeDelay": [
+        "900"
+      ],
+      "priceLife": [
+        "3600"
+      ],
+      "isPriceOk": [
+        true
+      ],
+      "isPriceFresh": [
+        true
+      ],
+      "readPrice": [
+        "27936237197953895"
+      ]
+    },
+    "pre_public": {
+      "delayedPrice": [
+        "27936237197953895",
+        "1789370640"
+      ],
+      "latestPrice": [
+        "27936237197953895",
+        "1789372440"
+      ],
+      "lastUpdateTS": [
+        "1789372440"
+      ],
+      "timeDelay": [
+        "900"
+      ],
+      "priceLife": [
+        "3600"
+      ],
+      "isPriceOk": [
+        true
+      ],
+      "isPriceFresh": [
+        true
+      ],
+      "readPrice": [
+        "27936237197953895"
+      ]
+    },
+    "public_history": [],
+    "trace": {
+      "file": "traces/FH5A.json",
+      "failed": false,
+      "gas": 30741
+    },
+    "non_abi_storage": {}
+  },
+  "layers": {
+    "R": {
+      "return": [
+        "27936237197953895"
+      ]
+    },
+    "P": {
+      "return": [
+        "27936237197953895"
+      ],
+      "post_public": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ]
+      }
+    },
+    "H": {
+      "return": [
+        "27936237197953895"
+      ],
+      "post_public": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ]
+      },
+      "pre_public": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ]
+      },
+      "public_history": []
+    },
+    "X": {
+      "return": [
+        "27936237197953895"
+      ],
+      "post_public": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ]
+      },
+      "pre_public": {
+        "delayedPrice": [
+          "27936237197953895",
+          "1789370640"
+        ],
+        "latestPrice": [
+          "27936237197953895",
+          "1789372440"
+        ],
+        "lastUpdateTS": [
+          "1789372440"
+        ],
+        "timeDelay": [
+          "900"
+        ],
+        "priceLife": [
+          "3600"
+        ],
+        "isPriceOk": [
+          true
+        ],
+        "isPriceFresh": [
+          true
+        ],
+        "readPrice": [
+          "27936237197953895"
+        ]
+      },
+      "public_history": [],
+      "trace": {
+        "file": "traces/FH5A.json",
+        "failed": false,
+        "gas": 30741
+      },
+      "non_abi_storage": {}
+    }
+  },
+  "tx_hash": "NA",
+  "block_number": 107219743
+}

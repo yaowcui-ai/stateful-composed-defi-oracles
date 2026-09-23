@@ -1,0 +1,122 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "AB2",
+  "implementation": "AURIGAMI_REPORTER_AGGREGATION_FALLBACK",
+  "episode": "A_B",
+  "ordinal": 2,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "history_integrity": true,
+  "reference_file": "reference/AB2.json",
+  "pre": {
+    "raw1": [
+      "100000000",
+      "1789375874"
+    ],
+    "raw2": [
+      "100000000",
+      "1789375875"
+    ],
+    "raw3": [
+      "99996246",
+      "1696646447"
+    ],
+    "main": [
+      "100000000",
+      "6",
+      "1789375874"
+    ],
+    "backup": [
+      "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+    ],
+    "validPeriod": [
+      "7200"
+    ],
+    "futureTolerance": [
+      "3"
+    ],
+    "rawUnderlying": [
+      "100000000",
+      "1789375874",
+      true
+    ]
+  },
+  "O1": {
+    "raw_return": "0x0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000",
+    "decoded": {
+      "decode_error": "TypeError: invalid BytesLike value (argument=\"value\", value=\"0x0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000\", code=INVALID_ARGUMENT, version=6.15.0)",
+      "raw": "0x0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000"
+    },
+    "reverted": false
+  },
+  "post": {
+    "raw1": [
+      "100000000",
+      "1789375874"
+    ],
+    "raw2": [
+      "100000000",
+      "1789375875"
+    ],
+    "raw3": [
+      "99996246",
+      "1696646447"
+    ],
+    "main": [
+      "100000000",
+      "6",
+      "1789375874"
+    ],
+    "backup": [
+      "0xa1E2BcCeD2556249B74a87c673f521D19fe6B644"
+    ],
+    "validPeriod": [
+      "7200"
+    ],
+    "futureTolerance": [
+      "3"
+    ],
+    "rawUnderlying": [
+      "100000000",
+      "1789375874",
+      true
+    ]
+  },
+  "events": [
+    {
+      "address": "0xc6e5185438e1730959c1ef3551059a3fec744e90",
+      "topics": [
+        "0x08715290864ad7454226834e42c0a556570b46d883d377ff1489ff3d52b3176c",
+        "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+        "0x000000000000000000000000f2b7e347ca4ec2a0f139b1d3073d679911295a2a"
+      ],
+      "data": "0x",
+      "transactionHash": "0x619d3ded21f5fb22d0d0d4847fd91d46eea0bed87ee47ff6fc71a7bb0871e95a",
+      "blockHash": "0xaa7771c50691fb3655abf171a074a1411e496e41efb4da16aebc9eb94811900b",
+      "blockNumber": "0xcd9e702",
+      "logIndex": "0x0",
+      "transactionIndex": "0x0",
+      "removed": false
+    },
+    {
+      "address": "0xc6e5185438e1730959c1ef3551059a3fec744e90",
+      "topics": [
+        "0x2d452398cb8bb9e5cdadeaabfe0a5d66bf83abdf317ed5633a64528f5bee7458",
+        "0x0000000000000000000000004f0d864b1abf4b701799a0b30b57a22dfeb5917b",
+        "0x0000000000000000000000000000000000000000000000000000000005f5e100",
+        "0x000000000000000000000000b3072378821cdafac340bf18a0fbf15c72feb83b"
+      ],
+      "data": "0x",
+      "transactionHash": "0xf37004bccaad1a85c696d9d5d752ab61381120b9966759afc7de215d2f8c1c78",
+      "blockHash": "0xa59197c5de13bdd0a47a0d2f453cf2ab05c00829ea2ff79e8d2a6d5fb47cf0ad",
+      "blockNumber": "0xcd9e703",
+      "logIndex": "0x0",
+      "transactionIndex": "0x0",
+      "removed": false
+    }
+  ],
+  "trace": "traces/AB2.json",
+  "tx_hash": "NA",
+  "block_number": 215607043
+}

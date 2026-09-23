@@ -1,0 +1,93 @@
+{
+  "status": "SEALED",
+  "schema": "g7-derived-analysis-lock-v1",
+  "counts": {
+    "planned_conditions": 27,
+    "valid_execution_records": 20,
+    "technical_noncomparable": 7,
+    "predeclared_pairs": 21,
+    "evaluable_pairs": 15,
+    "noncomparable_pairs": 6,
+    "different_Y_evaluable": 13,
+    "O1_collisions_among_different_Y": 11,
+    "noncollision_different_Y_controls": 2,
+    "O2_informative_splits": 11,
+    "O3_additional_splits": 0
+  },
+  "O1": "FULL_RETURN_TUPLE_AS_FROZEN_IN_G4",
+  "evidence": "DERIVED_RESULT_FROM_FROZEN_G6",
+  "correction": "DUPLICATE_HEX_PREFIX_ANALYSIS_ONLY",
+  "reference_scope": "Predeclared source/schedule labels, not an independently executed complete simulator",
+  "lineage_scope": "BOUNDED_PUBLIC_PROVENANCE",
+  "files": [
+    {
+      "path": "build_g7_derived_analysis.py",
+      "sha256": "08542f7669d2119d1fc47c1576e13d442ee0dca63e9487fd02378c8a13593f14"
+    },
+    {
+      "path": "G7_CONDITION_LEVEL_ADJUDICATION.csv",
+      "sha256": "4ad87c8c291445bdc16443f070ff92494ac884b398031a4e07221710da7981dd"
+    },
+    {
+      "path": "G7_DERIVATION_VERIFICATION.json",
+      "sha256": "9e5a086bb7adcb88eeb083b4c7658db3babf0897d556af3174f41a219867bf1b"
+    },
+    {
+      "path": "G7_INPUT_PROTECTION_BASELINE.csv",
+      "sha256": "c31d7ac5ea5430388575c20f94f79114a2489e74531f7b98f246cb03055fd94f"
+    },
+    {
+      "path": "G7_MISSINGNESS_AND_NONCOMPARABILITY.md",
+      "sha256": "585de410d15bc46809510cd7ae81e2e0f408d8b3d5fbcc3c34609bd3f9445d22"
+    },
+    {
+      "path": "G7_NORMALIZED_OBSERVATIONS.json",
+      "sha256": "6a847164d150c3e3dee878dc4e32b4477b063b34c4802d6e5a58e8e088d3ba0e"
+    },
+    {
+      "path": "G7_NUISANCE_CONTROL_RESULTS.md",
+      "sha256": "e58114d2401ec3a6c278adeb56fa425457c4ebfc5cf1dd0d3bb157836b36da6f"
+    },
+    {
+      "path": "G7_O1_PARTITIONS.csv",
+      "sha256": "71e4a03efe13a3f19279927aa6e51b5035223436d569d6737ca90575252639ca"
+    },
+    {
+      "path": "G7_O2_PARTITIONS.csv",
+      "sha256": "2364e5f5cfe024a8769d740ee84e565cd200ed07e62dcc68b5504079fc0e3794"
+    },
+    {
+      "path": "G7_O3_PARTITIONS.csv",
+      "sha256": "092a89452c11c64311add67532e65ad5031ef4c7b5efb7c1f63efbddb3a8bd22"
+    },
+    {
+      "path": "G7_PREDECLARED_PAIR_RESULTS.csv",
+      "sha256": "25f225bda119d76370a5bcca2d3c72c0e6d38ff10208f7d929e758415763da13"
+    },
+    {
+      "path": "G7_RETURN_DECODING_CORRECTED_DERIVED.csv",
+      "sha256": "2641b3798b3893df542dfaf0e1433524dd59cb103d28c07c7a1f166158f7aef4"
+    },
+    {
+      "path": "G7_RETURN_DECODING_CORRECTION.md",
+      "sha256": "b9674be7f2472779567e02197349c2c88cc849d8fc160a3176ab9c449ab1cc9e"
+    },
+    {
+      "path": "G7_Y_ANNOTATED_PARTITIONS.md",
+      "sha256": "9b8ae1689a1ab03b7b239fb76e808e19e786c5b5d9b83323ec70e7abd5f99d86"
+    }
+  ],
+  "new_execution": false,
+  "forbidden": [
+    "accuracy",
+    "precision",
+    "recall",
+    "success rate",
+    "information recovery rate",
+    "ecosystem prevalence",
+    "O2 universal sufficiency",
+    "O3 necessity",
+    "full Fathom state machine",
+    "joint temporal/enforcement established"
+  ]
+}

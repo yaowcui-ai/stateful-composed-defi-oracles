@@ -1,0 +1,12 @@
+{
+  "schema":"deployment-binding-lock-v1",
+  "status":"FROZEN_PRE_EXECUTION",
+  "source":"post_review_generalization_expansion_v1 G2/G3 identities, re-sealed for the new phase",
+  "deployments": {
+    "VESTA":{"chain_id":42161,"block_number":504401544,"block_hash":"0xe4de5b0aa87785925a320862794cfd89f5569cc94308933a247e8be4f6f6eac7","root":"0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702","runtime_sha256":"BOUND_IN_PRIOR_G5"},
+    "AURIGAMI":{"chain_id":1313161554,"block_number":215607038,"block_hash":"0xf8d3df95f8f6e0bf55decf6437fb24dddd743834f6e0777efc51cb546b3f83a1","root":"0xC6e5185438e1730959c1eF3551059A3feC744E90","runtime_sha256":"3ca84c972b9aa609a3c395024e0095bd6f3a106962fadba4778f71f90200f831"},
+    "FATHOM":{"chain_id":50,"block_number":107219710,"block_hash":"0x19017f946190a457b62cd2d86ba53c111f75f2d23ce55a3f86978a40fde536ed","root":"0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88","runtime_sha256":"79993d24a8a71e69258bff54a508df8672605a996a6b5a024561275d1faf7547"},
+    "MENTO":{"chain_id":42220,"block_number":77467895,"block_hash":"0x44cfb1c3c2dc5fc64839ffaaba577a013d923325791579e28866a024a832e187","root":"0xefb84935239dacdecf7c5ba76d8de40b077b7b33","implementation":"0x93da60dcdda3229246769cce307076c181f41f72","runtime_sha256":"75bddc47cde7dc4c1bd8d8c45ceab53697debfd69dbaaee7b92c07ff9703b82e","feed_id":"0x44D99a013a0DAdbB4C06F9Cc9397BFd3AC12b017","reporter":"0x1485C0E710ff9EF059834F42b312F10e7af823bd","token_expiry_seconds":360},
+    "FELIX":{"chain_id":999,"block_number":45864222,"block_hash":"0x7dca15d1636dca73ca6c00608afac949ffa0c4fc6f7b31fd6c3015e885abdd82","root":"0x12a1868b89789900e413a6241ca9032dd1873a51","implementation":"0x3e46a36debc92d845af452a6d5b3395acd21144e","runtime_sha256":"74dc42c0ee40ed85d7d63d08ad69dc76e19694767bd1fcd28be0ca41b0c5ba87","oracle":"0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43","staleness_threshold_seconds":86400}
+  }
+}

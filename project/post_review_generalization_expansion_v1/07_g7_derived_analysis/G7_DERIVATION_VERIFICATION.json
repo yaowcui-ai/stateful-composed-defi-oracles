@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "counts": {
+    "planned_conditions": 27,
+    "valid_execution_records": 20,
+    "technical_noncomparable": 7,
+    "predeclared_pairs": 21,
+    "evaluable_pairs": 15,
+    "noncomparable_pairs": 6,
+    "different_Y_evaluable": 13,
+    "O1_collisions_among_different_Y": 11,
+    "noncollision_different_Y_controls": 2,
+    "O2_informative_splits": 11,
+    "O3_additional_splits": 0
+  },
+  "input_manifest_files": 722,
+  "protected_G4_G5": 189,
+  "all_input_hashes_unchanged": true,
+  "raw_trace_match_count": 20,
+  "full_tuple_preserved": true,
+  "all_predeclared_numeric_relations_evaluable_match": true,
+  "formal_execution": "CLOSED",
+  "manuscript_revision": "NOT_STARTED_IN_THIS_SCRIPT"
+}

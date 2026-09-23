@@ -1,0 +1,53 @@
+{
+  "schema": "formal-policy-post-execution-semantics-review-v1",
+  "review_id": "VESTA_POST_EXECUTION_BINDING_AND_CLASSIFIER_REVIEW_001",
+  "review_scope": [
+    "VE06",
+    "VE07",
+    "VE10"
+  ],
+  "no_new_formal_execution": true,
+  "original_records_preserved": true,
+  "deployed_implementation": {
+    "proxy": "0xC93408bFBEa0Bf3E53bEdBce7D5C1e64db826702",
+    "implementation": "0x522808d93Ac229CEfc17c4BE0408520f7e27D26d",
+    "implementation_runtime_bytes": 5652,
+    "implementation_runtime_sha256": "F7CA795217706A4D46FD54525F357C997C0FB68C0383426046B9A4C05E6CB9E1",
+    "verified_source_name": "PriceFeedV2",
+    "verified_source_path": "contracts/PriceFeedV2.sol",
+    "compiler": "0.8.10+commit.fc410830",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "source_locator": "https://arbitrum.blockscout.com/api/v2/smart-contracts/0x522808d93ac229cefc17c4be0408520f7e27d26d",
+    "key_semantic": "isChainlinkIndexBroken checks response validity but does not apply _chainlinkIsFrozen(chainlinkIndexResponse); the 14,400-second age predicate is applied to the price leg, not the index leg."
+  },
+  "findings": [
+    {
+      "execution_id": "VE06",
+      "original_comparison": "INCOMPATIBLE",
+      "derived_status": "NOT_COMPARABLE_REFERENCE_BINDING_ERROR",
+      "finding": "The frozen independent F/R encoded a nonexistent deployed index-age obligation. The observed RETURN_CURRENT action is consistent with exact PriceFeedV2 semantics, but no post-hoc reference correction is promoted to a formal independent comparison."
+    },
+    {
+      "execution_id": "VE07",
+      "original_comparison": "INCOMPATIBLE",
+      "derived_status": "NOT_COMPARABLE_REFERENCE_BINDING_ERROR",
+      "finding": "With the price leg frozen and index leg otherwise valid, exact PriceFeedV2 uses cached price and current index. The original RETURN_CACHED reference was based on the same incorrect index-age obligation."
+    },
+    {
+      "execution_id": "VE10",
+      "original_comparison": "INCOMPATIBLE",
+      "derived_status": "COMPATIBLE_AFTER_ACTION_CLASSIFIER_CORRECTION",
+      "finding": "The original classifier tested numeric equality before status/provenance. Because VE10.1 set both caches to 1e18, the mixed result in VE10.2 numerically equaled the current product. Trace and status transition establish the frozen NORMAL_TO_DEGRADED_TRANSITION reference action."
+    }
+  ],
+  "scientific_effect": {
+    "original_incompatible_records_preserved": 3,
+    "formal_incompatibility_claim_allowed": false,
+    "vesta_determinate_usable_scenarios": 10,
+    "vesta_reference_invalid_scenarios": 2,
+    "vulnerabilities_claimed": 0
+  }
+}

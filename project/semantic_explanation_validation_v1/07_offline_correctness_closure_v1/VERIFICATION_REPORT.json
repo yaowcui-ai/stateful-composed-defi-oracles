@@ -1,0 +1,87 @@
+{
+  "schema": "offline-correctness-closure-verification-v1",
+  "passed": true,
+  "check_count": 16,
+  "checks": [
+    {
+      "check": "required_artifacts",
+      "passed": true,
+      "detail": "12 required artifacts"
+    },
+    {
+      "check": "fidelity_cardinality",
+      "passed": true,
+      "detail": "rows=50"
+    },
+    {
+      "check": "fidelity_status_domain",
+      "passed": true,
+      "detail": "['EXECUTION_DEVIATES_FROM_DESIGN', 'MATCHED_DESIGN']"
+    },
+    {
+      "check": "fidelity_denominator",
+      "passed": true,
+      "detail": "matched=42, deviates=8"
+    },
+    {
+      "check": "label_cardinality",
+      "passed": true,
+      "detail": "rows=250"
+    },
+    {
+      "check": "label_evidence",
+      "passed": true,
+      "detail": "all label rows have source, witness, locator"
+    },
+    {
+      "check": "label_indeterminacy_explicit",
+      "passed": true,
+      "detail": "no blank label; INDETERMINATE would be explicit"
+    },
+    {
+      "check": "observation_matrix",
+      "passed": true,
+      "detail": "rows=20"
+    },
+    {
+      "check": "old_ambiguities",
+      "passed": true,
+      "detail": "rows=14"
+    },
+    {
+      "check": "ambiguity_category_domain",
+      "passed": true,
+      "detail": "['RULE_INCOMPLETE']"
+    },
+    {
+      "check": "result_cardinality",
+      "passed": true,
+      "detail": "rows=1250"
+    },
+    {
+      "check": "boundaries_separate",
+      "passed": true,
+      "detail": "corrected identity explicitly exploratory"
+    },
+    {
+      "check": "baseline_present",
+      "passed": true,
+      "detail": "250 common-binding baseline tasks"
+    },
+    {
+      "check": "source_manifest_nonempty",
+      "passed": true,
+      "detail": "rows=6884"
+    },
+    {
+      "check": "old_artifacts_unchanged",
+      "passed": true,
+      "detail": "changed=0, missing=0"
+    },
+    {
+      "check": "final_path",
+      "passed": true,
+      "detail": "Path B; offline stop controls present"
+    }
+  ]
+}

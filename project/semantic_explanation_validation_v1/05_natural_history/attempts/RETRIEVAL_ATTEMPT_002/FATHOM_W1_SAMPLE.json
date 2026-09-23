@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "FATHOM",
+    "window_id": "W1",
+    "id": "W1",
+    "startTimestamp": 1788159074,
+    "endTimestamp": 1788763873,
+    "fromBlock": 106669979,
+    "toBlock": 106939929,
+    "root": "0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88",
+    "retrieval_endpoint": "https://xdc.public-rpc.com",
+    "transport_override": false,
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [
+      "0x1dad06f9b840665ab0cfae3caef238945679f3e2123bdcc11b1612a94c22d470"
+    ],
+    "topic_counts": {},
+    "retrieval_errors": [
+      {
+        "fromBlock": 106669979,
+        "toBlock": 106719978,
+        "error": "Error: Block range is too large"
+      },
+      {
+        "fromBlock": 106719979,
+        "toBlock": 106769978,
+        "error": "Error: Block range is too large"
+      },
+      {
+        "fromBlock": 106769979,
+        "toBlock": 106819978,
+        "error": "Error: Block range is too large"
+      },
+      {
+        "fromBlock": 106819979,
+        "toBlock": 106869978,
+        "error": "Error: Block range is too large"
+      },
+      {
+        "fromBlock": 106869979,
+        "toBlock": 106919978,
+        "error": "Error: Block range is too large"
+      },
+      {
+        "fromBlock": 106919979,
+        "toBlock": 106939929,
+        "error": "Error: Block range is too large"
+      }
+    ],
+    "complete": false,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

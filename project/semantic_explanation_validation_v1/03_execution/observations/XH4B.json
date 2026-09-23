@@ -1,0 +1,294 @@
+{
+  "schema": "semantic-heldout-observation-v1",
+  "condition_id": "XH4B",
+  "episode_id": "XH4",
+  "implementation": "FELIX",
+  "ordinal": 1,
+  "factor": "cached_noncollision",
+  "value": "91000000",
+  "replacement_allowed": false,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "started_at": "2026-09-15T10:52:04.340Z",
+  "completed_at": "2026-09-15T10:52:05.616Z",
+  "full": {
+    "return": [
+      "910000000000000000",
+      true
+    ],
+    "post_public": {
+      "lastGoodPrice": [
+        "910000000000000000"
+      ],
+      "whypeUsdOracle": [
+        "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+        "86400",
+        "8"
+      ],
+      "stalenessThreshold": [
+        "86400"
+      ],
+      "decimals": [
+        "8"
+      ]
+    },
+    "pre_public": {
+      "lastGoodPrice": [
+        "910000000000000000"
+      ],
+      "whypeUsdOracle": [
+        "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+        "86400",
+        "8"
+      ],
+      "stalenessThreshold": [
+        "86400"
+      ],
+      "decimals": [
+        "8"
+      ]
+    },
+    "public_history": [
+      {
+        "address": "0x5b271dc20ba7beb8eee276eb4f1644b6a217f0a3",
+        "topics": [
+          "0xbc6a72aabe3f2b93b4e83572c36881d8379588e52b1b3c66610a8595ce2c734d"
+        ],
+        "data": "0x000000000000000000000000a8a94da411425634e3ed6c331a32ab4fd774aa43",
+        "transactionHash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+        "blockHash": "0x602bf7d0bfebfba3dc567530f6f1484f18ec6694acbd85397528afb9a706bcc9",
+        "blockNumber": "0x2bbd520",
+        "logIndex": "0x0",
+        "transactionIndex": "0x0",
+        "removed": false
+      },
+      {
+        "address": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+        "topics": [
+          "0xfc1b56fc12ab7492f5ab7cd660ca9975437183eaeaf0c49716ef6a83b8dfdeab",
+          "0x000000000000000000000000000000000000000000000000000000006aa79992"
+        ],
+        "data": "0x",
+        "transactionHash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+        "blockHash": "0x602bf7d0bfebfba3dc567530f6f1484f18ec6694acbd85397528afb9a706bcc9",
+        "blockNumber": "0x2bbd520",
+        "logIndex": "0x1",
+        "transactionIndex": "0x0",
+        "removed": false
+      }
+    ],
+    "trace": {
+      "file": "traces/XH4B.json",
+      "failed": false,
+      "gas": 87410
+    },
+    "non_abi_storage": {
+      "sstores": [
+        {
+          "pc": 5903,
+          "stack_tail": [
+            "0000000000000000000000000000000000000000000000000000000000000001",
+            "0000000000000000000000000000000000000000000000000000000000000079"
+          ]
+        },
+        {
+          "pc": 1265,
+          "stack_tail": [
+            "0000000000000000000000000000000000000000000000000000000000010001",
+            "0000000000000000000000000000000000000000000000000000000000000000"
+          ]
+        }
+      ]
+    }
+  },
+  "layers": {
+    "R": {
+      "return": [
+        "910000000000000000",
+        true
+      ]
+    },
+    "P": {
+      "return": [
+        "910000000000000000",
+        true
+      ],
+      "post_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      }
+    },
+    "H": {
+      "return": [
+        "910000000000000000",
+        true
+      ],
+      "post_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "pre_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "public_history": [
+        {
+          "address": "0x5b271dc20ba7beb8eee276eb4f1644b6a217f0a3",
+          "topics": [
+            "0xbc6a72aabe3f2b93b4e83572c36881d8379588e52b1b3c66610a8595ce2c734d"
+          ],
+          "data": "0x000000000000000000000000a8a94da411425634e3ed6c331a32ab4fd774aa43",
+          "transactionHash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+          "blockHash": "0x602bf7d0bfebfba3dc567530f6f1484f18ec6694acbd85397528afb9a706bcc9",
+          "blockNumber": "0x2bbd520",
+          "logIndex": "0x0",
+          "transactionIndex": "0x0",
+          "removed": false
+        },
+        {
+          "address": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+          "topics": [
+            "0xfc1b56fc12ab7492f5ab7cd660ca9975437183eaeaf0c49716ef6a83b8dfdeab",
+            "0x000000000000000000000000000000000000000000000000000000006aa79992"
+          ],
+          "data": "0x",
+          "transactionHash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+          "blockHash": "0x602bf7d0bfebfba3dc567530f6f1484f18ec6694acbd85397528afb9a706bcc9",
+          "blockNumber": "0x2bbd520",
+          "logIndex": "0x1",
+          "transactionIndex": "0x0",
+          "removed": false
+        }
+      ]
+    },
+    "X": {
+      "return": [
+        "910000000000000000",
+        true
+      ],
+      "post_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "pre_public": {
+        "lastGoodPrice": [
+          "910000000000000000"
+        ],
+        "whypeUsdOracle": [
+          "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+          "86400",
+          "8"
+        ],
+        "stalenessThreshold": [
+          "86400"
+        ],
+        "decimals": [
+          "8"
+        ]
+      },
+      "public_history": [
+        {
+          "address": "0x5b271dc20ba7beb8eee276eb4f1644b6a217f0a3",
+          "topics": [
+            "0xbc6a72aabe3f2b93b4e83572c36881d8379588e52b1b3c66610a8595ce2c734d"
+          ],
+          "data": "0x000000000000000000000000a8a94da411425634e3ed6c331a32ab4fd774aa43",
+          "transactionHash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+          "blockHash": "0x602bf7d0bfebfba3dc567530f6f1484f18ec6694acbd85397528afb9a706bcc9",
+          "blockNumber": "0x2bbd520",
+          "logIndex": "0x0",
+          "transactionIndex": "0x0",
+          "removed": false
+        },
+        {
+          "address": "0x12a1868b89789900e413a6241ca9032dd1873a51",
+          "topics": [
+            "0xfc1b56fc12ab7492f5ab7cd660ca9975437183eaeaf0c49716ef6a83b8dfdeab",
+            "0x000000000000000000000000000000000000000000000000000000006aa79992"
+          ],
+          "data": "0x",
+          "transactionHash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+          "blockHash": "0x602bf7d0bfebfba3dc567530f6f1484f18ec6694acbd85397528afb9a706bcc9",
+          "blockNumber": "0x2bbd520",
+          "logIndex": "0x1",
+          "transactionIndex": "0x0",
+          "removed": false
+        }
+      ],
+      "trace": {
+        "file": "traces/XH4B.json",
+        "failed": false,
+        "gas": 87410
+      },
+      "non_abi_storage": {
+        "sstores": [
+          {
+            "pc": 5903,
+            "stack_tail": [
+              "0000000000000000000000000000000000000000000000000000000000000001",
+              "0000000000000000000000000000000000000000000000000000000000000079"
+            ]
+          },
+          {
+            "pc": 1265,
+            "stack_tail": [
+              "0000000000000000000000000000000000000000000000000000000000010001",
+              "0000000000000000000000000000000000000000000000000000000000000000"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "tx_hash": "0x4830eebec1333216b2d037648df284e5413af40b9e95cbe8e482db8c75dbd014",
+  "block_number": 45864224
+}

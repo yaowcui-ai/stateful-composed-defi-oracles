@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "schema": "natural-history-window-result-v1",
+    "implementation": "FATHOM",
+    "window_id": "W2",
+    "id": "W2",
+    "startTimestamp": 1788763874,
+    "endTimestamp": 1789368673,
+    "fromBlock": 106939930,
+    "toBlock": 107219709,
+    "root": "0x5dE248bbD0ae9E846B8dBa12960fc3524Fb37a88",
+    "retrieval_endpoint": "https://xdc.public-rpc.com",
+    "transport_override": false,
+    "log_count": 0,
+    "controlled_event_topic_count": 0,
+    "controlled_event_topics": [
+      "0x1dad06f9b840665ab0cfae3caef238945679f3e2123bdcc11b1612a94c22d470"
+    ],
+    "topic_counts": {},
+    "retrieval_errors": [],
+    "complete": true,
+    "semantic_scope": "no root-emitted logs observed; no inference of absent calls or absent failures"
+  },
+  "deterministic_sample": []
+}

@@ -1,0 +1,25 @@
+{
+  "result_row": {
+    "snapshot": "T1",
+    "family_id": "SILO_CHAINLINKV3_MULTI_LOCAL_RESET",
+    "protocol": "silo-finance",
+    "chain_id": 43114,
+    "root": "0x512935aAf49F89d000AaB0D8102c334876942d2C",
+    "block_number": 95059982,
+    "block_hash": "0x9cd663421a92a3b8a6a31a7326f608e7566cfa2cb4f989e68e5c7533449a942d",
+    "block_time": 1789174800,
+    "status": "MISSING_OR_REVERT",
+    "error": "MISSING_RPC: {\"code\": 0, \"data\": \"0x\", \"message\": \"execution reverted\"}"
+  },
+  "raw_calls": [
+    {
+      "url": "[transport URL withheld]",
+      "method": "eth_getCode",
+      "params": [
+        "0x512935aAf49F89d000AaB0D8102c334876942d2C",
+        "0x5aa800e"
+      ],
+      "result": "0x363d3d373d3d3d363d73bef9a21b4e4cfb29385771e57a90ecb8ad798d915af43d82803e903d91602b57fd5bf3"
+    }
+  ]
+}

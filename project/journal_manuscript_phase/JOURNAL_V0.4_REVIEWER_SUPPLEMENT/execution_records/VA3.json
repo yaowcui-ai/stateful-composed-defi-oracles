@@ -1,0 +1,57 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "VA3",
+  "implementation": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+  "episode": "V_A",
+  "ordinal": 3,
+  "attempted": true,
+  "valid_execution": true,
+  "comparable": true,
+  "history_integrity": true,
+  "reference_file": "reference/VA3.json",
+  "pre": {
+    "status": [
+      "1"
+    ],
+    "lastGoodPrice": [
+      "1000000000000000000"
+    ],
+    "lastGoodIndex": [
+      "1000000000000000000"
+    ]
+  },
+  "O1": {
+    "raw_return": "0x0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+    "reverted": false
+  },
+  "post": {
+    "status": [
+      "1"
+    ],
+    "lastGoodPrice": [
+      "1000000000000000000"
+    ],
+    "lastGoodIndex": [
+      "1000000000000000000"
+    ]
+  },
+  "events": [
+    {
+      "address": "0xc93408bfbea0bf3e53bedbce7d5c1e64db826702",
+      "topics": [
+        "0x778c230737afad410102ee1cf60b9da20877a6212f0abc736f8e018596291d80",
+        "0x0000000000000000000000008d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "transactionHash": "0x1e6e1a0a009d5804e3d6468a788b288c61c50a23d5a720309240fe8f90c14ccd",
+      "blockHash": "0x05d366a296601d6b9a717422c8f69ad38efe8e98ab7ae7e3770f766a4f18d63d",
+      "blockNumber": "0x1e108e8c",
+      "logIndex": "0x0",
+      "transactionIndex": "0x0",
+      "removed": false
+    }
+  ],
+  "trace": "traces/VA3.json",
+  "tx_hash": "0x1e6e1a0a009d5804e3d6468a788b288c61c50a23d5a720309240fe8f90c14ccd",
+  "block_number": 504401548
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "g6-condition-deployed-evidence-v1",
+  "case_id": "FA3",
+  "implementation": "FATHOM_DELAYED_PRICE_FEED",
+  "episode": "F_A",
+  "ordinal": 3,
+  "attempted": true,
+  "valid_execution": false,
+  "comparable": false,
+  "history_integrity": false,
+  "reference_file": "reference/FA3.json",
+  "error": "Error: Error: task 3615 panicked",
+  "swap": "NA"
+}

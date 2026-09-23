@@ -1,0 +1,81 @@
+{
+  "execution_id": "VE04",
+  "path": "VESTA_GOHM_DUAL_CHAINLINK_PRODUCT_CACHE",
+  "sequence_id": "VE04_INDEPENDENT",
+  "sequence_step": 1,
+  "fork_block_number": 504401544,
+  "fork_block_hash": "0xe4de5b0aa87785925a320862794cfd89f5569cc94308933a247e8be4f6f6eac7",
+  "raw_trace_locator": "[archival locator withheld]",
+  "label": "VE04",
+  "inputs": {
+    "price": {
+      "age": 1,
+      "ok": true
+    },
+    "index": {
+      "age": 14399,
+      "ok": true
+    }
+  },
+  "injected": [
+    {
+      "address": "0x761aaeBf021F19F198D325D7979965D0c7C9e53b",
+      "runtime_sha256": "4DFCBCE915B0B2AD743D454C44339C2CCB4E96E9AC38423244175D68D8A80573",
+      "runtime_bytes": 295,
+      "decimals": 18,
+      "age": 1,
+      "evaluationTimestamp": 1789218001,
+      "answer": "1000000000000000000",
+      "callOk": true,
+      "previousOk": true
+    },
+    {
+      "address": "0x48C4721354A3B29D80EF03C65E6644A37338a0B1",
+      "runtime_sha256": "B13BEF7522AC5D3EA53E3A4FE4E0B67AC4EEF3618C1A24189CD194F09C712D8C",
+      "runtime_bytes": 295,
+      "decimals": 18,
+      "age": 14399,
+      "evaluationTimestamp": 1789218001,
+      "answer": "1000000000000000000",
+      "callOk": true,
+      "previousOk": true
+    }
+  ],
+  "F_current": {
+    "current": true,
+    "perInput": {
+      "price": true,
+      "index": true
+    },
+    "source": "independent frozen input-obligation evaluator"
+  },
+  "pre_state": {
+    "status": 0,
+    "lastGoodPrice": "32100000000000000000",
+    "lastGoodIndex": "104109630429000000000"
+  },
+  "D": {
+    "action": "RETURN_CURRENT",
+    "raw_EVM_return": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+    "revert_status": false,
+    "returned_price": "1000000000000000000",
+    "transaction": {
+      "hash": "0x060a5938d17774865b1566dd25d98ebf76a468c52af5f9669bb160d67cdb0927",
+      "blockNumber": 504401545,
+      "blockHash": "0xd58282c7f6e287d23c719a3d670b698aff730672ac8947ce24de27aec5cc304c",
+      "status": 1,
+      "gasUsed": "79327"
+    },
+    "trace_method": "trace_transaction"
+  },
+  "post_state": {
+    "status": 0,
+    "lastGoodPrice": "1000000000000000000",
+    "lastGoodIndex": "1000000000000000000"
+  },
+  "R_allowed_action_set": [
+    "RETURN_CURRENT"
+  ],
+  "comparison": "COMPATIBLE",
+  "reason": "D action is in independently frozen R"
+}
